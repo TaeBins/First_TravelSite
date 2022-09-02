@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="com.smhrd.mapper.MessageMapper">
+  		<insert id="message" parameterType="MessageDTO">
+  			insert into bsh_message values (num_message.nextval, #{sender}, #{recipient}, #{message}, sysdate)
+  		</insert>
+  		
+  		<select id="showMessage" parameterType="String" resultType="MessageDTO">
+  			select * from bsh_message where recipient = #{id}
+  		</select>
+  		
+  		<delete id="deleteMessage" parameterType="String">
+  			delete from bsh_message where recipient = #{id}
+  		</delete>
+  		
+  		<delete id="deleteMessageOne" parameterType="int">
+  			delete from bsh_message where Num = #{num}
+  		</delete>
+  		
+  </mapper>

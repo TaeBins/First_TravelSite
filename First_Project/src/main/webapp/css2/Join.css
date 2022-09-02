@@ -1,0 +1,58 @@
+@charset "EUC-KR";
+.Join-form {
+	width: 1500px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 100px;
+	margin: 0 auto;
+	min-height: 100%;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.join-logo {
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.join-fielded {
+	font-size: 14px;
+	margin-bottom: 10px;
+	border-width : 1px;
+	border-radius: 5px;
+	padding: 10px;
+	width: 23.5%;
+}
+
+.join-field {
+	font-size: 14px;
+	margin-bottom: 10px;
+	border-width : 1px;
+	border-radius: 5px;
+	padding: 10px;
+	width: 30%;
+}
+
+.idcheckbott {
+	color: #EEEFF1;
+	font-size: 14px;
+	background-color: #162b45;
+	border: none;
+	border-radius: 5px;
+	height: 45px;
+	width: 80px;
+}
+
+.joinsubmit-btn {
+	color: #EEEFF1;
+	font-size: 14px;
+	background-color: #162b45;
+	margin-bottom: 30px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	width: 30%;
+	height: 50px;
+}

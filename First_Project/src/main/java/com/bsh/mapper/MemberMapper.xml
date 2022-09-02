@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bsh.mapper.MemberMapper">
+	<insert id="join" parameterType="MemberDTO">
+		insert into bsh_member values(#{mb_id}, #{mb_pw}, #{mb_nick}, #{mb_phone}, #{mb_birth}, #{mb_hint}, SYSDATE)
+	</insert>
+	
+	<select id="login" parameterType="MemberDTO" resultType="MemberDTO">
+		select * from bsh_member where mb_id =#{mb_id} and mb_pw=#{mb_pw}
+	</select>
+	
+	<update id="update" parameterType="MemberDTO">
+		update bsh_member set mb_pw=#{mb_pw}, mb_nick=#{mb_nick}, mb_phone=#{mb_phone}, mb_phone=#{mb_phone}
+		where mb_id=#{mb_id}
+	</update>
+	
+	<select id="showMember" resultType="MemberDTO">
+		select * from bsh_member
+	</select>
+	
+	<select id="idCheck" parameterType="String" resultType="String">
+		select mb_id from bsh_member where mb_id = #{mb_id}
+	</select>
+	
+	<select id="pwselect" parameterType="MemberDTO" resultType="String">
+		select mb_pw from bsh_member where mb_id = #{mb_id} and mb_phone = #{mb_phone} and mb_birth = #{mb_birth} and mb_hint = #{mb_hint}
+	</select>
+
+	<select id="idselect" parameterType="MemberDTO" resultType="String">
+		select mb_id from bsh_member where mb_phone = #{mb_phone} and mb_birth = #{mb_birth} and mb_hint = #{mb_hint}
+	</select>
+	
+</mapper>

@@ -131,8 +131,8 @@
 	    	<div align="center">
 		    	<form action="JoinCon.do" method="post">
 		    		<h5>아이디</h5>
-		    		<input type = "text" name="mb_id" id="btn" class = "join-fielded" placeholder="아이디">
-		    		<input type="submit" class="idcheckbott" value="중복확인">
+		    		<input type = "text" name="mb_id" class = "join-fielded" placeholder="아이디">
+		    		<button id="btn" type="button">중복확인</button>
 		    		<h5>비밀번호</h5>
 		    		<input type = "password" name="mb_pw" class = "join-field" placeholder="비밀번호">
 		    		<h5>닉네임</h5>
@@ -140,7 +140,7 @@
 		    		<h5>핸드폰 번호</h5>
 		    		<input type = "text" minlength="11" maxlength="11" name="mb_phone" class = "join-field" placeholder="- 제외 번호 11자리">
 		    		<h5>생년월일</h5>
-		    		<input type = "text" minlength="6" maxlength="6" name="mb_birth" class = "join-field" placeholder="YYMMDD">
+		    		<input type = "text" minlength="6" maxlength="6" name="mb_birthdate" class = "join-field" placeholder="YYMMDD">
 		    		<h5>아이디 찾기 힌트</h5>
 		    		<input type = "text" name="mb_hint" class = "join-field" placeholder="보물 제1호는?">
 		    		<br>

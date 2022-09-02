@@ -1,5 +1,9 @@
 package com.bsh.controller;
 
+import java.sql.Date;
+import java.sql.Time;
+import java.sql.Timestamp;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -16,11 +20,11 @@ public class JoinCon implements Command {
 		String mb_pw = request.getParameter("mb_pw");
 		String mb_nick = request.getParameter("mb_nick");
 		String mb_phone = request.getParameter("mb_phone");
-		String mb_birth = request.getParameter("mb_birth");
+		String mb_birthdate = request.getParameter("mb_birthdate");
 		String mb_hint = request.getParameter("mb_hint");
 
 		// DTO로 데이터 묶기
-		MemberDTO dto = new MemberDTO(mb_id, mb_pw, mb_nick, mb_phone, mb_birth, mb_hint);
+		MemberDTO dto = new MemberDTO(mb_id, mb_pw, mb_nick, mb_phone, mb_birthdate, mb_hint);
 
 		// 회원가입 메소드 실행
 		int row = new MemberDAO().join(dto);

@@ -12,12 +12,11 @@ public class UpdateCon implements Command {
 
 	public String execute(HttpServletRequest request, HttpServletResponse response) {
 		
-		String mb_pw = request.getParameter("mb_pw");
 		String mb_nick = request.getParameter("mb_nick");
 		String mb_phone = request.getParameter("mb_phone");
 		String mb_hint = request.getParameter("mb_hint");
 
-		MemberDTO dto = new MemberDTO(mb_pw, mb_nick, mb_phone, mb_hint);
+		MemberDTO dto = new MemberDTO(mb_nick, mb_phone, mb_hint);
 
 		int row = new MemberDAO().update(dto);
 

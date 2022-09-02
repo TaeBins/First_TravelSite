@@ -130,7 +130,7 @@
 	    	</div>
 	    	<br>
 	    	<div align="center">
-		    	<form action="PwselectCon.do" method="post">
+		    	<form action="UpdateCon.do" method="post">
 		    		<h3 align="center">정보 수정</h3>
 		    		<br>
 		    		<h5>닉네임</h5>

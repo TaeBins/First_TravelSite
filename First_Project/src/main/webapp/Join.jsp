@@ -132,7 +132,7 @@
 		    	<form action="JoinCon.do" method="post">
 		    		<h5>아이디</h5>
 		    		<input type = "text" name="mb_id" class = "join-fielded" placeholder="아이디">
-		    		<button id="btn" type="button">중복확인</button>
+		    		<button id="btn" class="idcheckbott" type="button">중복확인</button>
 		    		<h5>비밀번호</h5>
 		    		<input type = "password" name="mb_pw" class = "join-field" placeholder="비밀번호">
 		    		<h5>닉네임</h5>

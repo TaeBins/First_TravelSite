@@ -155,7 +155,6 @@
                         <img src="img2/places/D-Ocean Water Park.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>D-Ocean Water Park</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -167,11 +166,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -180,7 +174,6 @@
                         <img src="img2/places/Moipin Cafe.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Moipin Cafe</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -192,11 +185,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +193,6 @@
                         <img src="img2/places/high class.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>High Class</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -217,11 +204,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -230,7 +212,6 @@
                         <img src="img2/places/Odongdo.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Odongdo</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -242,11 +223,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -255,7 +231,6 @@
                         <img src="img2/places/ye1.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Yi Sun-sin Bridge</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -267,11 +242,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -280,7 +250,6 @@
                         <img src="img2/places/ye2.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Geumo-do</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -292,11 +261,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -305,7 +269,6 @@
                         <img src="img2/places/ye3.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Geomundo</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -317,11 +280,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -330,7 +288,6 @@
                         <img src="img2/places/ye4.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Jinnamgwan</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -342,11 +299,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>

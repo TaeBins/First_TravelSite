@@ -149,18 +149,23 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="form-group">
-                                    <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder='Enter Subject'>
+                                    <input class="form-control" name="Q_TITLE" type="text" placeholder='Enter Subject'>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group">
 
-                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder='Enter Message'></textarea>
+                                    <textarea class="form-control w-100" name="Q_CONTENT" cols="30" rows="9" placeholder='Enter Message'></textarea>
                                 </div>
                             </div>
                             <div class="col-sm-6" align="left">
                                 <div class="form-group">
-                                    <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder='Enter email Allim'>
+                                    <input class="form-control" name="Q_FILE" type="file">
+                                </div>
+                            </div>
+                            <div class="col-sm-6" align="left">
+                                <div class="form-group">
+                                    <input class="form-control" name="MB_ID" type="email" placeholder='Enter Your Email'>
                                 </div>
                             </div>
                         </div>

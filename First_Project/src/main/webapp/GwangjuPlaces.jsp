@@ -180,7 +180,6 @@
                         <img src="img2/places/Daein Night Market1.png" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Daein Night Market</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -192,11 +191,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +199,6 @@
                         <img src="img2/places/Mudeungsan1.png" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Mudeungsan</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -217,11 +210,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -230,7 +218,6 @@
                         <img src="img2/places/Songjeong Market1.png" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Songjeong Market</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -242,11 +229,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -255,7 +237,6 @@
                         <img src="img2/places/gwa1.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Gwangju Museum of Art</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -267,11 +248,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -280,7 +256,6 @@
                         <img src="img2/places/gwa2.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>518 Memorial Park</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -292,11 +267,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -305,7 +275,6 @@
                         <img src="img2/places/gwa3.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Kimchi Town</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -317,11 +286,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -330,7 +294,6 @@
                         <img src="img2/places/Smart Talent Development Center1.png" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
                                 <h3>Smart Talent Development Center</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
@@ -342,11 +305,6 @@
                                     <span>(210 review)</span>
                                 </div>
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
                         </div>
                     </div>
                 </div>

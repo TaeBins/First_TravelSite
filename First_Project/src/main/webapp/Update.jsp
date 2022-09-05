@@ -130,12 +130,15 @@
 		    	<form action="UpdateCon.do" method="post">
 		    		<h3 align="center">정보 수정</h3>
 		    		<br>
+		    		<h5>변경할 비밀번호</h5>
+		    		<input type = "text" name="mb_pw" class = "pwselect-field" placeholder="변경할 비밀번호">
 		    		<h5>닉네임</h5>
 		    		<input type = "text" name="mb_nick" class = "pwselect-field" placeholder="닉네임">
 		    		<h5>전화번호</h5>
-		    		<input type = "text" name="mb_phone" class = "pwselect-field" placeholder="- 제외 번호 11자리">
+		    		<input type = "text" minlength="11" maxlength="11" name="mb_phone" class = "pwselect-field" placeholder="- 제외 번호 11자리">
 		    		<h5>힌트</h5>
 		    		<input type = "text" name="mb_hint" class = "pwselect-field" placeholder="보물 제1호는?">
+		    		<input type="hidden" name = "mb_id" value ="<%= log.getMb_id() %>">
 		    		<br>
 		    		<br>
 		    		<input type = "submit" class = "pwsubmit-btn" value="제출">

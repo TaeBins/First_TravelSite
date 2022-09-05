@@ -32,12 +32,21 @@ public class MemberDTO {
 		this.mb_hint = mb_hint;
 	}
 	
+	public MemberDTO(String mb_id, String mb_pw, String mb_nick, String mb_phone, String mb_hint) {
+		this.mb_id = mb_id;
+		this.mb_pw = mb_pw;
+		this.mb_nick = mb_nick;
+		this.mb_phone = mb_phone;
+		this.mb_hint = mb_hint;
+	}
+	
 	public MemberDTO(String mb_id, String mb_phone, String mb_birthdate, String mb_hint) {
 		this.mb_id = mb_id;
 		this.mb_phone = mb_phone;
 		this.mb_birthdate = mb_birthdate;
 		this.mb_hint = mb_hint;
 	}
+	
 	public MemberDTO(String mb_phone, String mb_birthdate, String mb_hint) {
 		this.mb_phone = mb_phone;
 		this.mb_birthdate = mb_birthdate;

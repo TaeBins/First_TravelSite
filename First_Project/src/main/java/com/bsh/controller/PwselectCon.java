@@ -15,10 +15,10 @@ public class PwselectCon implements Command {
 		
 		String mb_id = request.getParameter("mb_id");
 		String mb_phone = request.getParameter("mb_phone");
-		String mb_birth = request.getParameter("mb_birth");
+		String mb_birthdate = request.getParameter("mb_birthdate");
 		String mb_hint = request.getParameter("mb_hint");
 		
-		MemberDTO dto = new MemberDTO(mb_id, mb_phone, mb_birth, mb_hint);
+		MemberDTO dto = new MemberDTO(mb_id, mb_phone, mb_birthdate, mb_hint);
 		
 		String mb_pw = new MemberDAO().pwselect(dto);
 		System.out.println(mb_pw);

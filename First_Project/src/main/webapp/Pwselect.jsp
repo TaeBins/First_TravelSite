@@ -135,7 +135,7 @@
 		    		<h5>가입시 전화번호</h5>
 		    		<input type = "text" minlength="11" maxlength="11" name="mb_phone" class = "pwselect-field" placeholder="- 제외 번호 11자리">
 		    		<h5>생년월일</h5>
-		    		<input type = "text" minlength="6" maxlength="6" name="mb_birth" class = "pwselect-field" placeholder="YYMMDD">
+		    		<input type = "text" minlength="6" maxlength="6" name="mb_birthdate" class = "pwselect-field" placeholder="YYMMDD">
 		    		<h5>힌트</h5>
 		    		<input type = "text" name="mb_hint" class = "pwselect-field" placeholder="보물 제1호는?">
 		    		<br>

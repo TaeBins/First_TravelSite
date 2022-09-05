@@ -305,11 +305,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_3.png" width="555px" height="396px">
+                        <img src="img2/places/dy1.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
+                                <h3>Taemok-ri bamboo</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -330,11 +330,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_4.png" width="555px" height="396px">
+                        <img src="img2/places/dy2.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
+                                <h3>Changpyeong Hyanggyo</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>

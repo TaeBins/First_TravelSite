@@ -230,11 +230,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_4.png" width="555px" height="396px">
+                        <img src="img2/places/bo1.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
+                                <h3>Korea Tea Museum</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -255,11 +255,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_1.png" width="555px" height="396px">
+                        <img src="img2/places/bo2.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
+                                <h3>Seo Jae-pil Memorial Hall</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -280,11 +280,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_2.png" width="555px" height="396px">
+                        <img src="img2/places/bo3.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
+                                <h3>Illimsan</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -305,11 +305,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_3.png" width="555px" height="396px">
+                        <img src="img2/places/bo4.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
+                                <h3>Daewonsa Temple</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -330,11 +330,11 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_4.png" width="555px" height="396px">
+                        <img src="img2/places/bo5.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
+                                <h3>Taebaek Mountains Literature Museum</h3>
                                 <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>

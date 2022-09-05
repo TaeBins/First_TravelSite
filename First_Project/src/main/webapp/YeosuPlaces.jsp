@@ -34,7 +34,7 @@
 </head>
 
 <body>
-  <!--::header part start::-->
+    <!--::header part start::-->
    <header class="main_menu">
         <div class="main_menu_iner">
             <div class="container">
@@ -131,8 +131,8 @@
                 <div class="col-lg-12">
                     <div class="breadcrumb_iner">
                         <div class="breadcrumb_iner_item text-center">
-                            <h2>Top Places</h2>
-                            <p>home . Top Places</p>
+                            <h2>Yeosu</h2>
+                            <p>Yeosu . Top Places</p>
                         </div>
                     </div>
                 </div>
@@ -155,12 +155,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_1.png" alt="">
+                        <img src="img2/places/D-Ocean Water Park.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
+                                <h3>D-Ocean Water Park</h3>
+                                <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -180,12 +180,12 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_2.png" alt="">
+                        <img src="img2/places/Moipin Cafe.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
+                                <h3>Moipin Cafe</h3>
+                                <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -205,12 +205,12 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_3.png" alt="">
+                        <img src="img2/places/high class.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
+                                <h3>High Class</h3>
+                                <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -230,12 +230,12 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_4.png" alt="">
+                        <img src="img2/places/Odongdo.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
+                                <h3>Odongdo</h3>
+                                <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -255,12 +255,12 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_1.png" alt="">
+                        <img src="img2/places/ye1.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
+                                <h3>Yi Sun-sin Bridge</h3>
+                                <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -280,12 +280,12 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_2.png" alt="">
+                        <img src="img2/places/ye2.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
+                                <h3>Geumo-do</h3>
+                                <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -305,12 +305,12 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_3.png" alt="">
+                        <img src="img2/places/ye3.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
+                                <h3>Geomundo</h3>
+                                <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
                                     <a href="#"><i class="fas fa-star"></i></a>
@@ -330,12 +330,12 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_4.png" alt="">
+                        <img src="img2/places/ye4.jpg" width="555px" height="396px">
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
+                                <h3>Jinnamgwan</h3>
+                                <p>Jeollanam-do, Korea</p>
                                 <div class="place_review">
                                     <a href="#"><i class="fas fa-star"></i></a>
                                     <a href="#"><i class="fas fa-star"></i></a>

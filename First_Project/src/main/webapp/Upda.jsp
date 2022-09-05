@@ -87,9 +87,7 @@
 											<a class="dropdown-item" href="BosungRestaurant.jsp">Bosung</a>
 											<a class="dropdown-item" href="YeosuRestaurant.jsp">Yeosu</a>
 											<a class="dropdown-item" href="SuncheonRestaurant.jsp">Suncheon</a>
-										</div></li>
-									<li class="nav-item"><a class="nav-link" href="Board.jsp">Board</a>
-									</li>
+										</div>
 									<li class="nav-item"><a class="nav-link"
 										href="Questions.jsp">1:1 Questions</a></li>
 									<%

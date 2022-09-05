@@ -88,9 +88,6 @@
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="Board.jsp">Board</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a class="nav-link" href="Questions.jsp">1:1 Questions</a>
                                     </li>
                             <% MemberDTO log = (MemberDTO)session.getAttribute("info");

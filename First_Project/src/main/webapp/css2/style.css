@@ -3679,21 +3679,21 @@ ul {
 
 /* line 1, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_breadcrumb.scss */
 .breadcrumb_bg {
-  background-image: url("../img2/breadcrumb.png");
+  background-image: url("../img2/places/pl.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .breadcrumb_bg2 {
-  background-image: url("../img2/d1.png");
+  background-image: url("../img2/places/fo.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .breadcrumb_bg3 {
-  background-image: url("../img2/d2.png");
+  background-image: url("../img2/places/qn.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

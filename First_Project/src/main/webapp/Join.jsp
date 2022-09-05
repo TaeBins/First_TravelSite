@@ -1,3 +1,4 @@
+<%@page import="org.apache.ibatis.reflection.SystemMetaObject"%>
 <%@page import="com.bsh.model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
 	pageEncoding="EUC-KR"%>
@@ -169,7 +170,7 @@
 				<input type="text" name="mb_id" class="join-fielded"
 					placeholder="아이디">
 				<button id="btn" class="idcheckbott" type="button">중복확인</button>
-				<li><p id="idCheck"></p></li>
+				<p id="idCheck"></p>
 				<h5>비밀번호</h5>
 				<input type="password" name="mb_pw" class="join-field"
 					placeholder="비밀번호">
@@ -289,7 +290,7 @@
 			// 사용자가 입력한 email 가져오기
 			// input태그인데 name=email인 요소의 값을 가져올 것.
 			// 2개(로그인, 회원가입)이기 때문에 인덱스 번호 사용해서 회원가입에 있는 요소의 값을 가져올 것.
-			var mb_id = $('input[name=mb_id]').eq('1').val();
+			var mb_id = $('input[name=mb_id]').eq('0').val();
 			console.log(mb_id);
 
 			// ajax사용해서 비동기통신으로 아이디가 있는지 없는지 체크 후 결과값 받아오기
@@ -305,9 +306,9 @@
 				/* success : 통신 성공시 */
 				success : function(result) {
 					if (result == 'true') {
-						$('#idCheck').html("아이디가 중복됩니다.");
+						$('#idCheck').html("아이디가 중복됩니다!");
 					} else {
-						$('#idCheck').html("중복되는 아이디가 없습니다.")
+						$('#idCheck').html("생성 가능한 아이디입니다!");
 					}
 				},
 				/* error : 통신 실패 시 */

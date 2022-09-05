@@ -57,68 +57,68 @@
 			<div class="slideshow" tabindex="0">
 				<div class="slide slide--layout-1" data-layout="layout1">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원119.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원88.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원0.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/진도개테마파크20.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/진도개테마파크40.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/진도개테마파크149.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Smart Talent Development Center</p>
+						<p class="slide__title-sub">Jindo Dog Theme Park</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-4" data-layout="layout4">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산16.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산19.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산21.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산38.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/팽목항11.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/팽목항23.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/팽목항27.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/팽목항28.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Jirisan</p>
+						<p class="slide__title-sub">Paengmok Port</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-5" data-layout="layout5">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문525.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문3.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문7.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문9.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문10.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문164.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문172.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문230.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문233.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문234.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문259.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문277.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문318.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문394.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문395.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문531.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문421.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문422.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길0.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길3.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길6.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길11.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길15.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길17.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길18.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길20.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길21.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길22.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길23.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길26.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길30.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길35.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길36.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길38.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/신비의바닷길39.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">National Asian Culture Center</p>
+						<p class="slide__title-sub">Mysterious sea road</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-6" data-layout="layout6">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장179.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장142.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장177.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/운림산방4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/운림산방8.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/운림산방70.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Daein Night Market</p>
+						<p class="slide__title-sub">Unrimsanbang</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-7" data-layout="layout7">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원30.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원9.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원88.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/남도전통미술관15.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/남도전통미술관29.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Jindo/남도전통미술관34.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">5.18 Memorial Park</p>
+						<p class="slide__title-sub">Namdo Traditional Art Museum</p>
 					</div>
 				</div><!-- /slide -->
 				<nav class="slideshow__nav slideshow__nav--arrows">

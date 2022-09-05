@@ -25,6 +25,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		select mb_id from bsh_member where mb_id = #{mb_id}
 	</select>
 	
+	<select id="PwCheck" parameterType="String" resultType="String">
+		select mb_pw from bsh_member where mb_id = #{mb_id}
+	</select>
+	
 	<select id="pwselect" parameterType="MemberDTO" resultType="String">
 		select mb_pw from bsh_member where mb_id = #{mb_id} and mb_phone = #{mb_phone} and mb_birth = #{mb_birth} and mb_hint = #{mb_hint}
 	</select>

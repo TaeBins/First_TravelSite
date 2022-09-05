@@ -17,6 +17,15 @@
 	width: 100%;
 }
 
+.join-fieldeds {
+	font-size: 14px;
+	margin-bottom: 10px;
+	border-width : 1px;
+	border-radius: 5px;
+	padding: 10px;
+	width: 53%;
+}
+
 .join-fielded {
 	font-size: 14px;
 	margin-bottom: 10px;

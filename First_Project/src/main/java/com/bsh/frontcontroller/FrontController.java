@@ -17,6 +17,7 @@ import com.bsh.controller.JoinCon;
 import com.bsh.controller.LoginCon;
 import com.bsh.controller.LogoutCon;
 import com.bsh.controller.MessageCon;
+import com.bsh.controller.PwCheckCon;
 import com.bsh.controller.PwselectCon;
 import com.bsh.controller.UpdateCon;
 
@@ -69,6 +70,9 @@ public class FrontController extends HttpServlet {
 			
 		} else if (requestURI.equals("IdselectCon.do")) {
 			con = new IdselectCon();
+			
+		} else if (requestURI.equals("PwCheckCon.do")) {
+			con = new PwCheckCon();
 			
 		}
 

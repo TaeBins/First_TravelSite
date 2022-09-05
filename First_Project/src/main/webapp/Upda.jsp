@@ -87,7 +87,9 @@
 											<a class="dropdown-item" href="BosungRestaurant.jsp">Bosung</a>
 											<a class="dropdown-item" href="YeosuRestaurant.jsp">Yeosu</a>
 											<a class="dropdown-item" href="SuncheonRestaurant.jsp">Suncheon</a>
-										</div>
+										</div></li>
+									<li class="nav-item"><a class="nav-link" href="Board.jsp">Board</a>
+									</li>
 									<li class="nav-item"><a class="nav-link"
 										href="Questions.jsp">1:1 Questions</a></li>
 									<%
@@ -167,15 +169,13 @@
 		</div>
 		<br>
 		<div align="center">
-			<form method="post">
+			<form action="PwCheckCon.do" method="post">
 				<h3 align="center">비밀번호 확인</h3>
 				<br> 
 				<input type="text" name="mb_pw" class="join-fieldeds" placeholder="비밀번호">
-				<input type="hidden" name = "mb_id" >
-				<button id="btn" class="idcheckbott" type="button">확인하기</button>
-				<p id="PwCheck"></p>
+				<input type="hidden" name = "mb_id" value ="<%= log.getMb_id() %>">
 				<br>
-				<input type="submit" class="pwsubmit-btn" value="회원수정">
+				<input type="submit" class="pwsubmit-btn" value="확인하기">
 			</form>
 		</div>
 	</div>
@@ -263,51 +263,6 @@
 			</div>
 		</div>
 	</footer>
-	<!-- footer part end-->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
-	<!-- 아이디 중복체크 ajax -->
-	<script type="text/javascript">
-		// 아이디 중복체크 버튼을 눌렀을 때!
-		$('#btn').on('click', function() {
-			// 사용자가 입력한 email 가져오기
-			// input태그인데 name=email인 요소의 값을 가져올 것.
-			// 2개(로그인, 회원가입)이기 때문에 인덱스 번호 사용해서 회원가입에 있는 요소의 값을 가져올 것.
-			var mb_pw = $('input[name=mb_pw]').eq('0').val();
-			console.log(mb_pw);
 
-			// ajax사용해서 비동기통신으로 아이디가 있는지 없는지 체크 후 결과값 받아오기
-			$.ajax({
-				/* url : 어디와 통신을 할 것인지? action에 작성하는 값과 비슷 */
-				url : "PwCheckCon.do",
-				/* data : url작성한 곳에 데이터를 보낼 때 */
-				data : {
-					"mb_pw" : mb_pw
-				},
-				/* dataType : 결과값을 어떤 타입으로 받아올 것인지(json, text..) */
-				dataType : "text",
-				/* success : 통신 성공시 */
-				success : function(result) {
-					if (result == 'true') {
-						$('#PwCheck').html("비밀번호가 일치합니다!");
-					} else {
-						$('#PwCheck').html("비밀번호가 일치하지 않습니다!");
-					}
-				},
-				/* error : 통신 실패 시 */
-				error : function(e) {
-					alert("실패");
-					console.log(e)
-				}
-
-			})
-
-		});
-	</script>
 </body>
 </html>

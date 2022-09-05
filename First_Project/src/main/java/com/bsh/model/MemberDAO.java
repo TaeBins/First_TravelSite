@@ -61,11 +61,11 @@ public class MemberDAO {
 		return result;
 	}
 
-	// 아이디 중복체크
-	public String PwCheck(String mb_pw) {
+	// 비밀번호 확인
+	public String PwCheck(String mb_pw, String mb_id) {
 		String result = null;
 		SqlSession session = sqlSessionFactory.openSession(true);
-		String pw = session.selectOne("PwCheck", mb_pw);
+		String pw = session.selectOne("PwCheck", mb_id);
 		System.out.println(pw +"확인확인");
 
 		if (pw != null) {

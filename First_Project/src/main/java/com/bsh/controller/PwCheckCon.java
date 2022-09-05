@@ -14,13 +14,12 @@ public class PwCheckCon implements Command {
 		
 		// 사용자가 입력한 email을 받아와서 해당 email이 db에 있는지 없는지 체크
 		String mb_pw = request.getParameter("mb_pw");
-		System.out.println("mb_pw : "+mb_pw);
+		String mb_id = request.getParameter("mb_id");
 		
-		String result = new MemberDAO().PwCheck(mb_pw);
-		
+		String result = new MemberDAO().PwCheck(mb_pw, mb_id);
 		String moveURL;
 		
-		if(result.equals("1")) {
+		if(result.equals(mb_pw)) {
 			System.out.println("비밀번호 인증 성공");
 			
 			HttpSession session = request.getSession();

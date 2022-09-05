@@ -55,7 +55,7 @@
                                         <a class="nav-link" href="Main.jsp">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle"id="navbarDropdown"
+                                        <a class="nav-link dropdown-toggle" href="top_place.jsp" id="navbarDropdown"
                                             role="button" data-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false">
                                             Top7 Places
@@ -303,6 +303,9 @@
                     </div>
                 </div>
             </div>
+           		<div align="center">
+	           		<button class="morebut"><a href="jindophoto.jsp" target="_blank">MorePhoto</a></button>
+	           	</div>
         </div>
     </section>
     <!-- hotel list css end -->

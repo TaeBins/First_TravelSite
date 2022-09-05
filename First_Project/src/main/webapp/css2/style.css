@@ -18,6 +18,13 @@ body {
   height: 80%;
 }
 
+.morebut {
+	background-color: #FE5C24;
+	width: 120px;
+	height: 50px;
+	border: none;
+}
+
 /* line 9, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
 .message_submit_form:focus {
   outline: none;

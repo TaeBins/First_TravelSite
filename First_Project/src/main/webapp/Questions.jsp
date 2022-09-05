@@ -165,7 +165,7 @@
                             </div>
                             <div class="col-sm-6" align="left">
                                 <div class="form-group">
-                                    <input class="form-control" name="MB_ID" type="email" placeholder='Enter Your Email'>
+                                    <input class="form-control" type="text" name="MB_ID" placeholder='Enter Your ID'>
                                 </div>
                             </div>
                         </div>

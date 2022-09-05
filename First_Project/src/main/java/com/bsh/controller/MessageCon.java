@@ -11,13 +11,14 @@ public class MessageCon implements Command {
 
 	public String execute(HttpServletRequest request, HttpServletResponse response) {
 		
-		String sender = request.getParameter("sender");
-		String recipient = request.getParameter("recipient");
-		String message = request.getParameter("message");
+		String Q_TITLE = request.getParameter("Q_TITLE");
+		String Q_CONTENT = request.getParameter("Q_CONTENT");
+		String Q_FILE = request.getParameter("Q_FILE");
+		String MB_ID = request.getParameter("MB_ID");
 
-		System.out.println(sender + recipient + message);
+		System.out.println(Q_TITLE + Q_CONTENT + Q_FILE + MB_ID);
 
-		MessageDTO mem_dto = new MessageDTO(sender, recipient, message);
+		MessageDTO mem_dto = new MessageDTO(Q_TITLE, Q_CONTENT, Q_FILE, MB_ID);
 
 		int send = new MessageDAO().message(mem_dto);
 

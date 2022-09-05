@@ -14,10 +14,10 @@ import lombok.RequiredArgsConstructor;
 public class MessageDTO {
 
 	private BigDecimal Q_SEQ;
-	private String Q_TITLE;
-	private String Q_CONTENT;
-	private String Q_FILE;
-	private String Q_DATE;
-	private Timestamp MB_ID;
+	@NonNull private String Q_TITLE;
+	@NonNull private String Q_CONTENT;
+	@NonNull private String Q_FILE;
+	private Timestamp Q_DATE;
+	@NonNull private String MB_ID;
 	
 }

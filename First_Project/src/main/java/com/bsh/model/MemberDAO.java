@@ -49,10 +49,10 @@ public class MemberDAO {
 	}
 	
 	// 아이디 중복체크
-		public boolean idCheck(String email) {
+		public boolean idCheck(String mb_id) {
 			boolean result = false;
 			SqlSession session = sqlSessionFactory.openSession(true);
-			String id = session.selectOne("idCheck", email);
+			String id = session.selectOne("idCheck", mb_id);
 			
 			if(id != null) {
 				result = true;

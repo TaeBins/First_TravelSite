@@ -35,11 +35,11 @@ public class JoinCon implements Command {
 		String moveURL;
 		if (row > 0) {
 			System.out.println("회원가입 성공");
-			request.setAttribute("mb_id", mb_id);
-			moveURL = "./Login.jsp";
+			request.setAttribute("mb_nick", mb_nick);
+			moveURL = "./Joinsuccess.jsp";
 		} else {
 			System.out.println("회원가입 실패");
-			moveURL = "./Login.jsp";
+			moveURL = "./Main.jsp";
 		}
 
 		return moveURL;

@@ -45,6 +45,16 @@
 	width: 80px;
 }
 
+.Loginclick{
+	color: #EEEFF1;
+	font-size: 14px;
+	background-color: #162b45;
+	border: none;
+	border-radius: 5px;
+	height: 45px;
+	width: 200px;
+}
+
 .joinsubmit-btn {
 	color: #EEEFF1;
 	font-size: 14px;

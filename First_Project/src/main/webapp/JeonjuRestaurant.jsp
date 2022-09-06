@@ -4,101 +4,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<style type="text/css">
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-}
-
-header 
-header h1 {
-	color: white;
-	text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
-	text-align: center;
-	font-size: 40px;
-	letter-spacing: 0.4px;
-	font-family: "Raleway", sans-serif;
-}
-
-.container {
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
-	padding: 0 30px;
-}
-
-.container .thumbex {
-	margin: 10px 20px 30px;
-	width: 100%;
-	min-width: 350px;
-	max-width: 200px;
-	height: 230px;
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	overflow: hidden;
-	outline: 2px solid white;
-	outline-offset: -15px;
-	background-color: blue;
-	box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5);
-}
-
-.container .thumbex .thumbnail {
-	overflow: hidden;
-	min-width: 250px;
-	height: 230px;
-	position: relative;
-	opacity: 0.88;
-	backface-visibility: hidden;
-	transition: all 0.4s ease-out;
-}
-
-.container .thumbex .thumbnail img {
-	position: absolute;
-	z-index: 1;
-	left: 50%;
-	top: 50%;
-	height: 115%;
-	width: auto;
-	transform: translate(-50%, -50%);
-	backface-visibility: hidden;
-}
-
-.container .thumbex .thumbnail span {
-	position: absolute;
-	z-index: 2;
-	top: calc(150px - 20px);
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	padding: 10px 50px;
-	margin: 0 45px;
-	text-align: center;
-	font-size: 24px;
-	color: white;
-	font-weight: 300;
-	font-family: "Raleway", sans-serif;
-	letter-spacing: 0.2px;
-	transition: all 0.3s ease-out;
-}
-
-.container .thumbex .thumbnail:hover {
-	backface-visibility: hidden;
-	transform: scale(1.15, 1.15);
-	opacity: 1;
-}
-
-.container .thumbex .thumbnail:hover span {
-	opacity: 0;
-}
-</style>
-
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport"
@@ -129,131 +34,92 @@ header h1 {
 </head>
 
 <body>
-
-
 	<!--::header part start::-->
-	<header class="main_menu">
-		<div class="main_menu_iner">
-			<div class="container">
-				<div class="row align-items-center ">
-					<div class="col-lg-12">
-						<nav
-							class="navbar navbar-expand-lg navbar-light justify-content-between">
-							<a class="navbar-brand" href="Main.jsp"> <img
-								src="img2/fivelogo.png" width="180px" height="80px" alt="logo">
-							</a>
-							<button class="navbar-toggler" type="button"
-								data-toggle="collapse" data-target="#navbarSupportedContent"
-								aria-controls="navbarSupportedContent" aria-expanded="false"
-								aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
-							</button>
+   <header class="main_menu">
+        <div class="main_menu_iner">
+            <div class="container">
+                <div class="row align-items-center ">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+                            <a class="navbar-brand" href="Main.jsp"> <img src="img2/fivelogo.png" width="180px" height="80px" alt="logo"> </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
 
-							<div
-								class="collapse navbar-collapse main-menu-item justify-content-center"
-								id="navbarSupportedContent">
-								<ul class="navbar-nav">
-									<li class="nav-item"><a class="nav-link" href="Main.jsp">Home</a>
-									</li>
-									<li class="nav-item dropdown"><a
-										class="nav-link dropdown-toggle" href="top_place.jsp"
-										id="navbarDropdown" role="button" data-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false"> Top7 Places </a>
-										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-											<a class="dropdown-item" href="GwangjuPlaces.jsp">Gwangju</a>
-											<a class="dropdown-item" href="JeonjuPlaces.jsp">Jeonju</a> <a
-												class="dropdown-item" href="DamyangPlaces.jsp">Damyang</a> <a
-												class="dropdown-item" href="JindoPlaces.jsp">Jindo</a> <a
-												class="dropdown-item" href="BosungPlaces.jsp">Bosung</a> <a
-												class="dropdown-item" href="YeosuPlaces.jsp">Yeosu</a> <a
-												class="dropdown-item" href="SuncheonPlaces.jsp">Suncheon</a>
-										</div></li>
-									<li class="nav-item dropdown"><a
-										class="nav-link dropdown-toggle" href="packages.jsp"
-										id="navbarDropdown_1" role="button" data-toggle="dropdown"
-										aria-haspopup="true" aria-expanded="false"> Top7 Taste
-											Food </a>
-										<div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-											<a class="dropdown-item" href="GwangjuRestaurant.jsp">Gwangju</a>
-											<a class="dropdown-item" href="JeonjuRestaurant.jsp">Jeonju</a>
-											<a class="dropdown-item" href="DamyangRestaurant.jsp">Damyang</a>
-											<a class="dropdown-item" href="JindoRestaurant.jsp">Jindo</a>
-											<a class="dropdown-item" href="BosungRestaurant.jsp">Bosung</a>
-											<a class="dropdown-item" href="YeosuRestaurant.jsp">Yeosu</a>
-											<a class="dropdown-item" href="SuncheonRestaurant.jsp">Suncheon</a>
-										</div></li>
-									<li class="nav-item"><a class="nav-link"
-										href="Questions.jsp">1:1 Questions</a></li>
-									<%
-									MemberDTO log = (MemberDTO) session.getAttribute("info");
-									if (log == null) {
-									%><li class="nav-item">
-										<a class="nav-link" href="Login.jsp"><i
-											class="bi bi-box-arrow-in-right"><svg
-													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-													fill="currentColor" class="bi bi-box-arrow-in-right"
-													viewBox="0 0 16 16">
-						  	<path fill-rule="evenodd"
-														d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
-						  	<path fill-rule="evenodd"
-														d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                            <div class="collapse navbar-collapse main-menu-item justify-content-center"
+                                id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="Main.jsp">Home</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="top_place.jsp" id="navbarDropdown"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Top7 Places
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="GwangjuPlaces.jsp">Gwangju</a>
+                                            <a class="dropdown-item" href="JeonjuPlaces.jsp">Jeonju</a>
+                                            <a class="dropdown-item" href="DamyangPlaces.jsp">Damyang</a>
+                                            <a class="dropdown-item" href="JindoPlaces.jsp">Jindo</a>
+                                            <a class="dropdown-item" href="BosungPlaces.jsp">Bosung</a>
+                                            <a class="dropdown-item" href="YeosuPlaces.jsp">Yeosu</a>
+                                            <a class="dropdown-item" href="SuncheonPlaces.jsp">Suncheon</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="packages.jsp" id="navbarDropdown_1"
+                                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                                            aria-expanded="false">
+                                            Top7 Taste Food
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                            <a class="dropdown-item" href="GwangjuRestaurant.jsp">Gwangju</a>
+                                            <a class="dropdown-item" href="JeonjuRestaurant.jsp">Jeonju</a>
+                                            <a class="dropdown-item" href="DamyangRestaurant.jsp">Damyang</a>
+                                            <a class="dropdown-item" href="JindoRestaurant.jsp">Jindo</a>
+                                            <a class="dropdown-item" href="BosungRestaurant.jsp">Bosung</a>
+                                            <a class="dropdown-item" href="YeosuRestaurant.jsp">Yeosu</a>
+                                            <a class="dropdown-item" href="SuncheonRestaurant.jsp">Suncheon</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="Questions.jsp">1:1 Questions</a>
+                         	           </li>
+                            <% MemberDTO log = (MemberDTO)session.getAttribute("info");
+                            if (log == null) {%><li  class="nav-item">
+                            <a class="nav-link" href="Login.jsp"><i class="bi bi-box-arrow-in-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+						  	<path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+						  	<path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
 							</svg> Login</i></a>
-									</li>
-									<%
-									} else {
-									%><li class="nav-item dropdown"><a
-										class="nav-link dropdown-toggle" id="navbarDropdown"
-										role="button" data-toggle="dropdown" aria-haspopup="true"
-										aria-expanded="false"> <i class="bi bi-person-circle"><svg
-													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-													fill="currentColor" class="bi bi-person-circle"
-													viewBox="0 0 16 16">
-													<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-													<path fill-rule="evenodd"
-														d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" /></svg>User
-												Menu</i>
-									</a>
-										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-											<a href="Like.jsp" class="like" style="direction: none;">&nbsp;&nbsp;<i
-												class="bi bi-bookmark-heart-fill"><svg
-														xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-														fill="currentColor" class="bi bi-bookmark-heart-fill"
-														viewBox="0 0 16 16">
-														<path
-															d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13.5zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" /></svg>Wish
-													List</i></a>
-											<hr class="dropdown-divider">
-											<a href="Upda.jsp" class="update">&nbsp;&nbsp;<i
-												class="bi bi-person-lines-fill"><svg
-														xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-														fill="currentColor" class="bi bi-person-lines-fill"
-														viewBox="0 0 16 16">
-														<path
-															d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" /></svg>User
-													information</i></a>
-											<hr class="dropdown-divider">
-											<a href="LogoutCon.do" class="logout">&nbsp;&nbsp;<i
-												class="bi bi-box-arrow-right"><svg
-														xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-														fill="currentColor" class="bi bi-box-arrow-right"
-														viewBox="0 0 16 16">
-														<path fill-rule="evenodd"
-															d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
-														<path fill-rule="evenodd"
-															d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" /></svg>Logout</i></a>
-										</div></li>
-									<%
-									}
-									%>
-								</ul>
-							</div>
-						</nav>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- Header part end-->
+                            </li>
+                            <%}else{%><li class="nav-item dropdown">
+                             <a class="nav-link dropdown-toggle"id="navbarDropdown"
+                                 					 role="button" data-toggle="dropdown" aria-haspopup="true"
+                                  				 aria-expanded="false">
+                                			<i class="bi bi-person-circle"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16"><path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/><path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/></svg>User Menu</i>
+                             </a>
+                                   		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                       		<a href="Like.jsp" class="like" style="direction: none;">&nbsp;&nbsp;<i class="bi bi-bookmark-heart-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16"><path d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13.5zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/></svg>Wish List</i></a>
+                                      			<hr class="dropdown-divider">
+                                       		<a href="Upda.jsp" class="update">&nbsp;&nbsp;<i class="bi bi-person-lines-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16"><path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/></svg>User information</i></a>
+                                       			<hr class="dropdown-divider">
+                                       		<a href="LogoutCon.do" class="logout">&nbsp;&nbsp;<i class="bi bi-box-arrow-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/><path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/></svg>Logout</i></a>
+                                   		</div>
+                            		</li>
+                            <%}%>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
 
 	<!-- breadcrumb start-->
 	<section class="breadcrumb breadcrumb_bg2">
@@ -262,8 +128,8 @@ header h1 {
 				<div class="col-lg-12">
 					<div class="breadcrumb_iner">
 						<div class="breadcrumb_iner_item text-center">
-							<h2>Packages</h2>
-							<p>home . Packages</p>
+							<h2>Gwangju</h2>
+							<p>Gwangju . Restaurants</p>
 						</div>
 					</div>
 				</div>
@@ -283,12 +149,12 @@ header h1 {
 
 
 	<!-- about us css start-->
-	<section class="hotel_list section_padding single_page_hotel_list">
+	<section class="hotel_list sections_padding single_page_hotel_list">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-xl-6">
 					<div class="section_tittle text-center">
-						<h2>Top Hotel &amp; Restaurants</h2>
+						<h2> Restaurants</h2>
 						<p>Waters make fish every without firmament saw had. Morning
 							air subdue. Our. Air very one. Whales grass is fish whales
 							winged.</p>
@@ -311,7 +177,7 @@ header h1 {
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img src="img2/g1-2.jpg"  ><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
@@ -356,7 +222,7 @@ header h1 {
 	<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img src="img2/g2-6.jpg"  ><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
@@ -395,7 +261,7 @@ header h1 {
 	<!-- about us css end-->
 
 	<!-- about us css start-->
-	<section class="hotel_list section_padding single_page_hotel_list">
+	<section class="hotel_list sections_padding single_page_hotel_list">
 		<div class="container">
 			<div class="row"  style="
     width: 1100px;
@@ -410,7 +276,7 @@ header h1 {
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img src="img2/g3-2.jpg"  ><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
@@ -452,7 +318,7 @@ header h1 {
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img src="img2/g4-7.jpg"  ><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
@@ -489,7 +355,7 @@ header h1 {
 	<!-- about us css end-->
 
 	<!-- about us css start-->
-	<section class="hotel_list sections_padding single_page_hotel_list">
+	<section class="hotel_list section_padding single_page_hotel_list">
 		<div class="container">
 			<div class="row"  style="
     width: 1100px;
@@ -507,7 +373,7 @@ header h1 {
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img src="img2/g5-6.jpg"  ><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
@@ -557,7 +423,7 @@ header h1 {
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img src="img2/g6-2.jpg"  ><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>

@@ -149,7 +149,7 @@
 
 
 	<!-- about us css start-->
-	<section class="hotel_list section_padding single_page_hotel_list">
+	<section class="hotel_list sections_padding single_page_hotel_list">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-xl-6">
@@ -261,7 +261,7 @@
 	<!-- about us css end-->
 
 	<!-- about us css start-->
-	<section class="hotel_list section_padding single_page_hotel_list">
+	<section class="hotel_list sections_padding single_page_hotel_list">
 		<div class="container">
 			<div class="row"  style="
     width: 1100px;
@@ -355,7 +355,7 @@
 	<!-- about us css end-->
 
 	<!-- about us css start-->
-	<section class="hotel_list sections_padding single_page_hotel_list">
+	<section class="hotel_list section_padding single_page_hotel_list">
 		<div class="container">
 			<div class="row"  style="
     width: 1100px;

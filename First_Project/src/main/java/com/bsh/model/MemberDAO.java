@@ -66,7 +66,7 @@ public class MemberDAO {
 		String result = null;
 		SqlSession session = sqlSessionFactory.openSession(true);
 		String pw = session.selectOne("PwCheck", mb_id);
-		System.out.println(pw +"확인확인");
+		System.out.println(pw + "확인확인");
 
 		if (pw != null) {
 			result = pw;

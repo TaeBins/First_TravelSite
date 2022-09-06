@@ -5,7 +5,7 @@
   
   <mapper namespace="com.smhrd.mapper.MessageMapper">
   		<insert id="message" parameterType="MessageDTO">
-  			insert into bsh_message values (num_message.nextval, #{sender}, #{recipient}, #{message}, sysdate)
+  			insert into bsh_qna values (bsh_qna_seq.nextval, #{q_title}, #{q_content}, #{q_file}, sysdate, #{mb_id})
   		</insert>
   		
   		<select id="showMessage" parameterType="String" resultType="MessageDTO">

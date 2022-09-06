@@ -13,10 +13,10 @@ public class MessageDAO {
 
 	public int message(MessageDTO mem_dto) {
 		SqlSession session = sqlSessionFactory.openSession(true);
-		int mess = session.insert("message", mem_dto);
+		int row = session.insert("message", mem_dto);
 		session.close();
 		
-		return mess;
+		return row;
 	}
 	
 	// 나에게 온 메시지 조회

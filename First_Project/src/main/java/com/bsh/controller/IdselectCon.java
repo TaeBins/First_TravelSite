@@ -13,10 +13,10 @@ public class IdselectCon implements Command {
 	public String execute(HttpServletRequest request, HttpServletResponse response) {
 		
 		String mb_phone = request.getParameter("mb_phone");
-		String mb_birth = request.getParameter("mb_birth");
+		String mb_birthdate = request.getParameter("mb_birthdate");
 		String mb_hint = request.getParameter("mb_hint");
 		
-		MemberDTO dto = new MemberDTO(mb_phone, mb_birth, mb_hint);
+		MemberDTO dto = new MemberDTO(mb_phone, mb_birthdate, mb_hint);
 		
 		String id_dao = new MemberDAO().idselect(dto);
 		System.out.println("확인" + id_dao);

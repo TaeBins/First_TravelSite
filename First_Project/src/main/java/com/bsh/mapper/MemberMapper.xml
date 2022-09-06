@@ -30,11 +30,11 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	</select>
 	
 	<select id="pwselect" parameterType="MemberDTO" resultType="String">
-		select mb_pw from bsh_member where mb_id = #{mb_id} and mb_phone = #{mb_phone} and mb_birth = #{mb_birth} and mb_hint = #{mb_hint}
+		select mb_pw from bsh_member where mb_id = #{mb_id} and mb_phone = #{mb_phone} and mb_birthdate = #{mb_birthdate} and mb_hint = #{mb_hint}
 	</select>
 
 	<select id="idselect" parameterType="MemberDTO" resultType="String">
-		select mb_id from bsh_member where mb_phone = #{mb_phone} and mb_birth = #{mb_birth} and mb_hint = #{mb_hint}
+		select mb_id from bsh_member where mb_phone = #{mb_phone} and mb_birthdate = #{mb_birthdate} and mb_hint = #{mb_hint}
 	</select>
 	
 </mapper>

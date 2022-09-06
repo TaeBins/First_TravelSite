@@ -4,101 +4,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<style type="text/css">
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-}
-
-header 
-header h1 {
-	color: white;
-	text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
-	text-align: center;
-	font-size: 40px;
-	letter-spacing: 0.4px;
-	font-family: "Raleway", sans-serif;
-}
-
-.container {
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
-	padding: 0 30px;
-}
-
-.container .thumbex {
-	margin: 10px 20px 30px;
-	width: 100%;
-	min-width: 350px;
-	max-width: 200px;
-	height: 230px;
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	overflow: hidden;
-	outline: 2px solid white;
-	outline-offset: -15px;
-	background-color: blue;
-	box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5);
-}
-
-.container .thumbex .thumbnail {
-	overflow: hidden;
-	min-width: 250px;
-	height: 230px;
-	position: relative;
-	opacity: 0.88;
-	backface-visibility: hidden;
-	transition: all 0.4s ease-out;
-}
-
-.container .thumbex .thumbnail img {
-	position: absolute;
-	z-index: 1;
-	left: 50%;
-	top: 50%;
-	height: 115%;
-	width: auto;
-	transform: translate(-50%, -50%);
-	backface-visibility: hidden;
-}
-
-.container .thumbex .thumbnail span {
-	position: absolute;
-	z-index: 2;
-	top: calc(150px - 20px);
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	padding: 10px 50px;
-	margin: 0 45px;
-	text-align: center;
-	font-size: 24px;
-	color: white;
-	font-weight: 300;
-	font-family: "Raleway", sans-serif;
-	letter-spacing: 0.2px;
-	transition: all 0.3s ease-out;
-}
-
-.container .thumbex .thumbnail:hover {
-	backface-visibility: hidden;
-	transform: scale(1.15, 1.15);
-	opacity: 1;
-}
-
-.container .thumbex .thumbnail:hover span {
-	opacity: 0;
-}
-</style>
-
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport"
@@ -129,18 +34,14 @@ header h1 {
 </head>
 
 <body>
-
-
 	<!--::header part start::-->
 	<header class="main_menu">
 		<div class="main_menu_iner">
 			<div class="container">
 				<div class="row align-items-center ">
 					<div class="col-lg-12">
-						<nav
-							class="navbar navbar-expand-lg navbar-light justify-content-between">
-							<a class="navbar-brand" href="Main.jsp"> <img
-								src="img2/fivelogo.png" width="180px" height="80px" alt="logo">
+						<nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+							<a class="navbar-brand" href="Main.jsp"> <img src="img2/fivelogo.png" width="180px" height="80px" alt="logo">
 							</a>
 							<button class="navbar-toggler" type="button"
 								data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -148,9 +49,7 @@ header h1 {
 								aria-label="Toggle navigation">
 								<span class="navbar-toggler-icon"></span>
 							</button>
-
-							<div
-								class="collapse navbar-collapse main-menu-item justify-content-center"
+							<div class="collapse navbar-collapse main-menu-item justify-content-center"
 								id="navbarSupportedContent">
 								<ul class="navbar-nav">
 									<li class="nav-item"><a class="nav-link" href="Main.jsp">Home</a>
@@ -271,17 +170,7 @@ header h1 {
 		</div>
 	</section>
 	<!-- breadcrumb start-->
-
-
-
-
-
-
-
-
-
-
-
+	
 	<!-- about us css start-->
 	<section class="hotel_list section_padding single_page_hotel_list">
 		<div class="container">
@@ -295,19 +184,9 @@ header h1 {
 					</div>
 				</div>
 			</div>
-			<div class="row" style="
-    width: 1100px;
-">
+			<div class="row" style="width: 1100px;">
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
-
-
-
-
-
-
-
-
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
@@ -315,7 +194,6 @@ header h1 {
 								</div>
 							</div>
 						</div>
-
 						<div class="hotel_text_iner">
 							<h3>
 								<a href="#"> Hotel Polonia</a>

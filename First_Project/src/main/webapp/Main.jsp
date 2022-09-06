@@ -344,19 +344,9 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_1.png" alt="">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
-                            </div>
-                        </div>
+                        <div class="thumbex">
+    						<div class="thumbnail"><a href="javascript:void(0)"><img src="https://bit.ly/2NZ6ahm"/><span>Forest</span></a></div>
+  						</div>
                         <div class="hotel_text_iner">
                             <h3> <a href="#"> Hotel Polonia</a></h3>
                             <div class="place_review">
@@ -374,19 +364,9 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_2.png" alt="">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
-                            </div>
-                        </div>
+                        <div class="thumbex">
+    						<div class="thumbnail"><a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"/><span>Beaches</span></a></div>
+  						</div>
                         <div class="hotel_text_iner">
                             <h3> <a href="#"> Hotel Polonia</a></h3>
                             <div class="place_review">
@@ -404,21 +384,9 @@
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_3.png" alt="">
-                        <div class="hover_text">
-                            <div class="hover_text">
-                                <div class="hotel_social_icon">
-                                    <ul>
-                                        <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                        <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                        <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="share_icon">
-                                    <i class="ti-share"></i>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="thumbex">    
+    						<div class="thumbnail"><a href="javascript:void(0)"><img src="https://bit.ly/3qgufUp"/><span>Mountains</span></a></div>
+    					</div>
                         <div class="hotel_text_iner">
                             <h3> <a href="#"> Hotel Polonia</a></h3>
                             <div class="place_review">

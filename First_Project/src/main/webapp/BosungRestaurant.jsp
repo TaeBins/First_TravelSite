@@ -4,102 +4,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<style type="text/css">
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-}
-
-header 
-header h1 {
-	color: white;
-	text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
-	text-align: center;
-	font-size: 40px;
-	letter-spacing: 0.4px;
-	font-family: "Raleway", sans-serif;
-}
-
-.container {
-	
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: center;
-	padding: 0 30px;
-}
-
-.container .thumbex {
-	margin: 10px 20px 30px;
-	width: 100%;
-	min-width: 350px;
-	max-width: 200px;
-	height: 230px;
-	-webkit-flex: 1;
-	-ms-flex: 1;
-	flex: 1;
-	overflow: hidden;
-	outline: 2px solid white;
-	outline-offset: -15px;
-	background-color: blue;
-	box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5);
-}
-
-.container .thumbex .thumbnail {
-	overflow: hidden;
-	min-width: 250px;
-	height: 230px;
-	position: relative;
-	opacity: 0.88;
-	backface-visibility: hidden;
-	transition: all 0.4s ease-out;
-}
-
-.container .thumbex .thumbnail img {
-	position: absolute;
-	z-index: 1;
-	left: 50%;
-	top: 50%;
-	height: 115%;
-	width: auto;
-	transform: translate(-50%, -50%);
-	backface-visibility: hidden;
-}
-
-.container .thumbex .thumbnail span {
-	position: absolute;
-	z-index: 2;
-	top: calc(150px - 20px);
-	left: 0;
-	right: 0;
-	background: rgba(0, 0, 0, 0.7);
-	padding: 10px 50px;
-	margin: 0 45px;
-	text-align: center;
-	font-size: 24px;
-	color: white;
-	font-weight: 300;
-	font-family: "Raleway", sans-serif;
-	letter-spacing: 0.2px;
-	transition: all 0.3s ease-out;
-}
-
-.container .thumbex .thumbnail:hover {
-	backface-visibility: hidden;
-	transform: scale(1.15, 1.15);
-	opacity: 1;
-}
-
-.container .thumbex .thumbnail:hover span {
-	opacity: 0;
-}
-</style>
-
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport"
@@ -138,8 +42,7 @@ header h1 {
 			<div class="container">
 				<div class="row align-items-center ">
 					<div class="col-lg-12">
-						<nav
-							class="navbar navbar-expand-lg navbar-light justify-content-between">
+						<nav class="navbar navbar-expand-lg navbar-light justify-content-between">
 							<a class="navbar-brand" href="Main.jsp"> <img
 								src="img2/fivelogo.png" width="180px" height="80px" alt="logo">
 							</a>
@@ -188,9 +91,8 @@ header h1 {
 									<%
 									MemberDTO log = (MemberDTO) session.getAttribute("info");
 									if (log == null) {
-									%><li class="nav-item">
-										<a class="nav-link" href="Login.jsp"><i
-											class="bi bi-box-arrow-in-right"><svg
+									%><li class="nav-item"><a class="nav-link"
+										href="Login.jsp"><i class="bi bi-box-arrow-in-right"><svg
 													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 													fill="currentColor" class="bi bi-box-arrow-in-right"
 													viewBox="0 0 16 16">
@@ -198,8 +100,7 @@ header h1 {
 														d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
 						  	<path fill-rule="evenodd"
 														d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
-							</svg> Login</i></a>
-									</li>
+							</svg> Login</i></a></li>
 									<%
 									} else {
 									%><li class="nav-item dropdown"><a
@@ -259,7 +160,7 @@ header h1 {
 	<!-- breadcrumb start-->
 	<section class="breadcrumb breadcrumb_bg2">
 		<div class="container">
-			<div class="row" >
+			<div class="row">
 				<div class="col-lg-12">
 					<div class="breadcrumb_iner">
 						<div class="breadcrumb_iner_item text-center">
@@ -272,16 +173,6 @@ header h1 {
 		</div>
 	</section>
 	<!-- breadcrumb start-->
-
-
-
-
-
-
-
-
-
-
 
 	<!-- about us css start-->
 	<section class="hotel_list section_padding single_page_hotel_list">
@@ -296,27 +187,17 @@ header h1 {
 					</div>
 				</div>
 			</div>
-			<div class="row" style="
-    width: 1100px;
-">
+			<div class="row" style="width: 1100px;">
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
-
-
-
-
-
-
-
-
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img
+										src="https://bit.ly/2vnI5ZM"><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
-
 						<div class="hotel_text_iner">
 							<h3>
 								<a href="#"> Hotel Polonia</a>
@@ -334,34 +215,18 @@ header h1 {
 								From <span>$500</span>
 							</h5>
 						</div>
-
-
-
-
-
-
-
-
-
-
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
-
-
-
-
-
-
-	<div class="container">
+						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img
+										src="https://bit.ly/2vnI5ZM"><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
-
 						<div class="hotel_text_iner">
 							<h3>
 								<a href="#"> Hotel Polonia</a>
@@ -371,51 +236,33 @@ header h1 {
 									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
 								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
 									class="fas fa-star"></i></a> <span>(210 review)</span>
-							<p>Date: 23 Aug 2019</p>
-							<p>Duration: 5 days</p>
-							<h5>
-								From <span>$500</span>
-							</h5>
+								<p>Date: 23 Aug 2019</p>
+								<p>Duration: 5 days</p>
+								<h5>
+									From <span>$500</span>
+								</h5>
+							</div>
 						</div>
-
-
-
-
-
-
-
-
-
-
-
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 	<!-- about us css end-->
 
 	<!-- about us css start-->
 	<section class="hotel_list section_padding single_page_hotel_list">
 		<div class="container">
-			<div class="row"  style="
-    width: 1100px;
-">
+			<div class="row" style="width: 1100px;">
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
-
-
-
-
-
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img
+										src="https://bit.ly/2vnI5ZM"><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
-
 						<div class="hotel_text_iner">
 							<h3>
 								<a href="#"> Hotel Polonia</a>
@@ -433,31 +280,18 @@ header h1 {
 								From <span>$500</span>
 							</h5>
 						</div>
-
-
-
-
-
-
-
 					</div>
 				</div>
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
-
-
-
-
-
-		
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img
+										src="https://bit.ly/2vnI5ZM"><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
-
 						<div class="hotel_text_iner">
 							<h3>
 								<a href="#"> Hotel Polonia</a>
@@ -475,13 +309,6 @@ header h1 {
 								From <span>$500</span>
 							</h5>
 						</div>
-
-
-
-
-
-
-
 					</div>
 				</div>
 			</div>
@@ -492,73 +319,14 @@ header h1 {
 	<!-- about us css start-->
 	<section class="hotel_list sections_padding single_page_hotel_list">
 		<div class="container">
-			<div class="row"  style="
-    width: 1100px;
-">
-
-
+			<div class="row" style="width: 1100px;">
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
-
-
-
-
-
-
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
-								</div>
-							</div>
-						</div>
-
-						<div class="hotel_text_iner">
-							<h3>
-								<a href="#"> Hotel Polonia</a>
-							</h3>
-							<div class="place_review">
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <span>(210 review)</span>
-							</div>
-							<p>London, United Kingdom</p>
-							<p>Date: 23 Aug 2019</p>
-							<p>Duration: 5 days</p>
-							<h5>
-								From <span>$500</span>
-							</h5>
-						</div>
-
-
-
-
-
-
-
-
-
-
-
-					</div>
-				</div>
-				
-				
-				<div class="col-lg-4 col-sm-6">
-				
-					<div class="single_ihotel_list">
-
-
-
-
-
-
-
-						<div class="container">
-							<div class="thumbex">
-								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"  ><span>Beaches</span></a>
+									<a href="javascript:void(0)"> <img
+										src="https://bit.ly/2vnI5ZM"><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>
@@ -567,10 +335,8 @@ header h1 {
 								<a href="#"> Hotel Polonia</a>
 							</h3>
 							<div class="place_review">
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <span>(210 review)</span>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a> <span>(210 review)</span>
 							</div>
 							<p>London, United Kingdom</p>
 							<p>Date: 23 Aug 2019</p>
@@ -579,30 +345,37 @@ header h1 {
 								From <span>$500</span>
 							</h5>
 						</div>
-
-
-
-
-
-
-
-
-
-
-
 					</div>
 				</div>
-
-
-
-
-
-
-
+				<div class="col-lg-4 col-sm-6">
+					<div class="single_ihotel_list">
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"><span>Beaches</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="#"> Hotel Polonia</a>
+							</h3>
+							<div class="place_review">
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a> <span>(210 review)</span>
+							</div>
+							<p>London, United Kingdom</p>
+							<p>Date: 23 Aug 2019</p>
+							<p>Duration: 5 days</p>
+							<h5>
+								From <span>$500</span>
+							</h5>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		</section>
-		
+	</section>
 	<!-- about us css end-->
 
 	<!-- footer part start-->

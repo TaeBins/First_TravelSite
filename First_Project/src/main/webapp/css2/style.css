@@ -18,6 +18,30 @@ body {
   height: 80%;
 }
 
+.like {
+	color: #0c3e72;
+}
+
+.update {
+	color: #0c3e72;
+}
+
+.logout {
+	color: #0c3e72;
+}
+
+.like:hover {
+	color: #fe5c24;
+}
+
+.update:hover {
+	color: #fe5c24;
+}
+
+.logout:hover {
+	color: #fe5c24;
+}
+
 .mobtn {
 	color: #fff;
 }

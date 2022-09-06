@@ -304,7 +304,7 @@
                 </div>
             </div>
            		<div align="center">
-	           		<button><a href="Bosungphoto.jsp" class="mobtn" target="_blank">MorePhoto</a></button>
+	           		<button  class="morebut"><a href="Bosungphoto.jsp" class="mobtn" target="_blank">MorePhoto</a></button>
 	           	</div>
         </div>
     </section>

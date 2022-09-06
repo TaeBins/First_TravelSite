@@ -1,39 +1,135 @@
 <%@page import="com.bsh.model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+	pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>JEOLA DOING</title>
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css2/bootstrap.min.css">
-    <!-- animate CSS -->
-    <link rel="stylesheet" href="css2/animate.css">
-    <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="css2/owl.carousel.min.css">
-    <!-- themify CSS -->
-    <link rel="stylesheet" href="css2/themify-icons.css">
-    <!-- flaticon CSS -->
-    <link rel="stylesheet" href="css2/flaticon.css">
-    <!-- fontawesome CSS -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <!-- magnific CSS -->
-    <link rel="stylesheet" href="css2/magnific-popup.css">
-    <link rel="stylesheet" href="css2/gijgo.min.css">
-    <!-- niceselect CSS -->
-    <link rel="stylesheet" href="css2/nice-select.css">
-    <!-- slick CSS -->
-    <link rel="stylesheet" href="css2/slick.css">
-    <!-- style CSS -->
-    <link rel="stylesheet" href="css2/style.css">
+
+<style type="text/css">
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+}
+
+header 
+header h1 {
+	color: white;
+	text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);
+	text-align: center;
+	font-size: 40px;
+	letter-spacing: 0.4px;
+	font-family: "Raleway", sans-serif;
+}
+
+.container {
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0 30px;
+}
+
+.container .thumbex {
+	margin: 10px 20px 30px;
+	width: 100%;
+	min-width: 350px;
+	max-width: 200px;
+	height: 230px;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	overflow: hidden;
+	outline: 2px solid white;
+	outline-offset: -15px;
+	background-color: blue;
+	box-shadow: 5px 10px 40px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container .thumbex .thumbnail {
+	overflow: hidden;
+	min-width: 250px;
+	height: 230px;
+	position: relative;
+	opacity: 0.88;
+	backface-visibility: hidden;
+	transition: all 0.4s ease-out;
+}
+
+.container .thumbex .thumbnail img {
+	position: absolute;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+	height: 115%;
+	width: auto;
+	transform: translate(-50%, -50%);
+	backface-visibility: hidden;
+}
+
+.container .thumbex .thumbnail span {
+	position: absolute;
+	z-index: 2;
+	top: calc(150px - 20px);
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px 50px;
+	margin: 0 45px;
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	font-weight: 300;
+	font-family: "Raleway", sans-serif;
+	letter-spacing: 0.2px;
+	transition: all 0.3s ease-out;
+}
+
+.container .thumbex .thumbnail:hover {
+	backface-visibility: hidden;
+	transform: scale(1.15, 1.15);
+	opacity: 1;
+}
+
+.container .thumbex .thumbnail:hover span {
+	opacity: 0;
+}
+</style>
+
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>JEOLA DOING</title>
+<link rel="shortcut icon" href="favicon.ico">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="css2/bootstrap.min.css">
+<!-- animate CSS -->
+<link rel="stylesheet" href="css2/animate.css">
+<!-- owl carousel CSS -->
+<link rel="stylesheet" href="css2/owl.carousel.min.css">
+<!-- themify CSS -->
+<link rel="stylesheet" href="css2/themify-icons.css">
+<!-- flaticon CSS -->
+<link rel="stylesheet" href="css2/flaticon.css">
+<!-- fontawesome CSS -->
+<link rel="stylesheet" href="fontawesome/css/all.min.css">
+<!-- magnific CSS -->
+<link rel="stylesheet" href="css2/magnific-popup.css">
+<link rel="stylesheet" href="css2/gijgo.min.css">
+<!-- niceselect CSS -->
+<link rel="stylesheet" href="css2/nice-select.css">
+<!-- slick CSS -->
+<link rel="stylesheet" href="css2/slick.css">
+<!-- style CSS -->
+<link rel="stylesheet" href="css2/style.css">
 </head>
 
 <body>
-    <!--::header part start::-->
+	<!--::header part start::-->
    <header class="main_menu">
         <div class="main_menu_iner">
             <div class="container">
@@ -87,7 +183,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="Questions.jsp">1:1 Questions</a>
-                                    </li>
+                         	           </li>
                             <% MemberDTO log = (MemberDTO)session.getAttribute("info");
                             if (log == null) {%><li  class="nav-item">
                             <a class="nav-link" href="Login.jsp"><i class="bi bi-box-arrow-in-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
@@ -120,344 +216,471 @@
     </header>
     <!-- Header part end-->
 
-    <!-- breadcrumb start-->
-    <section class="breadcrumb breadcrumb_bg2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="breadcrumb_iner">
-                        <div class="breadcrumb_iner_item text-center">
-                            <h2>Packages</h2>
-                            <p>home . Packages</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- breadcrumb start-->
+	<!-- breadcrumb start-->
+	<section class="breadcrumb breadcrumb_bg2">
+		<div class="container">
+			<div class="row" >
+				<div class="col-lg-12">
+					<div class="breadcrumb_iner">
+						<div class="breadcrumb_iner_item text-center">
+							<h2>Gwangju</h2>
+							<p>Gwangju . Restaurants</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- breadcrumb start-->
 
-    <!-- about us css start-->
-    <section class="hotel_list section_padding single_page_hotel_list">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-6">
-                    <div class="section_tittle text-center">
-                        <h2>Top Hotel &amp; Restaurants</h2>
-                        <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_1.png" alt="">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
-                            </div>
-                        </div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <p>Date: 23 Aug 2019</p>
-                            <p>Duration: 5 days</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_2.png" alt="">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
-                            </div>
-                        </div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <p>Date: 23 Aug 2019</p>
-                            <p>Duration: 5 days</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about us css end-->
-    
-    <!-- about us css start-->
-    <section class="hotel_list section_padding single_page_hotel_list">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_1.png" alt="">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
-                            </div>
-                        </div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <p>Date: 23 Aug 2019</p>
-                            <p>Duration: 5 days</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_2.png" alt="">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
-                            </div>
-                        </div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <p>Date: 23 Aug 2019</p>
-                            <p>Duration: 5 days</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about us css end-->
-    
-    <!-- about us css start-->
-    <section class="hotel_list section_padding single_page_hotel_list">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_1.png" alt="">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
-                            </div>
-                        </div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <p>Date: 23 Aug 2019</p>
-                            <p>Duration: 5 days</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <img src="img2/ind/industries_2.png" alt="">
-                        <div class="hover_text">
-                            <div class="hotel_social_icon">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="share_icon">
-                                <i class="ti-share"></i>
-                            </div>
-                        </div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <p>Date: 23 Aug 2019</p>
-                            <p>Duration: 5 days</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about us css end-->
 
-    <!-- footer part start-->
-    <footer class="footer-area">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-sm-6 col-md-5">
-                    <div class="single-footer-widget"  align="center">
-                        <h4>Jeola Doing</h4>
-                        <ul>
-                            <li><a href="#">Gwangju</a></li>
-                            <li><a href="#">Jeonju</a></li>
-                            <li><a href="#">Damyang</a></li>
-                            <li><a href="#">Jindo</a></li>
-                            <li><a href="#">Bosung</a></li>
-                            <li><a href="#">Yeosu</a></li>
-                            <li><a href="#">Suncheon</a></li>
-                        </ul>
 
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="single-footer-widget">
-                        <h4>Subscribe Newsletter</h4>
-                        <div class="form-wrap" id="mc_embed_signup">
-                            <form target="_blank"
-                                action="#"
-                                method="get" class="form-inline">
-                                <input class="form-control" name="EMAIL" placeholder="Your Email Address"
-                                    onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
-                                    required="" type="email">
-                                <button class="click-btn btn btn-default text-uppercase"> <i class="far fa-paper-plane"></i>
-                                </button>
-                                <div style="position: absolute; left: -5000px;">
-                                    <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value=""
-                                        type="text">
-                                </div>
 
-                                <div class="info"></div>
-                            </form>
-                        </div>
-                        <p>Subscribe our newsletter to get update news and offers</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="single-footer-widget footer_icon">
-                        <h4>Contact Us</h4>
-                        <p><a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development Center, Gwangju, korea</a></p><br>
-                        <p>+062 224 4560 | 61927</p>
-                        <span>JEOLA DOING@gmail.com</span>
-                        <div class="social-icons">
-                            <a href="#"><i class="ti-facebook"></i></a>
-                            <a href="#"><i class="ti-twitter-alt"></i></a>
-                            <a href="#"><i class="ti-pinterest"></i></a>
-                            <a href="#"><i class="ti-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="row justify-content-center">
-                <div class="col-lg-12">
-                    <div class="copyright_part_text text-center">
-                        <p class="footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-BSH &copy;<script>document.write(new Date().getFullYear());</script> Places & Foods | This page with <i class="ti-heart" aria-hidden="true"></i> by <a href="Main.jsp" target="_blank">JEOLA DOING</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- footer part end-->
 
-    <!-- jquery plugins here-->
-    <script src="js2/jquery-1.12.1.min.js"></script>
-    <!-- popper js -->
-    <script src="js2/popper.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js2/bootstrap.min.js"></script>
-    <!-- magnific js -->
-    <script src="js2/jquery.magnific-popup.js"></script>
-    <!-- swiper js -->
-    <script src="js2/owl.carousel.min.js"></script>
-    <!-- masonry js -->
-    <script src="js2/masonry.pkgd.js"></script>
-    <!-- masonry js -->
-    <script src="js2/jquery.nice-select.min.js"></script>
-    <script src="js2/gijgo.min.js"></script>
-    <!-- contact js -->
-    <script src="js2/jquery.ajaxchimp.min.js"></script>
-    <script src="js2/jquery.form.js"></script>
-    <script src="js2/jquery.validate.min.js"></script>
-    <script src="js2/mail-script.js"></script>
-    <script src="js2/contact.js"></script>
-    <!-- custom js -->
-    <script src="js2/custom.js"></script>
+
+
+
+
+
+
+	<!-- about us css start-->
+	<section class="hotel_list section_padding single_page_hotel_list">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xl-6">
+					<div class="section_tittle text-center">
+						<h2> Restaurants</h2>
+						<p>Waters make fish every without firmament saw had. Morning
+							air subdue. Our. Air very one. Whales grass is fish whales
+							winged.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row" style="
+    width: 1100px;
+">
+				<div class="col-lg-4 col-sm-6">
+					<div class="single_ihotel_list">
+
+
+
+
+
+
+
+
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="javascript:void(0)"> <img src="img2/g1-2.jpg"  ><span>Beaches</span></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="#"> Hotel Polonia</a>
+							</h3>
+							<div class="place_review">
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <span>(210 review)</span>
+							</div>
+							<p>London, United Kingdom Date: 23 Aug 2019</p>
+							<p></p>
+							<p>Duration: 5 days</p>
+							<h5>
+								From <span>$500</span>
+							</h5>
+						</div>
+
+
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="single_ihotel_list">
+
+
+
+
+
+
+	<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="javascript:void(0)"> <img src="img2/g2-6.jpg"  ><span>Beaches</span></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="#"> Hotel Polonia</a>
+							</h3>
+							<div class="place_review">
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <span>(210 review)</span>
+							<p>Date: 23 Aug 2019</p>
+							<p>Duration: 5 days</p>
+							<h5>
+								From <span>$500</span>
+							</h5>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about us css end-->
+
+	<!-- about us css start-->
+	<section class="hotel_list section_padding single_page_hotel_list">
+		<div class="container">
+			<div class="row"  style="
+    width: 1100px;
+">
+				<div class="col-lg-4 col-sm-6">
+					<div class="single_ihotel_list">
+
+
+
+
+
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="javascript:void(0)"> <img src="img2/g3-2.jpg"  ><span>Beaches</span></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="#"> Hotel Polonia</a>
+							</h3>
+							<div class="place_review">
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <span>(210 review)</span>
+							</div>
+							<p>London, United Kingdom</p>
+							<p>Date: 23 Aug 2019</p>
+							<p>Duration: 5 days</p>
+							<h5>
+								From <span>$500</span>
+							</h5>
+						</div>
+
+
+
+
+
+
+
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6">
+					<div class="single_ihotel_list">
+
+
+
+
+
+		
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="javascript:void(0)"> <img src="img2/g4-7.jpg"  ><span>Beaches</span></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="#"> Hotel Polonia</a>
+							</h3>
+							<div class="place_review">
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <span>(210 review)</span>
+							</div>
+							<p>London, United Kingdom</p>
+							<p>Date: 23 Aug 2019</p>
+							<p>Duration: 5 days</p>
+							<h5>
+								From <span>$500</span>
+							</h5>
+						</div>
+
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about us css end-->
+
+	<!-- about us css start-->
+	<section class="hotel_list sections_padding single_page_hotel_list">
+		<div class="container">
+			<div class="row"  style="
+    width: 1100px;
+">
+
+
+				<div class="col-lg-4 col-sm-6">
+					<div class="single_ihotel_list">
+
+
+
+
+
+
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="javascript:void(0)"> <img src="img2/g5-6.jpg"  ><span>Beaches</span></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="#"> Hotel Polonia</a>
+							</h3>
+							<div class="place_review">
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <span>(210 review)</span>
+							</div>
+							<p>London, United Kingdom</p>
+							<p>Date: 23 Aug 2019</p>
+							<p>Duration: 5 days</p>
+							<h5>
+								From <span>$500</span>
+							</h5>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+				
+				
+				<div class="col-lg-4 col-sm-6">
+				
+					<div class="single_ihotel_list">
+
+
+
+
+
+
+
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="javascript:void(0)"> <img src="img2/g6-2.jpg"  ><span>Beaches</span></a>
+								</div>
+							</div>
+						</div>
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="#"> Hotel Polonia</a>
+							</h3>
+							<div class="place_review">
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
+								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
+									class="fas fa-star"></i></a> <span>(210 review)</span>
+							</div>
+							<p>London, United Kingdom</p>
+							<p>Date: 23 Aug 2019</p>
+							<p>Duration: 5 days</p>
+							<h5>
+								From <span>$500</span>
+							</h5>
+						</div>
+
+
+
+
+
+
+
+
+
+
+
+					</div>
+				</div>
+
+
+
+
+
+
+
+			</div>
+		</div>
+		</section>
+		
+	<!-- about us css end-->
+
+	<!-- footer part start-->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-sm-6 col-md-5">
+					<div class="single-footer-widget" align="center">
+						<h4>Jeola Doing</h4>
+						<ul>
+							<li><a href="#">Gwangju</a></li>
+							<li><a href="#">Jeonju</a></li>
+							<li><a href="#">Damyang</a></li>
+							<li><a href="#">Jindo</a></li>
+							<li><a href="#">Bosung</a></li>
+							<li><a href="#">Yeosu</a></li>
+							<li><a href="#">Suncheon</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="single-footer-widget">
+						<h4>Subscribe Newsletter</h4>
+						<div class="form-wrap" id="mc_embed_signup">
+							<form target="_blank" action="#" method="get" class="form-inline">
+								<input class="form-control" name="EMAIL"
+									placeholder="Your Email Address"
+									onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Your Email Address '" required=""
+									type="email">
+								<button class="click-btn btn btn-default text-uppercase">
+									<i class="far fa-paper-plane"></i>
+								</button>
+								<div style="position: absolute; left: -5000px;">
+									<input name="b_36c4fd991d266f23781ded980_aefe40901a"
+										tabindex="-1" value="" type="text">
+								</div>
+
+								<div class="info"></div>
+							</form>
+						</div>
+						<p>Subscribe our newsletter to get update news and offers</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="single-footer-widget footer_icon">
+						<h4>Contact Us</h4>
+						<p>
+							<a href="https://smhrd.or.kr">Smart Talent Development
+								Center, Gwangju, korea</a>
+						</p>
+						<br>
+						<p>+062 224 4560 | 61927</p>
+						<span>JEOLA DOING@gmail.com</span>
+						<div class="social-icons">
+							<a href="#"><i class="ti-facebook"></i></a> <a href="#"><i
+								class="ti-twitter-alt"></i></a> <a href="#"><i
+								class="ti-pinterest"></i></a> <a href="#"><i
+								class="ti-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="copyright_part_text text-center">
+						<p class="footer-text m-0">
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							BSH &copy;
+							<script>
+								document.write(new Date().getFullYear());
+							</script>
+							Places & Foods | This page with <i class="ti-heart"
+								aria-hidden="true"></i> by <a href="Main.jsp" target="_blank">JEOLA
+								DOING</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer part end-->
+
+	<!-- jquery plugins here-->
+	<script src="js2/jquery-1.12.1.min.js"></script>
+	<!-- popper js -->
+	<script src="js2/popper.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="js2/bootstrap.min.js"></script>
+	<!-- magnific js -->
+	<script src="js2/jquery.magnific-popup.js"></script>
+	<!-- swiper js -->
+	<script src="js2/owl.carousel.min.js"></script>
+	<!-- masonry js -->
+	<script src="js2/masonry.pkgd.js"></script>
+	<!-- masonry js -->
+	<script src="js2/jquery.nice-select.min.js"></script>
+	<script src="js2/gijgo.min.js"></script>
+	<!-- contact js -->
+	<script src="js2/jquery.ajaxchimp.min.js"></script>
+	<script src="js2/jquery.form.js"></script>
+	<script src="js2/jquery.validate.min.js"></script>
+	<script src="js2/mail-script.js"></script>
+	<script src="js2/contact.js"></script>
+	<!-- custom js -->
+	<script src="js2/custom.js"></script>
+
+	<script type="text/javascript">
+		/* Demo purposes only */
+		$(".hover").mouseleave(function() {
+			$(this).removeClass("hover");
+		});
+	</script>
+
+
 </body>
 </html>

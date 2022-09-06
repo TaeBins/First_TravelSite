@@ -18,6 +18,34 @@ body {
   height: 80%;
 }
 
+.like {
+	color: #0c3e72;
+}
+
+.update {
+	color: #0c3e72;
+}
+
+.logout {
+	color: #0c3e72;
+}
+
+.like:hover {
+	color: #fe5c24;
+}
+
+.update:hover {
+	color: #fe5c24;
+}
+
+.logout:hover {
+	color: #fe5c24;
+}
+
+.mobtn {
+	color: #fff;
+}
+
 .morebut {
 	background-color: #FE5C24;
 	width: 120px;
@@ -42,12 +70,7 @@ input:hover, input:focus {
 
 /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
 .section_padding {
-  padding-top: 50px;
-}
-
-.sections_padding {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 130px 0px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {

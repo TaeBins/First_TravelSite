@@ -18,6 +18,10 @@ body {
   height: 80%;
 }
 
+.mobtn {
+	color: #fff;
+}
+
 .morebut {
 	background-color: #FE5C24;
 	width: 120px;

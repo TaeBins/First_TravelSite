@@ -228,7 +228,7 @@
 					<div class="single-footer-widget footer_icon">
 						<h4>Contact Us</h4>
 						<p>
-							<a href="https://smhrd.or.kr">Smart Talent Development
+							<a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development
 								Center, Gwangju, korea</a>
 						</p>
 						<br>

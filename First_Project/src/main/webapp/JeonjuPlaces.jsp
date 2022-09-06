@@ -304,7 +304,7 @@
                 </div>
             </div>
            		<div align="center">
-	           		<button class="morebut"><a href="Jeonjuphoto.jsp" target="_blank">MorePhoto</a></button>
+	           		<button class="morebut"><a href="Jeonjuphoto.jsp" class="mobtn" target="_blank">MorePhoto</a></button>
 	           	</div>
         </div>
     </section>
@@ -355,7 +355,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="single-footer-widget footer_icon">
                         <h4>Contact Us</h4>
-                        <p><a href="https://smhrd.or.kr">Smart Talent Development Center, Gwangju, korea</a></p><br>
+                        <p><a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development Center, Gwangju, korea</a></p><br>
                         <p>+062 224 4560 | 61927</p>
                         <span>JEOLA DOING@gmail.com</span>
                         <div class="social-icons">

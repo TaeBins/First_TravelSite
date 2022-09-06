@@ -57,68 +57,68 @@
 			<div class="slideshow" tabindex="0">
 				<div class="slide slide--layout-1" data-layout="layout1">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원119.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원88.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원0.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수세계박람회장2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수세계박람회장80.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수세계박람회장97.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Smart Talent Development Center</p>
+						<p class="slide__title-sub">Yeosu Expo</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-4" data-layout="layout4">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산16.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산19.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산21.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산38.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수해상케이블카2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수해상케이블카4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수해상케이블카26.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수해상케이블카27.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Jirisan</p>
+						<p class="slide__title-sub">Maritime Cable Car</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-5" data-layout="layout5">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문525.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문3.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문7.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문9.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문10.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문164.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문172.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문230.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문233.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문234.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문259.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문277.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문318.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문394.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문395.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문531.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문421.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문422.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다7.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다8.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다11.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다20.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다28.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다32.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다34.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다36.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다41.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다49.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다62.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다67.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다68.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다73.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다74.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다77.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다78.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수밤바다80.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">National Asian Culture Center</p>
+						<p class="slide__title-sub">Yeosu Night Sea</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-6" data-layout="layout6">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장179.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장142.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장177.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수오동도0.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수오동도10.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수오동도23.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Daein Night Market</p>
+						<p class="slide__title-sub">Odongdo</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-7" data-layout="layout7">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원30.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원9.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원88.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수금오도7.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수금오도20.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수금오도68.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">5.18 Memorial Park</p>
+						<p class="slide__title-sub">Geumo-do</p>
 					</div>
 				</div><!-- /slide -->
 				<nav class="slideshow__nav slideshow__nav--arrows">

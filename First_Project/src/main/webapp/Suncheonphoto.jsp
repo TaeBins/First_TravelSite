@@ -57,68 +57,68 @@
 			<div class="slideshow" tabindex="0">
 				<div class="slide slide--layout-1" data-layout="layout1">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원119.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원88.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/스마트인재개발원0.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천왜성0.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천왜성7.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천왜성27.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Smart Talent Development Center</p>
+						<p class="slide__title-sub">Suncheon Dwarf</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-4" data-layout="layout4">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산16.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산19.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산21.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/무등산38.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천드라마세트장7.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천드라마세트장16.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천드라마세트장22.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천드라마세트장35.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Jirisan</p>
+						<p class="slide__title-sub">Drama Set</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-5" data-layout="layout5">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문525.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문3.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문7.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문9.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문10.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문164.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문172.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문230.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문233.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문234.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문259.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문277.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문318.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문394.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문395.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문531.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문421.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/국아문422.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원13.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원14.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원22.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원26.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원32.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원39.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원45.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원50.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원59.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원60.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원61.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원66.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원67.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원72.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원77.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">National Asian Culture Center</p>
+						<p class="slide__title-sub">Suncheon Bay Garden</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-6" data-layout="layout6">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장179.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장142.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/대인야시장177.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 습지8.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 습지4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 습지10.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">Daein Night Market</p>
+						<p class="slide__title-sub">Suncheon Bay Wetland</p>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-7" data-layout="layout7">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원30.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원9.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Gwangju/5.18기념공원88.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/민속마을1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/민속마을9.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/민속마을28.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<p class="slide__title-sub">5.18 Memorial Park</p>
+						<p class="slide__title-sub">Folk Village</p>
 					</div>
 				</div><!-- /slide -->
 				<nav class="slideshow__nav slideshow__nav--arrows">

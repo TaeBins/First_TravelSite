@@ -16,10 +16,7 @@
 body {
 }
 
-header {
-	padding: 50px 0;
-}
-
+header 
 header h1 {
 	color: white;
 	text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.4);

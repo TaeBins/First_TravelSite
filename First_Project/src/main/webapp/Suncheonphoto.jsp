@@ -164,7 +164,7 @@
 			<div class="slideshow" tabindex="0">
 				<div class="slide slide--layout-1" data-layout="layout1">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천왜성48.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천왜성58.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천왜성7.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천왜성27.jpg);"></div></div>
 					</div>

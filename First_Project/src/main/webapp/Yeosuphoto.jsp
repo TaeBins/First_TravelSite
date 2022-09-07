@@ -165,8 +165,8 @@
 				<div class="slide slide--layout-1" data-layout="layout1">
 					<div class="slide-imgwrap">
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수세계박람회장2.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수세계박람회장80.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수세계박람회장97.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수세계박람회장56.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Yeosu/여수세계박람회장85.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
 						<p class="slide__title-sub">Yeosu Expo</p>

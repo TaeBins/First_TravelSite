@@ -32,7 +32,7 @@ public class IdselectCon implements Command {
 		} else {
 			System.out.println("아이디 찾기 실패");
 			
-			moveURL = "Login.jsp";
+			moveURL = "Member.jsp";
 		}
 		
 		return moveURL;

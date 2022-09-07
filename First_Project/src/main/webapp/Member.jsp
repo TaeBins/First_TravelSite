@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css2/slick.css">
     <!-- style CSS -->
     <link rel="stylesheet" href="css2/style.css">
-    <link rel="stylesheet" href="css2/Login.css">
+    <link rel="stylesheet" href="css2/Member.css">
 	<script src="./jquery-3.6.0.js"></script>
 </head>
 <body>
@@ -91,7 +91,7 @@
                                     </li>
                             <% MemberDTO log = (MemberDTO)session.getAttribute("info");
                             if (log == null) {%><li  class="nav-item">
-                            <a class="nav-link" href="Login.jsp"><i class="bi bi-box-arrow-in-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                            <a class="nav-link" href="Member.jsp"><i class="bi bi-box-arrow-in-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
 						  	<path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
 						  	<path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
 							</svg> Login</i></a>
@@ -121,6 +121,9 @@
     </header>
     <!-- Header part end-->
     
+    <br>
+    <br>
+    
 	<!-- Mixins start -->
 	<div class="donta">
 	  <div class="card"></div>
@@ -149,22 +152,39 @@
 	    <h1 class="title">Register
 	      <div class="close"></div>
 	    </h1>
-	    <form>
+	    <form action="JoinCon.do" method="post">
 	      <div class="input-donta">
-	        <input type="#{type}" id="#{label}" />
-	        <button id="btn" class="idcheckbott" type="button">중복확인</button>
+	      	<table>
+	        <td><input type="text" id="#{label}" name="mb_id" required="required"/></td>
 			<p id="idCheck"></p>
-	        <label for="#{label}">Username</label>
+	        <td><button id="btnn" class="idcheckbott" type="button">중복확인</button></td>
+	        <label for="#{label}">UserID</label>
 	        <div class="bar"></div>
+	        </table>
 	      </div>
 	      <div class="input-donta">
-	        <input type="#{type}" id="#{label}" required="required"/>
+	        <input type="password" id="#{label}" name="mb_pw" required="required"/>
 	        <label for="#{label}">Password</label>
 	        <div class="bar"></div>
 	      </div>
 	      <div class="input-donta">
-	        <input type="#{type}" id="#{label}" required="required"/>
-	        <label for="#{label}">Repeat Password</label>
+	        <input type="text" id="#{label}" name="mb_nick" required="required"/>
+	        <label for="#{label}">Nick Name</label>
+	        <div class="bar"></div>
+	      </div>
+	      <div class="input-donta">
+	        <input type="text" id="#{label}" name="mb_phone" required="required"/>
+	        <label for="#{label}" minlength="11" maxlength="11" >Phone</label>
+	        <div class="bar"></div>
+	      </div>
+	      <div class="input-donta">
+	        <input type="text" id="#{label}" name="mb_birthdate" required="required"/>
+	        <label for="#{label}" minlength="6" maxlength="6">brith</label>
+	        <div class="bar"></div>
+	      </div>
+	      <div class="input-donta">
+	        <input type="text" id="#{label}" name="mb_hint" required="required"/>
+	        <label for="#{label}" placeholder="보물 제1호는?">hint</label>
 	        <div class="bar"></div>
 	      </div>
 	      <div class="button-donta">
@@ -174,6 +194,15 @@
 	  </div>
 	</div>
 	<!-- Mixins end -->
+	<script type="text/javascript">
+	$('.toggle').on('click', function() {
+	  $('.donta').stop().addClass('active');
+	});
+
+	$('.close').on('click', function() {
+	  $('.donta').stop().removeClass('active');
+	});
+	</script>
 
 	<!-- footer part start-->
 	    <footer class="footer-area">
@@ -247,37 +276,50 @@
 	    </footer>
 	<!-- footer part end-->
 
-    <!-- jquery plugins here-->
-    <script src="js2/jquery-1.12.1.min.js"></script>
-    <!-- popper js -->
-    <script src="js2/popper.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js2/bootstrap.min.js"></script>
-    <!-- magnific js -->
-    <script src="js2/jquery.magnific-popup.js"></script>
-    <!-- swiper js -->
-    <script src="js2/owl.carousel.min.js"></script>
-    <!-- masonry js -->
-    <script src="js2/masonry.pkgd.js"></script>
-    <!-- masonry js -->
-    <script src="js2/jquery.nice-select.min.js"></script>
-    <script src="js2/gijgo.min.js"></script>
-    <!-- contact js -->
-    <script src="js2/jquery.ajaxchimp.min.js"></script>
-    <script src="js2/jquery.form.js"></script>
-    <script src="js2/jquery.validate.min.js"></script>
-    <script src="js2/mail-script.js"></script>
-    <script src="js2/contact.js"></script>
-    <!-- custom js -->
-    <script src="js2/custom.js"></script>
-	<script type="text/javascript">
-	$('.toggle').on('click', function() {
-	  $('.donta').stop().addClass('active');
-	});
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/js/jquery.scrolly.min.js"></script>
+   <script src="assets/js/jquery.scrollex.min.js"></script>
+   <script src="assets/js/skel.min.js"></script>
+   <script src="assets/js/util.js"></script>
+   <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+   <script src="assets/js/main.js"></script>
+   <!-- 아이디 중복체크 ajax -->
+   <script type="text/javascript">
+      // 아이디 중복체크 버튼을 눌렀을 때!
+      $('#btnn').on('click', function() {
+         // 사용자가 입력한 email 가져오기
+         // input태그인데 name=email인 요소의 값을 가져올 것.
+         // 2개(로그인, 회원가입)이기 때문에 인덱스 번호 사용해서 회원가입에 있는 요소의 값을 가져올 것.
+         var mb_id = $('input[name=mb_id]').eq('1').val();
+         console.log(mb_id);
 
-	$('.close').on('click', function() {
-	  $('.donta').stop().removeClass('active');
-	});
-	</script>
+         // ajax사용해서 비동기통신으로 아이디가 있는지 없는지 체크 후 결과값 받아오기
+         $.ajax({
+            /* url : 어디와 통신을 할 것인지? action에 작성하는 값과 비슷 */
+            url : "IdCheckCon.do",
+            /* data : url작성한 곳에 데이터를 보낼 때 */
+            data : {
+               "mb_id" : mb_id
+            },
+            /* dataType : 결과값을 어떤 타입으로 받아올 것인지(json, text..) */
+            dataType : "text",
+            /* success : 통신 성공시 */
+            success : function(result) {
+               if (result == 'true') {
+                  $('#idCheck').html("아이디가 중복됩니다!");
+               } else {
+                  $('#idCheck').html("생성 가능한 아이디입니다!");
+               }
+            },
+            /* error : 통신 실패 시 */
+            error : function(e) {
+               alert("실패");
+               console.log(e)
+            }
+
+         })
+
+      });
+   </script>
 </body>
 </html>

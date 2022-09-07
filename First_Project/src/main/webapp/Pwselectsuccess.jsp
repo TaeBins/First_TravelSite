@@ -32,7 +32,7 @@
 <!-- style CSS -->
 <link rel="stylesheet" href="css2/style.css">
 <link rel="stylesheet" href="css2/Pwselect.css">
-<link rel="stylesheet" href="css2/Join.css">
+<link rel="stylesheet" href="css2/Member.css">
 </head>
 
 <body>
@@ -93,7 +93,7 @@
 									MemberDTO log = (MemberDTO) session.getAttribute("info");
 									if (log == null) {
 									%><li class="nav-item">
-										<a class="nav-link" href="Login.jsp"><i
+										<a class="nav-link" href="Member.jsp"><i
 											class="bi bi-box-arrow-in-right"><svg
 													xmlns="http://www.w3.org/2000/svg" width="16" height="16"
 													fill="currentColor" class="bi bi-box-arrow-in-right"
@@ -175,7 +175,7 @@
 					<%=pw%>입니다.
 				</h3>
 				<br><br>
-	    		<button class="Loginclick" onclick='location.href="Login.jsp"'>로그인하기</button>
+	    		<button class="botto" onclick='location.href="Member.jsp"'>로그인하기</button>
 
 			</form>
 		</div>

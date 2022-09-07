@@ -18,6 +18,7 @@ public class JoinCon implements Command {
 		// 데이터 받아오기
 		String mb_id = request.getParameter("mb_id");
 		String mb_pw = request.getParameter("mb_pw");
+		System.out.println(mb_pw);
 		String mb_nick = request.getParameter("mb_nick");
 		String mb_phone = request.getParameter("mb_phone");
 		String mb_birthdate = request.getParameter("mb_birthdate");

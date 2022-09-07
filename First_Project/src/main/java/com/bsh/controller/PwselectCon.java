@@ -34,7 +34,7 @@ public class PwselectCon implements Command {
 		} else {
 			System.out.println("비밀번호 찾기 실패");
 			
-			moveURL = "Login.jsp";
+			moveURL = "Member.jsp";
 		}
 		
 		

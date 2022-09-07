@@ -185,24 +185,24 @@
 				</div><!-- /slide -->
 				<div class="slide slide--layout-5" data-layout="layout5">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원1.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원2.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원4.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원13.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원14.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원22.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원26.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원32.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원39.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원45.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원50.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원59.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원60.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원61.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원66.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원67.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원72.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 정원77.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원2.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원13.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원14.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원22.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원26.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원32.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원39.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원45.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원50.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원59.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원60.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원61.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원66.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원67.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원72.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만정원77.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
 						<p class="slide__title-sub">Suncheon Bay Garden</p>
@@ -210,9 +210,9 @@
 				</div><!-- /slide -->
 				<div class="slide slide--layout-6" data-layout="layout6">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 습지8.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 습지4.jpg);"></div></div>
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만 습지10.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만습지8.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만습지4.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Suncheon/순천만습지10.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
 						<p class="slide__title-sub">Suncheon Bay Wetland</p>

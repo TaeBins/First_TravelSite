@@ -20,12 +20,12 @@ public class MessageDAO {
 	}
 	
 	// 나에게 온 메시지 조회
-	public ArrayList<MessageDTO> showMessage(String id) {
+	public ArrayList<MessageDTO> showMessage() {
 		SqlSession session = sqlSessionFactory.openSession(true);
-		ArrayList<MessageDTO> show = (ArrayList)session.selectList("showMessage", id);
+		ArrayList<MessageDTO> msg_list = (ArrayList)session.selectList("showMessage");
 		session.close();
 		
-		return show;
+		return msg_list;
 	}
 	
 	public int deleteMessage (String id) {
@@ -36,9 +36,9 @@ public class MessageDAO {
 		return row;
 	}
 	
-	public int deleteMessageOne (int num) {
+	public int deleteMessageOne (int q_seq) {
 		SqlSession session = sqlSessionFactory.openSession(true);
-		int row = session.delete("deleteMessageOne", num);
+		int row = session.delete("deleteMessageOne", q_seq);
 		session.close();
 		
 		return row;

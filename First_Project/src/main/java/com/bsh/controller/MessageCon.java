@@ -2,7 +2,6 @@ package com.bsh.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import com.bsh.command.Command;
 import com.bsh.model.MessageDAO;
@@ -12,6 +11,7 @@ public class MessageCon implements Command {
 
 	public String execute(HttpServletRequest request, HttpServletResponse response) {
 		
+		response.setCharacterEncoding("UTF-8");
 //		HttpSession session = request.getSession();
 //		session.getAttribute()
 		

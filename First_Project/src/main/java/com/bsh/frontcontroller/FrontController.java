@@ -74,7 +74,7 @@ public class FrontController extends HttpServlet {
 		} else if (requestURI.equals("PwCheckCon.do")) {
 			con = new PwCheckCon();
 			
-		}
+		} 
 
 		String moveURL = con.execute(request, response);
 

@@ -9,7 +9,7 @@
   		</insert>
   		
   		<select id="showMessage" parameterType="String" resultType="MessageDTO">
-  			select * from bsh_message where recipient = #{id}
+  			select * from bsh_qna
   		</select>
   		
   		<delete id="deleteMessage" parameterType="String">
@@ -17,7 +17,7 @@
   		</delete>
   		
   		<delete id="deleteMessageOne" parameterType="int">
-  			delete from bsh_message where Num = #{num}
+  			delete from bsh_qna where q_seq = #{q_seq}
   		</delete>
   		
   </mapper>

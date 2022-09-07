@@ -1,3 +1,7 @@
+<%@page import="com.bsh.model.MessageDTO"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="com.bsh.model.MessageDAO"%>
+<%@page import="com.bsh.model.MemberDAO"%>
 <%@page import="com.bsh.model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -29,6 +33,8 @@
 <link rel="stylesheet" href="css2/slick.css">
 <!-- style CSS -->
 <link rel="stylesheet" href="css2/style.css">
+<!-- style CSS -->
+<link rel="stylesheet" href="css2/Message.css">
 </head>
 
 <body>
@@ -73,7 +79,7 @@
 									<%
 									MemberDTO log = (MemberDTO) session.getAttribute("info");
 									if (log == null) {
-									%><li class="nav-item"><a class="nav-link" href="Member.jsp">
+									%><li class="nav-item"><a class="nav-link" href="Login.jsp">
 											<i class="bi bi-box-arrow-in-right"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
 						  	<path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
 						  	<path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
@@ -122,6 +128,66 @@
 	<!-- Header part end-->
 
 	<!-- breadcrumb start-->
+	
+	<!-- breadcrumb start-->
+
+	<!-- ================ contact section start ================= -->
+	<%
+	ArrayList<MessageDTO> msg_list = new ArrayList<MessageDTO>();
+	if (log.getMb_id().equals("admin")) {
+		msg_list = new MessageDAO().showMessage();
+	%>
+	<div class="container-taebins">
+		<div class="container-TB">
+			<svg viewBox="0 0 960 300">
+    <symbol id="s-text">
+      <text text-anchor="middle" x="50%" y="80%">QnA List</text>
+    </symbol>
+
+    <g class="g-ants">
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+  </svg>
+		</div>
+		<div>
+			<table>
+				<thead>
+					<tr>
+						<td width="100px">NO</td>
+						<td>TITLE</td>
+						<td>UserID</td>
+						<td>DATE</td>
+						<td>DEL</td>
+					</tr>
+				</thead>
+				<tbody>
+					<%
+					for (int i = 0; i < msg_list.size(); i++) {
+					%>
+					<tr>
+						<td width="100px"><%= i + 1%></td>
+						<td><%=msg_list.get(i).getQ_title()%></td>
+						<td><%=msg_list.get(i).getMb_id()%></td>
+						<td><%=msg_list.get(i).getQ_date()%></td>
+						<td>
+							<form action="DeleteOneCon.do" method="post">
+								<input type="hidden" name="q_seq" value="<%=msg_list.get(i).getQ_seq()%>">
+								<input class ="tb-btn" type="submit" value="DEL">
+							</form>
+						</td>
+					</tr>
+					<%
+					}
+					%>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<%
+	} else {
+	%>
 	<section class="breadcrumb breadcrumb_bg3">
 		<div class="container">
 			<div class="row">
@@ -135,9 +201,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- breadcrumb start-->
-
-	<!-- ================ contact section start ================= -->
 	<section class="contact-section">
 		<div class="container">
 			<div class="row">
@@ -166,7 +229,7 @@
 							</div>
 						</div>
 						<div>
-							<input type="hidden" name="mb_id" value="<%= log.getMb_id() %>">
+							<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
 						</div>
 						<div class="form-group mt-3" align="center">
 							<button type="submit" class="button button-contactForm btn_1">Send Message</button>
@@ -205,6 +268,9 @@
 			</div>
 		</div>
 	</section>
+	<%
+	}
+	%>
 	<!-- ================ contact section end ================= -->
 
 	<!-- footer part start-->

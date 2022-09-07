@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bsh.mapper.WishPlaceMapper">
+	<insert id="wishplace" parameterType="MemberDTO">
+		insert into BSH_WISH_PLACE values(bsh_wish_place_wp_seq.nextval, bsh_wish_place_place_seq.nextval, SYSDATE, #{mb_id})
+	</insert>
+	
+	<select id="wishplaceall" parameterType="MemberDTO" resultType="MemberDTO">
+		select * from BSH_WISH_PLACE where mb_id =#{mb_id}
+	</select>
+	
+</mapper>

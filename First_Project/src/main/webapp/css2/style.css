@@ -327,8 +327,6 @@ body {
   display: inline-block;
   font-size: 45px;
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   transform: translate(3px, -10px);
 }
 .card.alt .title,

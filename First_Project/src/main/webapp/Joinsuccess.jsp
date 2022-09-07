@@ -31,7 +31,7 @@
     <!-- style CSS -->
     <link rel="stylesheet" href="css2/style.css">
     <link rel="stylesheet" href="css2/Login.css">
-    <link rel="stylesheet" href="css2/Join.css">
+    <link rel="stylesheet" href="css2/Member.css">
 </head>
 
 <body>
@@ -131,7 +131,7 @@
 	    		<% String nick = (String)request.getAttribute("mb_nick"); %>
 	    		<h3><%= nick %>님 회원가입을 환영합니다!</h3>
 	    		<br><br>
-	    		<button class="Loginclick" onclick='location.href="Login.jsp"'>로그인하기</button>
+	    		<button class="botto" onclick='location.href="Member.jsp"'>로그인하기</button>
 	    	</div>
     </div>
 

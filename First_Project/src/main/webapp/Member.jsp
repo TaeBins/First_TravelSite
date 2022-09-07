@@ -131,12 +131,12 @@
 	    <h1 class="title">Login</h1>
 	    <form action="LoginCon.do" method="post">
 	      <div class="input-donta">
-	        <input type="#{type}" id="#{label}" name="mb_id"/>
+	        <input type="text" id="#{label}" name="mb_id"/>
 	        <label for="#{label}">ID</label>
 	        <div class="bar"></div>
 	      </div>
 	      <div class="input-donta">
-	        <input type="#{type}" id="#{label}" name="mb_pw"/>
+	        <input type="password" id="#{label}" name="mb_pw"/>
 	        <label for="#{label}">Password</label>
 	        <div class="bar"></div>
 	      </div>

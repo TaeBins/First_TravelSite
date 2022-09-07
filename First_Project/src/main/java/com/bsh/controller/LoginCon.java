@@ -16,7 +16,9 @@ public class LoginCon implements Command {
 
 		// 데이터 받아오기
 		String mb_id = request.getParameter("mb_id");
+		System.out.println(mb_id);
 		String mb_pw = request.getParameter("mb_pw");
+		System.out.println(mb_pw);
 
 		// DTO로 묶기
 		MemberDTO dto = new MemberDTO(mb_id, mb_pw);

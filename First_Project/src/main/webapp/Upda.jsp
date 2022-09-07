@@ -31,7 +31,7 @@
 <!-- style CSS -->
 <link rel="stylesheet" href="css2/style.css">
 <link rel="stylesheet" href="css2/Update.css">
-<link rel="stylesheet" href="css2/Join.css">
+<link rel="stylesheet" href="css2/Pwselect.css">
 </head>
 
 <body>
@@ -128,8 +128,9 @@
 			<form action="PwCheckCon.do" method="post">
 				<h3 align="center">비밀번호 확인</h3>
 				<br>
-				<input type="text" name="mb_pw" class="join-fieldeds" placeholder="비밀번호">
+				<input type="text" name="mb_pw" class="pwselect-field" placeholder="비밀번호">
 				<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
+				<br>
 				<br>
 				<input type="submit" class="pwsubmit-btn" value="확인하기">
 			</form>

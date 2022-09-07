@@ -8,7 +8,7 @@
 body {
 	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
 	color: #5f6669;
-	background: #1e2021;
+	background: #ffffff;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	overflow-x: hidden;
@@ -47,39 +47,39 @@ a:focus {
 
 /* Buttons */
 
-.btn {
+.btntntn {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
 	pointer-events: auto;
-	color: #ffeb3b;
+	color: skyblue;
 	border: none;
 	background: none;
 }
 
-.btn:focus {
+.btntntn:focus {
 	outline: none;
 }
 
-.btn:hover {
-	color: #fff;
+.btntntn:hover {
+	color: orange;
 }
 
-.btn--arrow {
+.btntntn--arrow {
 	font-size: 1.5em;
 	display: block;
 }
 
-.btn--arrow:nth-child(2) {
+.btntntn--arrow:nth-child(2) {
 	margin: 0 0 0 0.5em;
 }
 
-.btn--arrow .icon {
+.btntntn--arrow .icon {
 	height: 0.5em;
 }
 
-.btn--github {
+.btntntn--github {
 	font-size: 1.25em;
 	position: fixed;
 	right: 0;
@@ -88,8 +88,8 @@ a:focus {
 	color: #fff;
 }
 
-.btn--github:hover,
-.btn--github:focus {
+.btntntn--github:hover,
+.btntntn--github:focus {
 	color: #ffeb3b;
 }
 
@@ -301,7 +301,7 @@ a:focus {
 		bottom: 1em;
 		left: 0.5em;
 	}
-	.btn--github {
+	.btntntn--github {
 		margin: 0 0.25em 0.75em 0;
 	}
 

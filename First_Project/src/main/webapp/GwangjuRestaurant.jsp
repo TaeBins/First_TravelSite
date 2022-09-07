@@ -177,7 +177,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="javascript:void(0)"> <img src="img2/g1-2.jpg"  ><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g1-2.jpg"  ><span>Beaches</span></a>
 								</div>
 							</div>
 						</div>

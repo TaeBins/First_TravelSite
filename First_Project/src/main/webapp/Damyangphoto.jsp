@@ -174,7 +174,7 @@
 				</div><!-- /slide -->
 				<div class="slide slide--layout-4" data-layout="layout4">
 					<div class="slide-imgwrap">
-						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Damyang/금성산성1.jpg);"></div></div>
+						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Damyang/금성산성13.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Damyang/금성산성2.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Damyang/금성산성3.jpg);"></div></div>
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Damyang/금성산성5.jpg);"></div></div>

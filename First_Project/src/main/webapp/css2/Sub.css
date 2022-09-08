@@ -1,14 +1,66 @@
 @charset "EUC-KR";
-@import url(https://fonts.googleapis.com/css?family=Roboto&subset=latin,cyrillic-ext,latin-ext,cyrillic,greek-ext,greek,vietnamese);
-@font-face {
-	font-family: "demurecontrols";
-	src: url("http://cssslider.com/sliders/pen/demurecontrols.eot?cssslidertheme=demure");
-	src: url("http://cssslider.com/sliders/pen/demurecontrols.eot#iefix?cssslidertheme=demure") format("embedded-opentype"),
-			url("http://cssslider.com/sliders/pen/demurecontrols.woff?cssslidertheme=demure") format("woff"),
-			url("http://cssslider.com/sliders/pen/demurecontrols.ttf?cssslidertheme=demure") format("truetype"),
-			url("http://cssslider.com/sliders/pen/demurecontrols.svg#demure?cssslidertheme=demure") format("svg");
-	font-weight: normal;
-	font-style: normal;
+
+.dede {
+	padding-top: 20px;
+	border-bottom: 1px solid #ced8e3;
+}
+
+.ththth { 
+	width: 500px;
+    font-size: .9rem;
+    color: rgba(79,79,79,0.6);
+    line-height: 1.7;
+    text-align: left;
+    vertical-align: top;
+    padding-right: 10px;
+    padding-left: 400px;
+    padding-bottom: 5px;
+}
+
+.tdtdtd {
+	width: 500px;
+	font-size: .9rem;
+    color: #4f4f4f;
+    line-height: 1.7;
+    text-align: left;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 991px) {
+	.ththth {
+	width: 300px;
+	font-size: 18px;
+	padding-left: 60px;
+	}
+}
+
+@media (max-width: 991px) {
+	.tdtdtd {
+	font-size: 18px;
+	}
+}
+
+.mapapi {
+	padding-left: 450px;
+	padding-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+	.mapapi {
+	padding-left: 30px;
+	}
+}
+
+#map {
+	width: 800px;
+	height: 400px;
+}
+
+@media (max-width: 991px) {
+	#map {
+	width: 470px;
+	}
 }
 
 .text-1 {
@@ -21,8 +73,7 @@
 .csslider1 {
 	display: inline-block;
 	position: relative;
-	max-width: 480px;
-	
+	max-width: 700px;
 	width: 100%;
 	margin-top: 10px;
 }

@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/Deukryang1.jpg" width="555px" height="396px">
+                       <a href="Deukryang.jsp"><img src="img2/places/Deukryang1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Deukryang Bay Sea</h3>

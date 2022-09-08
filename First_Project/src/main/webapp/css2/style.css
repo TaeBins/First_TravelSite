@@ -522,6 +522,14 @@ input:hover, input:focus {
    padding-top: 50px;
 }
 
+.sectioneded_padding {
+	padding-top: 30px;
+}
+
+.sectionedet_padding {
+	padding-bottom: 20px;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
   .section_padding {

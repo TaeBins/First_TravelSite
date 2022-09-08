@@ -12,8 +12,8 @@
   			select * from bsh_qna
   		</select>
   		
-  		<delete id="deleteMessage" parameterType="String">
-  			delete from bsh_message where recipient = #{id}
+  		<delete id="deleteMessage">
+  			delete from bsh_qna
   		</delete>
   		
   		<delete id="deleteMessageOne" parameterType="int">

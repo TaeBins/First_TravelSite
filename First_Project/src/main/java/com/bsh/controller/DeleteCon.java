@@ -9,9 +9,8 @@ import com.bsh.model.MessageDAO;
 public class DeleteCon implements Command {
 
 	public String execute(HttpServletRequest request, HttpServletResponse response) {
-		String id = request.getParameter("id");
 
-		int row = new MessageDAO().deleteMessage(id);
+		int row = new MessageDAO().deleteMessage();
 
 		if (row > 0) {
 			System.out.println("메시지 삭제 성공");

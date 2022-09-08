@@ -31,7 +31,7 @@
 <!-- style CSS -->
 <link rel="stylesheet" href="css2/style.css">
 <link rel="stylesheet" href="css2/Update.css">
-<link rel="stylesheet" href="css2/Join.css">
+<link rel="stylesheet" href="css2/Pwselect.css">
 </head>
 
 <body>
@@ -128,8 +128,9 @@
 			<form action="PwCheckCon.do" method="post">
 				<h3 align="center">비밀번호 확인</h3>
 				<br>
-				<input type="text" name="mb_pw" class="join-fieldeds" placeholder="비밀번호">
+				<input type="password" name="mb_pw" class="pwselect-field" placeholder="비밀번호" required>
 				<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
+				<br>
 				<br>
 				<input type="submit" class="pwsubmit-btn" value="확인하기">
 			</form>
@@ -177,7 +178,7 @@
 					<div class="single-footer-widget footer_icon">
 						<h4>Contact Us</h4>
 						<p>
-							<a href="https://smhrd.or.kr">Smart Talent Development Center, Gwangju, korea</a>
+							<a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development Center, Gwangju, korea</a>
 						</p>
 						<br>
 						<p>+062 224 4560 | 61927</p>

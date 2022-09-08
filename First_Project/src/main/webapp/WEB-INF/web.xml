@@ -65,6 +65,18 @@
   	<servlet-class>com.bsh.frontcontroller.FrontController</servlet-class>
   </servlet>
   <servlet>
+  	<servlet-name>WishCon</servlet-name>
+  	<display-name>WishCon</display-name>
+  	<description></description>
+  	<servlet-class>com.bsh.controller.WishCon</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>WishselectCon</servlet-name>
+  	<display-name>WishselectCon</display-name>
+  	<description></description>
+  	<servlet-class>com.bsh.controller.WishselectCon</servlet-class>
+  </servlet>
+  <servlet>
   	<servlet-name>test</servlet-name>
   	<display-name>test</display-name>
   	<description></description>
@@ -105,6 +117,14 @@
   <servlet-mapping>
   	<servlet-name>DeleteOneCon</servlet-name>
   	<url-pattern>/DeleteOneCon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WishCon</servlet-name>
+  	<url-pattern>/WishCon</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>WishselectCon</servlet-name>
+  	<url-pattern>/teWishselectConst</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
   	<servlet-name>FrontController</servlet-name>

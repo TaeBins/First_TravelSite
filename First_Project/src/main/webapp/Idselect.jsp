@@ -131,11 +131,11 @@
 		    		<h3 align="center">아이디 찾기</h3>
 		    		<br>
 		    		<h5>가입시 전화번호</h5>
-		    		<input type = "text" minlength="11" maxlength="11" name="mb_phone" class = "idselect-field" placeholder="- 제외 번호 11자리">
+		    		<input type = "text" minlength="11" maxlength="11" name="mb_phone" class = "idselect-field" placeholder="- 제외 번호 11자리" required>
 		    		<h5>생년월일</h5>
-		    		<input type = "text" minlength="6" maxlength="6" name="mb_birthdate" class = "idselect-field" placeholder="YYMMDD">
+		    		<input type = "text" minlength="6" maxlength="6" name="mb_birthdate" class = "idselect-field" placeholder="YYMMDD" required>
 		    		<h5>힌트</h5>
-		    		<input type = "text" name="mb_hint" class = "idselect-field" placeholder="보물 제1호는?">
+		    		<input type = "text" name="mb_hint" class = "idselect-field" placeholder="보물 제1호는?" required>
 		    		<br>
 		    		<input type = "submit" class = "idsubmit-btn" value="제출">
 		    	</form>
@@ -187,7 +187,7 @@
                 <div class="col-sm-6 col-md-3">
                     <div class="single-footer-widget footer_icon">
                         <h4>Contact Us</h4>
-                        <p><a href="https://smhrd.or.kr">Smart Talent Development Center, Gwangju, korea</a></p><br>
+                        <p><a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development Center, Gwangju, korea</a></p><br>
                         <p>+062 224 4560 | 61927</p>
                         <span>JEOLA DOING@gmail.com</span>
                         <div class="social-icons">

@@ -28,9 +28,9 @@ public class MessageDAO {
 		return msg_list;
 	}
 	
-	public int deleteMessage (String id) {
+	public int deleteMessage() {
 		SqlSession session = sqlSessionFactory.openSession(true);
-		int row = session.delete("deleteMessage", id);
+		int row = session.delete("deleteMessage");
 		session.close();
 		
 		return row;

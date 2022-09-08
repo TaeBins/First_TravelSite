@@ -183,6 +183,9 @@
 					%>
 				</tbody>
 			</table>
+			<form action="DeleteCon.do" method="post">
+			<input class = "clear-btn" type="submit" value="Clear">
+			</form>
 		</div>
 	</div>
 	<%

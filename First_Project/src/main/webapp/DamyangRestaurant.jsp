@@ -188,13 +188,13 @@
 					</div>
 				</div>
 			</div>
-			<div class="row" style="width: 1100px;">
+			<div class="row" >
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g1-2.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g1-2.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -223,7 +223,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g2-6.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g2-6.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -252,13 +252,13 @@
 	<!-- about us css start-->
 	<section class="hotel_list sections_padding single_page_hotel_list">
 		<div class="container">
-			<div class="row" style="width: 1100px;">
+			<div class="row">
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g3-2.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g3-2.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -286,7 +286,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g4-7.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g4-7.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -302,17 +302,10 @@
 							</div>
 							<p>London, United Kingdom</p>
 							<p>Date: 23 Aug 2019</p>
-							<form action="wishCon.do" >
-	                            <div align="left">
-	                            	<button type="button" class="btn btn-outline-danger">
-               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
-  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
-  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
-										</svg>
-                							wish
-	              					</button>
-	              				</div>
-							</form>
+							<p>Duration: 5 days</p>
+							<h5>
+								From <span>$500</span>
+							</h5>
 						</div>
 					</div>
 				</div>
@@ -324,13 +317,13 @@
 	<!-- about us css start-->
 	<section class="hotel_list section_padding single_page_hotel_list">
 		<div class="container">
-			<div class="row" style="width: 1100px;">
+			<div class="row">
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g5-6.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g5-6.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -359,7 +352,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g6-2.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g6-2.jpg"></a>
 								</div>
 							</div>
 						</div>

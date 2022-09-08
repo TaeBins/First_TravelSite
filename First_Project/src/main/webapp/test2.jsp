@@ -15,7 +15,7 @@
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
-  height: 100vh;
+  height: 60vh;
 }
 .fnc-slider *, .fnc-slider *:before, .fnc-slider *:after {
   box-sizing: border-box;
@@ -103,7 +103,7 @@
   right: 60%;
   top: 15%;
   width: 50.25vh;
-  height: 67vh;
+  height: 0vh;
   margin-right: -90px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0, 6vh 0, 6vh 61vh, 44vh 61vh, 44vh 6vh, 6vh 6vh);
           clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 0, 6vh 0, 6vh 61vh, 44vh 61vh, 44vh 6vh, 6vh 6vh);
@@ -130,7 +130,7 @@
   left: 50%;
   top: 50%;
   width: 100vw;
-  height: 100vh;
+  height: 60vh;
   margin-left: -50vw;
   margin-top: -50vh;
   background-size: cover;
@@ -164,7 +164,7 @@
   overflow: hidden;
   position: relative;
   padding-right: 20px;
-  font-size: 50px;
+  font-size: 45px;
   color: #fff;
   word-spacing: 10px;
 }
@@ -343,7 +343,7 @@ body {
 .demo-cont {
   overflow: hidden;
   position: relative;
-  height: 100vh;
+  height: 60vh;
   perspective: 1500px;
   background: #000;
 }
@@ -453,7 +453,7 @@ body {
 }
 .example-slider .fnc-slide-4 .fnc-slide__inner,
 .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-  background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MDFfMjYz%2FMDAxNjU5Mjk3MjI5MzEx.LgaZvplaDA0lGRc7N_AkvBorPs1r_N9HgvtIGpSSz5Yg.zMs9XG0Su1_UA4oXheAz-gnmNl-fmMfPJ99WrLcN94Mg.JPEG.myserim2020%2F20220731%25A3%25DF200430.jpg&type=sc960_832");
+  background-image: url("img2/ss2.png");
 }
 .example-slider .fnc-slide-4 .fnc-slide__inner:before {
   content: "";
@@ -662,7 +662,7 @@ body {
         <div class="main_menu_iner">
             <div class="container">
                 <div class="row align-items-center ">
-                    <div class="col-lg-12">
+                    <div class="col-lg-12"> 	
                         <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
                             <a class="navbar-brand" href="Main.jsp"> <img src="img2/fivelogo.png" width="180px" height="80px" alt="logo"> </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"

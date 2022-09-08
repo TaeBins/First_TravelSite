@@ -250,5 +250,173 @@
 			});
 		})();
 		</script>
+			<!-- footer part start-->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-sm-6 col-md-5">
+					<div class="single-footer-widget" align="center">
+						<h4>Jeola Doing</h4>
+						<ul>
+							<li><a href="#">Gwangju</a></li>
+							<li><a href="#">Jeonju</a></li>
+							<li><a href="#">Damyang</a></li>
+							<li><a href="#">Jindo</a></li>
+							<li><a href="#">Bosung</a></li>
+							<li><a href="#">Yeosu</a></li>
+							<li><a href="#">Suncheon</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="single-footer-widget">
+						<h4>Subscribe Newsletter</h4>
+						<div class="form-wrap" id="mc_embed_signup">
+							<form target="_blank" action="#" method="get" class="form-inline">
+								<input class="form-control" name="EMAIL"
+									placeholder="Your Email Address"
+									onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Your Email Address '" required=""
+									type="email">
+								<button class="click-btn btn btn-default text-uppercase">
+									<i class="far fa-paper-plane"></i>
+								</button>
+								<div style="position: absolute; left: -5000px;">
+									<input name="b_36c4fd991d266f23781ded980_aefe40901a"
+										tabindex="-1" value="" type="text">
+								</div>
+
+								<div class="info"></div>
+							</form>
+						</div>
+						<p>Subscribe our newsletter to get update news and offers</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="single-footer-widget footer_icon">
+						<h4>Contact Us</h4>
+						<p>
+							<a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development
+								Center, Gwangju, korea</a>
+						</p>
+						<br>
+						<p>+062 224 4560 | 61927</p>
+						<span>JEOLA DOING@gmail.com</span>
+						<div class="social-icons">
+							<a href="#"><i class="ti-facebook"></i></a> <a href="#"><i
+								class="ti-twitter-alt"></i></a> <a href="#"><i
+								class="ti-pinterest"></i></a> <a href="#"><i
+								class="ti-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="copyright_part_text text-center">
+						<p class="footer-text m-0">
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							BSH &copy;
+							<script>
+								document.write(new Date().getFullYear());
+							</script>
+							Places & Foods | This page with <i class="ti-heart"
+								aria-hidden="true"></i> by <a href="Main.jsp" target="_blank">JEOLA
+								DOING</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer part end-->
+		<!-- footer part start-->
+	<footer class="footer-area">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-sm-6 col-md-5">
+					<div class="single-footer-widget" align="center">
+						<h4>Jeola Doing</h4>
+						<ul>
+							<li><a href="#">Gwangju</a></li>
+							<li><a href="#">Jeonju</a></li>
+							<li><a href="#">Damyang</a></li>
+							<li><a href="#">Jindo</a></li>
+							<li><a href="#">Bosung</a></li>
+							<li><a href="#">Yeosu</a></li>
+							<li><a href="#">Suncheon</a></li>
+						</ul>
+
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="single-footer-widget">
+						<h4>Subscribe Newsletter</h4>
+						<div class="form-wrap" id="mc_embed_signup">
+							<form target="_blank" action="#" method="get" class="form-inline">
+								<input class="form-control" name="EMAIL"
+									placeholder="Your Email Address"
+									onfocus="this.placeholder = ''"
+									onblur="this.placeholder = 'Your Email Address '" required=""
+									type="email">
+								<button class="click-btn btn btn-default text-uppercase">
+									<i class="far fa-paper-plane"></i>
+								</button>
+								<div style="position: absolute; left: -5000px;">
+									<input name="b_36c4fd991d266f23781ded980_aefe40901a"
+										tabindex="-1" value="" type="text">
+								</div>
+
+								<div class="info"></div>
+							</form>
+						</div>
+						<p>Subscribe our newsletter to get update news and offers</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="single-footer-widget footer_icon">
+						<h4>Contact Us</h4>
+						<p>
+							<a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development
+								Center, Gwangju, korea</a>
+						</p>
+						<br>
+						<p>+062 224 4560 | 61927</p>
+						<span>JEOLA DOING@gmail.com</span>
+						<div class="social-icons">
+							<a href="#"><i class="ti-facebook"></i></a> <a href="#"><i
+								class="ti-twitter-alt"></i></a> <a href="#"><i
+								class="ti-pinterest"></i></a> <a href="#"><i
+								class="ti-instagram"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-lg-12">
+					<div class="copyright_part_text text-center">
+						<p class="footer-text m-0">
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							BSH &copy;
+							<script>
+								document.write(new Date().getFullYear());
+							</script>
+							Places & Foods | This page with <i class="ti-heart"
+								aria-hidden="true"></i> by <a href="Main.jsp" target="_blank">JEOLA
+								DOING</a>
+							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- footer part end-->
 	</body>
 </html>

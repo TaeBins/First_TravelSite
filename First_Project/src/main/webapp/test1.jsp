@@ -1476,7 +1476,7 @@ only screen and (                max-resolution: 2dppx)  and (max-width: 480px) 
     <!-- hotel list css end -->
     
 
-<body style="background-color:#eeeeee; margin: auto; text-align: center;">
+<body margin: auto; text-align: center;">
 <!-- Start cssSlider.com -->
 	<div class='csslider1 autoplay '>
 		<input name="cs_anchor1" id='cs_slide1_0' type="radio" class='cs_anchor slide' >

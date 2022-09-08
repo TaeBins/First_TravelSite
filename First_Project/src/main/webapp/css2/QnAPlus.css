@@ -13,40 +13,33 @@
 	padding-left: 10%;
 	font-family: sans-serif;
 	font-weight: lighter;
+	
 }
-
-.tb-btn {
-	color: #EEEFF1;
-	font-size: 7px;
-	background-color: #64A4FF;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 5px;
-	border: 0;
-	box-shadow: 2px 2px 2px lightgray;
-	width: 70%;
-	border-radius: 5px;
+.UserName1{
+	text-align: left;
+	
 }
-
+.UserName2{
+	text-align: right;
+}
 table {
-	width: 100%;
+	width: 60%;
 	margin: auto;
 	border: 0.5px solid black;
 	border-collapse: collapse;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 	border-radius: 15px;
+	background-color: white;
 }
 
 tbody {
-	background-color: white;
 	overflow: auto;
 }
 
-thead, td {
-	text-align: center;
+tr{
+	padding:10%;
 }
-
 thead {
 	background-color: #64A4FF;
 	color: white;
@@ -73,18 +66,6 @@ thead {
 	font: 3.5em 'Qna List';
 }
 
-.clear-btn {
-	color: #EEEFF1;
-	font-size: 14px;
-	background-color: #64A4FF;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 5px;
-	border: 0;
-	box-shadow: 2px 2px 2px lightgray;
-	width: 10%;
-	border-radius: 5px;
-}
 
 .text-copy {
 	text-shadow: 1px 1px 1px white;

@@ -8,7 +8,7 @@
   			insert into bsh_qna values (bsh_qna_seq.nextval, #{q_title}, #{q_content}, #{q_file}, sysdate, #{mb_id})
   		</insert>
   		
-  		<select id="showMessage" parameterType="String" resultType="MessageDTO">
+  		<select id="showMessage" resultType="MessageDTO">
   			select * from bsh_qna
   		</select>
   		

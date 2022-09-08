@@ -1,5 +1,8 @@
-<%@page import="com.bsh.model.MemberDAO"%>
+<%@page import="java.util.List"%>
+<%@page import="com.bsh.model.MessageDTO"%>
 <%@page import="java.util.ArrayList"%>
+<%@page import="com.bsh.model.MessageDAO"%>
+<%@page import="com.bsh.model.MemberDAO"%>
 <%@page import="com.bsh.model.MemberDTO"%>
 <%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
 <!DOCTYPE html>
@@ -31,9 +34,8 @@
 <link rel="stylesheet" href="css2/slick.css">
 <!-- style CSS -->
 <link rel="stylesheet" href="css2/style.css">
-<link rel="stylesheet" href="css2/Update.css">
 <!-- style CSS -->
-<link rel="stylesheet" href="css2/ShowMember.css">
+<link rel="stylesheet" href="css2/QnAPlus.css">
 </head>
 
 <body>
@@ -78,34 +80,39 @@
 									<%
 									MemberDTO log = (MemberDTO) session.getAttribute("info");
 									if (log == null) {
-									%><li class="nav-item"><a class="nav-link" href="Member.jsp">
-											<i class="bi bi-box-arrow-in-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+									%><li class="nav-item"><a class="nav-link" href="Login.jsp">
+											<i class="bi bi-box-arrow-in-right"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
 						  	<path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z" />
 						  	<path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
-							</svg> Login</i>
+							</svg> Login
+											</i>
 										</a></li>
 									<%
 									} else {
 									%><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											<i class="bi bi-person-circle"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+											<i class="bi bi-person-circle"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
 													<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-													<path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" /></svg>User Menu</i>
+													<path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" /></svg> User Menu
+											</i>
 										</a>
 										<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 											<a href="Like.jsp" class="like" style="direction: none;">
-												&nbsp;&nbsp;<i class="bi bi-bookmark-heart-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16">
-														<path d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13.5zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" /></svg>Wish List</i>
+												&nbsp;&nbsp; <i class="bi bi-bookmark-heart-fill"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16">
+														<path d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13.5zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z" /></svg> Wish List
+												</i>
 											</a>
 											<hr class="dropdown-divider">
 											<a href="Upda.jsp" class="update">
-												&nbsp;&nbsp;<i class="bi bi-person-lines-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
-														<path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" /></svg>User information</i>
+												&nbsp;&nbsp; <i class="bi bi-person-lines-fill"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+														<path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z" /></svg> User information
+												</i>
 											</a>
 											<hr class="dropdown-divider">
 											<a href="LogoutCon.do" class="logout">
-												&nbsp;&nbsp;<i class="bi bi-box-arrow-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+												&nbsp;&nbsp; <i class="bi bi-box-arrow-right"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
 														<path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
-														<path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" /></svg>Logout</i>
+														<path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" /></svg> Logout
+												</i>
 											</a>
 										</div></li>
 									<%
@@ -120,16 +127,11 @@
 		</div>
 	</header>
 	<!-- Header part end-->
-	<%
-	ArrayList<MemberDTO> mem_list = new ArrayList<MemberDTO>();
-	if (log.getMb_id().equals("admin")) {
-		mem_list = new MemberDAO().showMember();
-	%>
-	<div class="container-taebins">
+<div class="container-taebins">
 		<div class="container-TB">
 			<svg class = "qna_set" viewBox="0 0 960 300">
     <symbol id="s-text">
-      <text text-anchor="middle" x="50%" y="80%">User List</text>
+      <text text-anchor="middle" x="50%" y="80%">QnA Plus</text>
     </symbol>
 
     <g class="g-ants">
@@ -143,62 +145,17 @@
 			<table>
 				<thead>
 					<tr>
-						<td>NO</td>
-						<td>ID</td>
-						<td>Nick</td>
-						<td>Phone</td>
-						<td>Birth</td>
-						<td>Date</td>
+						<td class = "UserName1">User > Taebin</td>
+						<td class = "UserName2">22.09.08</td>
 					</tr>
 				</thead>
 				<tbody>
-					<%
-					for (int i = 0; i < mem_list.size(); i++) {
-					%>
-					<tr>
-						<td><%=i + 1%></td>
-						<td><%=mem_list.get(i).getMb_id()%></td>
-						<td><%=mem_list.get(i).getMb_nick()%></td>
-						<td><%=mem_list.get(i).getMb_phone()%></td>
-						<td><%=mem_list.get(i).getMb_birthdate()%></td>
-						<td><%=mem_list.get(i).getMb_joindate()%></td>
-					</tr>
-					<%
-					}
-					%>
+				<tr><td colspan='2'>title</td></tr>
+				<tr><td colspan='2'>title</td></tr>
 				</tbody>
 			</table>
 		</div>
 	</div>
-	<%
-	} else {
-	%>
-	<div class="pwselect-form">
-		<div class="pwselect-logo" align="center">
-			<img src="img2/fivelogo2.png" width="300px">
-		</div>
-		<br>
-		<div align="center">
-			<form action="UpdateCon.do" method="post">
-				<h3 align="center">정보 수정</h3>
-				<br>
-				<h5>변경할 비밀번호</h5>
-				<input type="password" name="mb_pw" class="pwselect-field" placeholder="변경할 비밀번호" required>
-				<h5>닉네임</h5>
-				<input type="text" name="mb_nick" class="pwselect-field" placeholder="닉네임" required>
-				<h5>전화번호</h5>
-				<input type="text" minlength="11" maxlength="11" name="mb_phone" class="pwselect-field" placeholder="- 제외 번호 11자리" required>
-				<h5>힌트</h5>
-				<input type="text" name="mb_hint" class="pwselect-field" placeholder="보물 제1호는?" required>
-				<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
-				<br> <br>
-				<input type="submit" class="pwsubmit-btn" value="제출">
-			</form>
-		</div>
-	</div>
-	<%
-	}
-	%>
 	<!-- footer part start-->
 	<footer class="footer-area">
 		<div class="container">
@@ -241,7 +198,7 @@
 					<div class="single-footer-widget footer_icon">
 						<h4>Contact Us</h4>
 						<p>
-							<a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development Center, Gwangju, korea</a>
+							<a href="https://smhrd.or.kr">Smart Talent Development Center, Gwangju, korea</a>
 						</p>
 						<br>
 						<p>+062 224 4560 | 61927</p>
@@ -285,5 +242,28 @@
 	</footer>
 	<!-- footer part end-->
 
+	<!-- jquery plugins here-->
+	<script src="js2/jquery-1.12.1.min.js"></script>
+	<!-- popper js -->
+	<script src="js2/popper.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="js2/bootstrap.min.js"></script>
+	<!-- magnific js -->
+	<script src="js2/jquery.magnific-popup.js"></script>
+	<!-- swiper js -->
+	<script src="js2/owl.carousel.min.js"></script>
+	<!-- masonry js -->
+	<script src="js2/masonry.pkgd.js"></script>
+	<!-- masonry js -->
+	<script src="js2/jquery.nice-select.min.js"></script>
+	<script src="js2/gijgo.min.js"></script>
+	<!-- contact js -->
+	<script src="js2/jquery.ajaxchimp.min.js"></script>
+	<script src="js2/jquery.form.js"></script>
+	<script src="js2/jquery.validate.min.js"></script>
+	<script src="js2/mail-script.js"></script>
+	<script src="js2/contact.js"></script>
+	<!-- custom js -->
+	<script src="js2/custom.js"></script>
 </body>
 </html>

@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .container-taebins {
-	background: linear-gradient(120deg, #EBF5FF, #64AEFF);
+	background: linear-gradient(170deg, #EBF5FF, #64AEFF);
 	width: 100%;
 	height: auto;
 	margin: auto;
@@ -13,19 +13,6 @@
 	padding-left: 10%;
 	font-family: sans-serif;
 	font-weight: lighter;
-}
-
-.tb-btn {
-	color: #EEEFF1;
-	font-size: 7px;
-	background-color: #64A4FF;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 5px;
-	border: 0;
-	box-shadow: 2px 2px 2px lightgray;
-	width: 70%;
-	border-radius: 5px;
 }
 
 table {
@@ -52,6 +39,11 @@ thead {
 	color: white;
 }
 
+td {
+	padding: 10px;
+	margin: 10px;
+}
+
 .qna_set {
 	margin-top: -10%;
 }
@@ -71,19 +63,6 @@ thead {
 .container-TB.svg {
 	display: block;
 	font: 3.5em 'Qna List';
-}
-
-.clear-btn {
-	color: #EEEFF1;
-	font-size: 14px;
-	background-color: #64A4FF;
-	padding: 10px;
-	margin: 10px;
-	border-radius: 5px;
-	border: 0;
-	box-shadow: 2px 2px 2px lightgray;
-	width: 10%;
-	border-radius: 5px;
 }
 
 .text-copy {

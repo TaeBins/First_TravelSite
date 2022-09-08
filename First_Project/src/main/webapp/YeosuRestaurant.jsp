@@ -194,7 +194,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g1-2.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g1-2.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -223,7 +223,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g2-6.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g2-6.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -258,7 +258,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g3-2.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g3-2.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -286,7 +286,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g4-7.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g4-7.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -323,7 +323,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g5-6.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g5-6.jpg"></a>
 								</div>
 							</div>
 						</div>
@@ -352,7 +352,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g6-2.jpg"><span>Beaches</span></a>
+									<a href="test.jsp"> <img src="img2/g6-2.jpg"></a>
 								</div>
 							</div>
 						</div>

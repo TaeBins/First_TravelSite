@@ -2,22 +2,25 @@
 <!DOCTYPE mapper
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-  
-  <mapper namespace="com.smhrd.mapper.MessageMapper">
-  		<insert id="message" parameterType="MessageDTO">
-  			insert into bsh_qna values (bsh_qna_seq.nextval, #{q_title}, #{q_content}, #{q_file}, sysdate, #{mb_id})
-  		</insert>
-  		
-  		<select id="showMessage" resultType="MessageDTO">
-  			select * from bsh_qna
-  		</select>
-  		
-  		<delete id="deleteMessage">
-  			delete from bsh_qna
-  		</delete>
-  		
-  		<delete id="deleteMessageOne" parameterType="int">
-  			delete from bsh_qna where q_seq = #{q_seq}
-  		</delete>
-  		
-  </mapper>
+
+<mapper namespace="com.smhrd.mapper.MessageMapper">
+	<insert id="message" parameterType="MessageDTO">
+		insert into bsh_qna values (bsh_qna_seq.nextval, #{q_title}, #{q_content}, #{q_file}, sysdate, #{mb_id})
+	</insert>
+
+	<select id="showMessage" resultType="MessageDTO">
+		select * from bsh_qna
+	</select>
+
+	<select id="realshowMessage" parameterType="MessageDTO" resultType="MessageDTO">
+		select * from bsh_qna where mb_id=#{mb_id}
+	</select>
+	<delete id="deleteMessage">
+		delete from bsh_qna
+	</delete>
+
+	<delete id="deleteMessageOne" parameterType="int">
+		delete from bsh_qna where q_seq = #{q_seq}
+	</delete>
+
+</mapper>

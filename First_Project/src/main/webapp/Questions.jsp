@@ -140,7 +140,7 @@
 	%>
 	<div class="container-taebins">
 		<div class="container-TB">
-			<svg class = "qna_set" viewBox="0 0 960 300">
+			<svg class="qna_set" viewBox="0 0 960 300">
     <symbol id="s-text">
       <text text-anchor="middle" x="50%" y="80%">QnA List</text>
     </symbol>
@@ -156,11 +156,11 @@
 			<table>
 				<thead>
 					<tr>
-						<td width="100px">NO</td>
-						<td>TITLE</td>
+						<td width="100px">No</td>
+						<td>Title</td>
 						<td>UserID</td>
-						<td>DATE</td>
-						<td>DEL</td>
+						<td>Date</td>
+						<td>Delete</td>
 					</tr>
 				</thead>
 				<tbody>
@@ -169,10 +169,10 @@
 					%>
 					<tr>
 						<td width="100px"><%=i + 1%></td>
-						<td><a style="color : #212529;" href="ShowMessage.jsp?id=<%=msg_list.get(i).getMb_id()%>"><%=msg_list.get(i).getQ_title()%></a></td>
+						<td><a style="color : #212529;" href="ShowMessage.jsp?id=<%= msg_list.get(i).getMb_id()%>"><%=msg_list.get(i).getQ_title()%></a></td>
 						<td><%=msg_list.get(i).getMb_id()%></td>
 						<td><%=msg_list.get(i).getQ_date()%></td>
-						<td>
+						<td class = "tasize">
 							<form action="DeleteOneCon.do" method="post">
 								<input type="hidden" name="q_seq" value="<%=msg_list.get(i).getQ_seq()%>">
 								<input class="tb-btn" type="submit" value="DEL">

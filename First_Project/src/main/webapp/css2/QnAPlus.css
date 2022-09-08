@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .container-taebins {
-	background: linear-gradient(120deg, #EBF5FF, #64AEFF);
+	background: linear-gradient(10deg, #EBF5FF, #A6945F);
 	width: 100%;
 	height: auto;
 	margin: auto;
@@ -22,28 +22,28 @@
 .UserName2{
 	text-align: right;
 }
-table {
+.whats {
+	background: linear-gradient(150deg, #EBF5FF, #DEC893);
 	width: 60%;
 	margin: auto;
+	padding: 2%;
 	border: 0.5px solid black;
 	border-collapse: collapse;
 	overflow: hidden;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-	border-radius: 15px;
+	border-radius: 5px;
 	background-color: white;
+	box-shadow: 1px 1px 1px lavenderblush;
 }
 
+.whatsup{
+	margin-top: 5px;
+	margin-right: 70%;
+}
 tbody {
 	overflow: auto;
 }
 
-tr{
-	padding:10%;
-}
-thead {
-	background-color: #64A4FF;
-	color: white;
-}
 
 .qna_set {
 	margin-top: -10%;
@@ -68,8 +68,8 @@ thead {
 
 
 .text-copy {
-	text-shadow: 1px 1px 1px white;
-	fill: #72B6FF;
+	text-shadow: 1px 1px 1px lavenderblush;
+	fill: #c0ad92;
 	stroke: silver;
 	stroke-dasharray: 6% 29%;
 	stroke-width: 2px;
@@ -92,7 +92,7 @@ thead {
 	animation-delay: -9s;
 }
 
-@keyframes stroke-offset { 50% {
-	stroke-dashoffset: 5%;
+@keyframes stroke-offset { 30% {
+	stroke-dashoffset: 30%;
 }
 }

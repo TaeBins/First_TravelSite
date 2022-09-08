@@ -14,7 +14,9 @@
 	font-family: sans-serif;
 	font-weight: lighter;
 }
-
+.tasize{
+	width: 100px;
+}
 .tb-btn {
 	color: #EEEFF1;
 	font-size: 7px;
@@ -29,7 +31,7 @@
 }
 
 table {
-	width: 100%;
+	width: 80%;
 	margin: auto;
 	border: 0.5px solid black;
 	border-collapse: collapse;
@@ -79,6 +81,7 @@ thead {
 	background-color: #64A4FF;
 	padding: 10px;
 	margin: 10px;
+	margin-left: 10%;
 	border-radius: 5px;
 	border: 0;
 	box-shadow: 2px 2px 2px lightgray;

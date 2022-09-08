@@ -1,3 +1,4 @@
+<%@page import="org.apache.ibatis.reflection.SystemMetaObject"%>
 <%@page import="java.util.List"%>
 <%@page import="com.bsh.model.MessageDTO"%>
 <%@page import="java.util.ArrayList"%>
@@ -127,9 +128,9 @@
 		</div>
 	</header>
 	<!-- Header part end-->
-<div class="container-taebins">
+	<div class="container-taebins">
 		<div class="container-TB">
-			<svg class = "qna_set" viewBox="0 0 960 300">
+			<svg class="qna_set" viewBox="0 0 960 300">
     <symbol id="s-text">
       <text text-anchor="middle" x="50%" y="80%">QnA Plus</text>
     </symbol>
@@ -141,19 +142,19 @@
     </g>
   </svg>
 		</div>
-		<div>
-			<table>
-				<thead>
-					<tr>
-						<td class = "UserName1">User > Taebin</td>
-						<td class = "UserName2">22.09.08</td>
-					</tr>
-				</thead>
-				<tbody>
-				<tr><td colspan='2'>title</td></tr>
-				<tr><td colspan='2'>title</td></tr>
-				</tbody>
-			</table>
+		<%
+		String mb_id = request.getParameter("id");
+		ArrayList<MessageDTO> realmsg_list = new ArrayList<MessageDTO>();
+		realmsg_list = new MessageDAO().realshowMessage(mb_id);
+		%>
+		<div class="whats">
+		<%for(int i = 0; i< realmsg_list.size(); i++) {%>
+			<p>UserID > <%= realmsg_list.get(i).getMb_id() %><p>
+			<hr class="whatsup">
+			<p><%= realmsg_list.get(i).getQ_title() %></p>
+			<hr class="whatsup">
+			<p><%= realmsg_list.get(i).getQ_content() %></p>
+			<%} %>
 		</div>
 	</div>
 	<!-- footer part start-->

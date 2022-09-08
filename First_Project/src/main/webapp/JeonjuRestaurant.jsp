@@ -188,7 +188,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row" style="width: 1100px;">
+			<div class="row" >
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
 						<div class="container">
@@ -252,7 +252,7 @@
 	<!-- about us css start-->
 	<section class="hotel_list sections_padding single_page_hotel_list">
 		<div class="container">
-			<div class="row" style="width: 1100px;">
+			<div class="row">
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
 						<div class="container">
@@ -317,7 +317,7 @@
 	<!-- about us css start-->
 	<section class="hotel_list section_padding single_page_hotel_list">
 		<div class="container">
-			<div class="row" style="width: 1100px;">
+			<div class="row">
 				<div class="col-lg-4 col-sm-6">
 					<div class="single_ihotel_list">
 						<div class="container">

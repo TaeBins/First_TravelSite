@@ -647,8 +647,18 @@ p {
   font-weight: 400;
 }
 
-.slide__title-sub {
+.slide_title-main {
   color: skyblue;
+  font-family: "Open Sans", sans-serif;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  text-shadow: 2px 2px 2px lightgrey;
+}
+
+.slide__title-sub {
+  color: gray;
   font-family: "Open Sans", sans-serif;
   line-height: 28px;
   font-size: 16px;

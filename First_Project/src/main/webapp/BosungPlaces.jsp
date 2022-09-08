@@ -156,7 +156,6 @@
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Deukryang Bay Sea</h3>
-                             
                             </div>
                             <form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">

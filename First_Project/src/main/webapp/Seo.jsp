@@ -140,7 +140,7 @@
     			<!-- hotel list css start-->          
           		<div class="row justify-content-center">
 				<div class="section_tittle text-center">
-					<h2>신호등 회관</h2>
+					<h2>서재필기념관</h2>
     <!-- hotel list css end -->
 	
 <!-- Start cssSlider.com -->
@@ -155,13 +155,13 @@
 				<img src="http://cssslider.com/sliders/pen/images/buns.jpg" style="width: 100%;">
 			</div>
 			<li class='num0 img'>
-				 <a href="http://cssslider.com" target=""><img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Buns' title='Buns' /> </a> 
+				 <a href="http://cssslider.com" target=""><img src='img1/Bosung/서재필1.jpg' alt='Buns' title='1' /> </a> 
 			</li>
 			<li class='num1 img'>
-				 <a href="http://cssslider.com" target=""><img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Croissant' title='Croissant' /> </a> 
+				 <a href="http://cssslider.com" target=""><img src='img1/Bosung/서재필2.jpg' alt='Croissant' title='2' /> </a> 
 			</li>
 			<li class='num2 img'>
-				 <a href="http://cssslider.com" target=""><img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Lemon pie' title='Lemon pie' /> </a> 
+				 <a href="http://cssslider.com" target=""><img src='img1/Bosung/서재필3.jpg' alt='Lemon pie' title='3' /> </a> 
 			</li>
 		</ul>
 		<div class='cs_arrowprev'>
@@ -177,15 +177,15 @@
 		<div class='cs_bullets'>
 			<label class='num0' for='cs_slide1_0'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/buns.jpg' alt='Buns' title='Buns' /></span>
+				<span class='cs_thumb'><img src='img1/Bosung/서재필1.jpg' alt='Buns' title='1' /></span>
 			</label>
 			<label class='num1' for='cs_slide1_1'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/croissant.jpg' alt='Croissant' title='Croissant' /></span>
+				<span class='cs_thumb'><img src='img1/Bosung/서재필2.jpg' alt='Croissant' title='2' /></span>
 			</label>
 			<label class='num2' for='cs_slide1_2'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/lemonpie.jpg' alt='Lemon pie' title='Lemon pie' /></span>
+				<span class='cs_thumb'><img src='img1/Bosung/서재필3.jpg' alt='Lemon pie' title='3' /></span>
 			</label>
 		</div>
 	</div>
@@ -202,23 +202,19 @@
 		<tbody>
 			<tr>
 			<th class="ththth">주소</th>
-			<td class="tdtdtd">전남 진도군 진도읍 남동1길 66</td>
+			<td class="tdtdtd">전남 보성군 문덕면 용암길 8</td>
 			</tr>
 			<tr>
 			<th class="ththth">영업시간</th>
-			<td class="tdtdtd">10:00 - 21:00</td>
+			<td class="tdtdtd">상시개방</td>
 			</tr>
 			<tr>
-			<th class="ththth">브레이크 타임</th>
-			<td class="tdtdtd">15:00 - 17:00</td>
-			</tr>
-			<tr>
-			<th class="ththth">라스트오더</th>
-			<td class="tdtdtd">20:30</td>
+			<th class="ththth">전화번호</th>
+			<td class="tdtdtd">061-852-2815</td>
 			</tr>
 			<tr>
 			<th class="ththth">휴무</th>
-			<td class="tdtdtd">화요일</td>
+			<td class="tdtdtd">없음</td>
 			</tr>
 			<tr>
 			<th class="ththth">별점</th>
@@ -232,6 +228,7 @@
                </div>
             </td>
 			</tr>
+			<tr>
 			<th class="ththth">Wish</th>
 			<td class="tdtdtd">
 				<button type="button" class="btn btn-outline-danger">
@@ -467,7 +464,7 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
 var geocoder = new kakao.maps.services.Geocoder();
 
 // 주소로 좌표를 검색합니다
-geocoder.addressSearch('전남 보성군 득량면 선소당산길 36-13', function(result, status) {
+geocoder.addressSearch('전남 보성군 문덕면 용암길 8', function(result, status) {
 
     // 정상적으로 검색이 완료됐으면 
      if (status === kakao.maps.services.Status.OK) {
@@ -482,7 +479,7 @@ geocoder.addressSearch('전남 보성군 득량면 선소당산길 36-13', function(result, s
 
         // 인포윈도우로 장소에 대한 설명을 표시합니다
         var infowindow = new kakao.maps.InfoWindow({
-            content: '<div style="width:150px;text-align:center;padding: 3px 0;">득량만 바다</div>'
+            content: '<div style="width:150px;text-align:center;padding: 3px 0;">서재필기념관</div>'
         });
         infowindow.open(map, marker);
 

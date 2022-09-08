@@ -131,13 +131,13 @@
 		    		<h3 align="center">비밀번호 찾기</h3>
 		    		<br>
 		    		<h5>아이디</h5>
-		    		<input type = "text" name="mb_id" class = "pwselect-field" placeholder="아이디">
+		    		<input type = "text" name="mb_id" class = "pwselect-field" placeholder="아이디" required>
 		    		<h5>가입시 전화번호</h5>
-		    		<input type = "text" minlength="11" maxlength="11" name="mb_phone" class = "pwselect-field" placeholder="- 제외 번호 11자리">
+		    		<input type = "text" minlength="11" maxlength="11" name="mb_phone" class = "pwselect-field" placeholder="- 제외 번호 11자리" required>
 		    		<h5>생년월일</h5>
-		    		<input type = "text" minlength="6" maxlength="6" name="mb_birthdate" class = "pwselect-field" placeholder="YYMMDD">
+		    		<input type = "text" minlength="6" maxlength="6" name="mb_birthdate" class = "pwselect-field" placeholder="YYMMDD" required>
 		    		<h5>힌트</h5>
-		    		<input type = "text" name="mb_hint" class = "pwselect-field" placeholder="보물 제1호는?">
+		    		<input type = "text" name="mb_hint" class = "pwselect-field" placeholder="보물 제1호는?" required>
 		    		<br>
 		    		<br>
 		    		<input type = "submit" class = "pwsubmit-btn" value="제출">

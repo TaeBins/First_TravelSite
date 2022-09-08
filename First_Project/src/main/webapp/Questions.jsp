@@ -183,6 +183,9 @@
 					%>
 				</tbody>
 			</table>
+			<form action="DeleteCon.do" method="post">
+			<input class = "clear-btn" type="submit" value="Clear">
+			</form>
 		</div>
 	</div>
 	<%
@@ -315,7 +318,7 @@
 					<div class="single-footer-widget footer_icon">
 						<h4>Contact Us</h4>
 						<p>
-							<a href="https://smhrd.or.kr" class="mobtn">Smart Talent Development Center, Gwangju, korea</a>
+							<a href="https://smhrd.or.kr">Smart Talent Development Center, Gwangju, korea</a>
 						</p>
 						<br>
 						<p>+062 224 4560 | 61927</p>

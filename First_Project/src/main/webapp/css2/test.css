@@ -1,7 +1,12 @@
 @charset "UTF-8";
-#sinhang{
+.sinhang{
   width:550px;
   height:500px;
-  padding: 50px;
+}
+.sinhangs{
+  width:550px;
+  height:270px;
+  padding: 0px 0px 0px 0px;
+  
 }
 .rows{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;justify-content: space-between;margin-right:-15px;margin-left:-15px}

@@ -327,12 +327,16 @@ h2{ color: #7f8c8d; font-family: Neucha, Arial, sans serif; font-size:18px; marg
 
 
 
-    <!-- hotel list css start-->
-    <section class="top_place section_padding">
-          
-          
+    <!-- hotel list css start-->          
+          <div class="row justify-content-center">
+					<div class="section_tittle text-center">
+						<h2>신호등 회관</h2>
+						<p>Waters make fish every without firmament saw had. Morning
+							air subdue. Our. Air very one. Whales grass is fish whales
+							winged.</p>
+				</div>
+			</div>
 
-    </section>
     <!-- hotel list css end -->
     
  
@@ -411,10 +415,10 @@ h2{ color: #7f8c8d; font-family: Neucha, Arial, sans serif; font-size:18px; marg
                       
                     </div>
                 </div>
-                <div class="sinhang">
-               <h1 align="left">
-               
-            신호등회관               </h1>
+                <div class="sinhangs">
+               <h1 >
+               신호등회관               
+               </h1>
                 <p>
                 전남 진도군 진도읍 남동1길 66
 

@@ -2,22 +2,61 @@
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
+.Alltable {
+	width: 1300px;
+	right: 200px;
+}
+
+.tdtdtable {
+	width: 400px;
+	padding-left: 80px;
+}
+.tedtdtable {
+	width: 400px;
+	padding-left: 200px;
+}
+
+.divtable {
+	width: 700px;
+}
+
+.tdtable {
+	background-color: #64AEFF;
+}
+
+.twotable {
+	background-color: #64AEFF;
+	padding-left: 200px;
+}
+
 .container-taebins {
-	background: linear-gradient(170deg, #EBF5FF, #64AEFF);
+	background-color: #64AEFF;
 	width: 100%;
 	height: auto;
 	margin: auto;
 	padding-top: 0;
 	padding-bottom: 10%;
-	padding-right: 10%;
-	padding-left: 10%;
 	font-family: sans-serif;
 	font-weight: lighter;
 }
+.tasize{
+	width: 100px;
+}
+.tb-btn {
+	color: #EEEFF1;
+	font-size: 7px;
+	background-color: #64A4FF;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 2px 2px 2px lightgray;
+	width: 70%;
+	border-radius: 5px;
+}
 
-table {
-	width: 100%;
-	margin: auto;
+.onetable {
+	width: 650px;
 	border: 0.5px solid black;
 	border-collapse: collapse;
 	overflow: hidden;
@@ -39,11 +78,6 @@ thead {
 	color: white;
 }
 
-td {
-	padding: 10px;
-	margin: 10px;
-}
-
 .qna_set {
 	margin-top: -10%;
 }
@@ -63,6 +97,20 @@ td {
 .container-TB.svg {
 	display: block;
 	font: 3.5em 'Qna List';
+}
+
+.clear-btn {
+	color: #EEEFF1;
+	font-size: 14px;
+	background-color: #64A4FF;
+	padding: 10px;
+	margin: 10px;
+	margin-left: 10%;
+	border-radius: 5px;
+	border: 0;
+	box-shadow: 2px 2px 2px lightgray;
+	width: 10%;
+	border-radius: 5px;
 }
 
 .text-copy {
@@ -95,23 +143,27 @@ td {
 }
 }
 
-@media (max-width: 991px) {
-	table {
+@media (max-width: 992px) {
+	.Alltable{
 		width: 370px;
+		right: 0;
 		font-size: 12px;
 	}
-	thead {
-		width: 320px;
-	}
-	tr {
-		width: 320px;
-	}
-	td {
-		width: 8px;
-	}
-	.container-taebins {
+	.tdtdtable{
+		width: 50px;
 		padding-left: 0;
-		padding-right: 0;
-		
+	}
+	.tedtdtable{
+		width: 50px;
+		padding-left: 0;
+	}
+	.divtable{
+		width: 25px;
+	}
+	.twotable{
+		width: 370px;
+	}
+	.tdtable{
+		width: 50px;
 	}
 }

@@ -351,6 +351,7 @@ body {
   font-size: 58px;
   font-weight: 400;
 }
+
 .card.alt .title .close:before {
   content: "×";
 }
@@ -6096,6 +6097,17 @@ h6 {
 /* line 1099, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_elements.scss */
 .switch-wrap {
   margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+	.donta {
+		margin: 0;
+		max-width: 400px;
+		padding-left: 60px;
+	}
+	.card.alt .title, .card.alt .input-donta, .card.alt .button-donta {
+		left: 0;
+	}
 }
 
 /*# sourceMappingURL=../css/style.map */

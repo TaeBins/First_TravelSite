@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/soso1.jpg" width="555px" height="396px">
+                        <a href="Sol.jsp"><img src="img2/places/soso1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Sol Beach</h3>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/jin1.jpg" width="555px" height="396px">
+                        <a href="Bridge.jsp"><img src="img2/places/jin1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Jindo Bridge</h3>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/jin2.jpg" width="555px" height="396px">
+                        <a href="Sebangnagjo.jsp"><img src="img2/places/jin2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Sebangnagjo</h3>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/jin3.jpg" width="555px" height="396px">
+                        <a href="Dog.jsp"><img src="img2/places/jin3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Jindo Dog Theme Park</h3>
@@ -256,7 +256,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/jin4.jpg" width="555px" height="396px">
+                        <a href="JoDo.jsp"><img src="img2/places/jin4.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>JoDo</h3>
@@ -282,7 +282,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/jin5.jpg" width="555px" height="396px">
+                        <a href="Yongjangseong.jsp"><img src="img2/places/jin5.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Yongjangseong</h3>
@@ -308,7 +308,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/jin6.jpg" width="555px" height="396px">
+                        <a href="Ichungmugongjeoncheobbi.jsp"><img src="img2/places/jin6.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Ichungmugongjeoncheobbi</h3>
@@ -334,7 +334,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/places/jin7.jpg" width="555px" height="396px">
+                        <a href="Namdojinseong.jsp"><img src="img2/places/jin7.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Namdojinseong</h3>

@@ -155,13 +155,13 @@
 				<img src="http://cssslider.com/sliders/pen/images/buns.jpg" style="width: 100%;">
 			</div>
 			<li class='num0 img'>
-				 <a href="http://cssslider.com" target=""><img src='img1/Jindo/soso4.jpg' alt='Buns' title='1' /> </a> 
+				 <img src='img1/Jindo/soso4.jpg' alt='Buns' title='1' /> 
 			</li>
 			<li class='num1 img'>
-				 <a href="http://cssslider.com" target=""><img src='img1/Jindo/soso5.jpg' alt='Croissant' title='2' /> </a> 
+				 <img src='img1/Jindo/soso5.jpg' alt='Croissant' title='2' /> 
 			</li>
 			<li class='num2 img'>
-				 <a href="http://cssslider.com" target=""><img src='img1/Jindo/soso8.jpg' alt='Lemon pie' title='3' /> </a> 
+				 <img src='img1/Jindo/soso8.jpg' alt='Lemon pie' title='3' />
 			</li>
 		</ul>
 		<div class='cs_arrowprev'>

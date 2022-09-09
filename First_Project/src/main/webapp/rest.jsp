@@ -155,13 +155,13 @@
 				<img src="http://cssslider.com/sliders/pen/images/buns.jpg" style="width: 100%;">
 			</div>
 			<li class='num0 img'>
-				 <a href="http://cssslider.com" target=""><img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Buns' title='Buns' /> </a> 
+				 <img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Buns' title='Buns' />
 			</li>
 			<li class='num1 img'>
-				 <a href="http://cssslider.com" target=""><img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Croissant' title='Croissant' /> </a> 
+				 <img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Croissant' title='Croissant' />
 			</li>
 			<li class='num2 img'>
-				 <a href="http://cssslider.com" target=""><img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Lemon pie' title='Lemon pie' /> </a> 
+				 <img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Lemon pie' title='Lemon pie' /> 
 			</li>
 		</ul>
 		<div class='cs_arrowprev'>

@@ -1,3 +1,5 @@
+<%@page import="java.math.BigDecimal"%>
+<%@page import="org.apache.ibatis.ognl.SetPropertyAccessor"%>
 <%@page import="org.apache.ibatis.reflection.SystemMetaObject"%>
 <%@page import="java.util.List"%>
 <%@page import="com.bsh.model.MessageDTO"%>
@@ -143,18 +145,17 @@
   </svg>
 		</div>
 		<%
-		String mb_id = request.getParameter("id");
+		String seq = (String)request.getParameter("seq");
+		BigDecimal q_seq = new BigDecimal(seq);
 		ArrayList<MessageDTO> realmsg_list = new ArrayList<MessageDTO>();
-		realmsg_list = new MessageDAO().realshowMessage(mb_id);
+		realmsg_list = new MessageDAO().realshowMessage(q_seq);
 		%>
 		<div class="whats">
-		<%for(int i = 0; i< realmsg_list.size(); i++) {%>
-			<p>UserID > <%= realmsg_list.get(i).getMb_id() %><p>
+			<p>UserID > <%= realmsg_list.get(0).getMb_id() %><p>
 			<hr class="whatsup">
-			<p><%= realmsg_list.get(i).getQ_title() %></p>
+			<p><%= realmsg_list.get(0).getQ_title() %></p>
 			<hr class="whatsup">
-			<p><%= realmsg_list.get(i).getQ_content() %></p>
-			<%} %>
+			<p><%= realmsg_list.get(0).getQ_content() %></p>
 		</div>
 	</div>
 	<!-- footer part start-->

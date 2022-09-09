@@ -169,7 +169,7 @@
 					%>
 					<tr>
 						<td width="100px"><%=i + 1%></td>
-						<td><a style="color : #212529;" href="ShowMessage.jsp?id=<%= msg_list.get(i).getMb_id()%>"><%=msg_list.get(i).getQ_title()%></a></td>
+						<td><a style="color : #212529;" href="ShowMessage.jsp?seq=<%= msg_list.get(i).getQ_seq()%>"><%=msg_list.get(i).getQ_title()%></a></td>
 						<td><%=msg_list.get(i).getMb_id()%></td>
 						<td><%=msg_list.get(i).getQ_date()%></td>
 						<td class = "tasize">

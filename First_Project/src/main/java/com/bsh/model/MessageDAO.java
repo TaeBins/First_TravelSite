@@ -1,5 +1,6 @@
 package com.bsh.model;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 
 import org.apache.ibatis.session.SqlSession;
@@ -45,9 +46,9 @@ public class MessageDAO {
 		return row;
 	}
 
-	public ArrayList<MessageDTO> realshowMessage(String mb_id){
+	public ArrayList<MessageDTO> realshowMessage(BigDecimal q_seq){
 		SqlSession session = sqlSessionFactory.openSession(true);
-		ArrayList<MessageDTO> realmsg_list = (ArrayList) session.selectList("realshowMessage", mb_id);
+		ArrayList<MessageDTO> realmsg_list = (ArrayList) session.selectList("realshowMessage", q_seq);
 		session.close();
 
 		return realmsg_list;

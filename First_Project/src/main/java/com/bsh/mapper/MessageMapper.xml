@@ -13,7 +13,7 @@
 	</select>
 
 	<select id="realshowMessage" parameterType="MessageDTO" resultType="MessageDTO">
-		select * from bsh_qna where mb_id=#{mb_id}
+		select * from bsh_qna where q_seq=#{q_seq}
 	</select>
 	<delete id="deleteMessage">
 		delete from bsh_qna

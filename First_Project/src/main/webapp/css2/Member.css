@@ -9,7 +9,9 @@
 	width: 60px;
 	font-weight: 1000;
 }
-
+#idCheck{
+	text-shadow: 1px 1px 1px white;
+}
 .botto {
 	color: #EEEFF1;
 	font-size: 14px;

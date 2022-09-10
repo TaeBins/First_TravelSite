@@ -54,7 +54,7 @@
                 <div class="row align-items-center ">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
-                            <a class="navbar-brand" href="Main.jsp"> <img src="../img2/fivelogo.png" width="180px" height="80px" alt="logo"> </a>
+                            <a class="navbar-brand" href="../Main.jsp"> <img src="../img2/fivelogo.png" width="180px" height="80px" alt="logo"> </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -64,46 +64,46 @@
                                 id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="Main.jsp">Home</a>
+                                        <a class="nav-link" href="../Main.jsp">Home</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="top_place.jsp" id="navbarDropdown"
+                                        <a class="nav-link dropdown-toggle" href="../top_place.jsp" id="navbarDropdown"
                                             role="button" data-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false">
                                             Top7 Places
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="GwangjuPlaces.jsp">Gwangju</a>
-                                            <a class="dropdown-item" href="JeonjuPlaces.jsp">Jeonju</a>
-                                            <a class="dropdown-item" href="DamyangPlaces.jsp">Damyang</a>
-                                            <a class="dropdown-item" href="JindoPlaces.jsp">Jindo</a>
-                                            <a class="dropdown-item" href="BosungPlaces.jsp">Bosung</a>
-                                            <a class="dropdown-item" href="YeosuPlaces.jsp">Yeosu</a>
-                                            <a class="dropdown-item" href="SuncheonPlaces.jsp">Suncheon</a>
+                                            <a class="dropdown-item" href="../GwangjuPlaces.jsp">Gwangju</a>
+                                            <a class="dropdown-item" href="../JeonjuPlaces.jsp">Jeonju</a>
+                                            <a class="dropdown-item" href="../DamyangPlaces.jsp">Damyang</a>
+                                            <a class="dropdown-item" href="../JindoPlaces.jsp">Jindo</a>
+                                            <a class="dropdown-item" href="../BosungPlaces.jsp">Bosung</a>
+                                            <a class="dropdown-item" href="../YeosuPlaces.jsp">Yeosu</a>
+                                            <a class="dropdown-item" href="../SuncheonPlaces.jsp">Suncheon</a>
                                         </div>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="packages.jsp" id="navbarDropdown_1"
+                                        <a class="nav-link dropdown-toggle" href="../packages.jsp" id="navbarDropdown_1"
                                             role="button" data-toggle="dropdown" aria-haspopup="true"
                                             aria-expanded="false">
                                             Top7 Taste Food
                                         </a>
                                         <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
-                                            <a class="dropdown-item" href="GwangjuRestaurant.jsp">Gwangju</a>
-                                            <a class="dropdown-item" href="JeonjuRestaurant.jsp">Jeonju</a>
-                                            <a class="dropdown-item" href="DamyangRestaurant.jsp">Damyang</a>
-                                            <a class="dropdown-item" href="JindoRestaurant.jsp">Jindo</a>
-                                            <a class="dropdown-item" href="BosungRestaurant.jsp">Bosung</a>
-                                            <a class="dropdown-item" href="YeosuRestaurant.jsp">Yeosu</a>
-                                            <a class="dropdown-item" href="SuncheonRestaurant.jsp">Suncheon</a>
+                                            <a class="dropdown-item" href="../GwangjuRestaurant.jsp">Gwangju</a>
+                                            <a class="dropdown-item" href="../JeonjuRestaurant.jsp">Jeonju</a>
+                                            <a class="dropdown-item" href="../DamyangRestaurant.jsp">Damyang</a>
+                                            <a class="dropdown-item" href="../JindoRestaurant.jsp">Jindo</a>
+                                            <a class="dropdown-item" href="../BosungRestaurant.jsp">Bosung</a>
+                                            <a class="dropdown-item" href="../YeosuRestaurant.jsp">Yeosu</a>
+                                            <a class="dropdown-item" href="../SuncheonRestaurant.jsp">Suncheon</a>
                                         </div>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="Questions.jsp">1:1 Questions</a>
+                                        <a class="nav-link" href="../Questions.jsp">1:1 Questions</a>
                                     </li>
                             <% MemberDTO log = (MemberDTO)session.getAttribute("info");
                             if (log == null) {%><li  class="nav-item">
-                            <a class="nav-link" href="Member.jsp"><i class="bi bi-box-arrow-in-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                            <a class="nav-link" href="../Member.jsp"><i class="bi bi-box-arrow-in-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                        <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
                        <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
                      </svg> Login</i></a>
@@ -115,11 +115,11 @@
                                          <i class="bi bi-person-circle"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16"><path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/><path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/></svg>User Menu</i>
                              </a>
                                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                             <a href="Like.jsp" class="like" style="direction: none;">&nbsp;&nbsp;<i class="bi bi-bookmark-heart-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16"><path d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13.5zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/></svg>Wish List</i></a>
+                                             <a href="../Like.jsp" class="like" style="direction: none;">&nbsp;&nbsp;<i class="bi bi-bookmark-heart-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16"><path d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13.5zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/></svg>Wish List</i></a>
                                                <hr class="dropdown-divider">
-                                             <a href="Upda.jsp" class="update">&nbsp;&nbsp;<i class="bi bi-person-lines-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16"><path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/></svg>User information</i></a>
+                                             <a href="../Upda.jsp" class="update">&nbsp;&nbsp;<i class="bi bi-person-lines-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16"><path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/></svg>User information</i></a>
                                                 <hr class="dropdown-divider">
-                                             <a href="LogoutCon.do" class="logout">&nbsp;&nbsp;<i class="bi bi-box-arrow-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/><path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/></svg>Logout</i></a>
+                                             <a href="../LogoutCon.do" class="logout">&nbsp;&nbsp;<i class="bi bi-box-arrow-right"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"  fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z"/><path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/></svg>Logout</i></a>
                                          </div>
                                   </li>
                             <%}%>
@@ -139,8 +139,8 @@
             <div>
     			<!-- hotel list css start-->          
           		<div class="row justify-content-center">
-				<div class="section_tittle text-center">
-					<h2>신호등 회관</h2>
+				<div class="section_tittle text-center"style="width: 700px;">
+					<h2>외서댁 꼬막나라</h2>
     <!-- hotel list css end -->
 	
 <!-- Start cssSlider.com -->
@@ -155,13 +155,13 @@
 				<img src="http://cssslider.com/sliders/pen/images/buns.jpg" style="width: 100%;">
 			</div>
 			<li class='num0 img'>
-				 <img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Buns' title='Buns' />
+				 <img src='../img1/rest/b1-2.jpg' alt='Buns' title='1' />
 			</li>
 			<li class='num1 img'>
-				 <img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Croissant' title='Croissant' />
+				 <img src='../img1/rest/b1-3.jpg' alt='Croissant' title='2' />
 			</li>
 			<li class='num2 img'>
-				 <img src='http://cssslider.com/sliders/pen/images/buns.jpg' alt='Lemon pie' title='Lemon pie' /> 
+				 <img src='../img1/rest/b1-7.jpg' alt='Lemon pie' title='3' /> 
 			</li>
 		</ul>
 		<div class='cs_arrowprev'>
@@ -177,15 +177,15 @@
 		<div class='cs_bullets'>
 			<label class='num0' for='cs_slide1_0'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/buns.jpg' alt='Buns' title='Buns' /></span>
+				<span class='cs_thumb'><img src='../img1/rest/b1-2.jpg' alt='Buns' title='1' /></span>
 			</label>
 			<label class='num1' for='cs_slide1_1'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/croissant.jpg' alt='Croissant' title='Croissant' /></span>
+				<span class='cs_thumb'><img src='../img1/rest/b1-3.jpg' alt='Croissant' title='2' /></span>
 			</label>
 			<label class='num2' for='cs_slide1_2'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='http://cssslider.com/sliders/pen/tooltips/lemonpie.jpg' alt='Lemon pie' title='Lemon pie' /></span>
+				<span class='cs_thumb'><img src='../img1/rest/b1-7.jpg' alt='Lemon pie' title='3' /></span>
 			</label>
 		</div>
 	</div>
@@ -202,23 +202,19 @@
 		<tbody>
 			<tr>
 			<th class="ththth">주소</th>
-			<td class="tdtdtd">전남 진도군 진도읍 남동1길 66</td>
+			<td class="tdtdtd">전남 보성군 벌교읍 조정래길 56</td>
 			</tr>
 			<tr>
 			<th class="ththth">영업시간</th>
-			<td class="tdtdtd">10:00 - 21:00</td>
+			<td class="tdtdtd">09:00 ~ 21:00</td>
 			</tr>
 			<tr>
-			<th class="ththth">브레이크 타임</th>
-			<td class="tdtdtd">15:00 - 17:00</td>
-			</tr>
-			<tr>
-			<th class="ththth">라스트오더</th>
-			<td class="tdtdtd">20:30</td>
+			<th class="ththth">전화번호</th>
+			<td class="tdtdtd">061-858-3330</td>
 			</tr>
 			<tr>
 			<th class="ththth">휴무</th>
-			<td class="tdtdtd">화요일</td>
+			<td class="tdtdtd">없음</td>
 			</tr>
 			<tr>
 			<th class="ththth">별점</th>
@@ -467,7 +463,7 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
 var geocoder = new kakao.maps.services.Geocoder();
 
 // 주소로 좌표를 검색합니다
-geocoder.addressSearch('전남 보성군 득량면 선소당산길 36-13', function(result, status) {
+geocoder.addressSearch('전남 보성군 벌교읍 조정래길 56', function(result, status) {
 
     // 정상적으로 검색이 완료됐으면 
      if (status === kakao.maps.services.Status.OK) {
@@ -482,7 +478,7 @@ geocoder.addressSearch('전남 보성군 득량면 선소당산길 36-13', function(result, s
 
         // 인포윈도우로 장소에 대한 설명을 표시합니다
         var infowindow = new kakao.maps.InfoWindow({
-            content: '<div style="width:150px;text-align:center;padding: 3px 0;">득량만 바다</div>'
+            content: '<div style="width:150px;text-align:center;padding: 3px 0;">외서댁꼬막나라</div>'
         });
         infowindow.open(map, marker);
 

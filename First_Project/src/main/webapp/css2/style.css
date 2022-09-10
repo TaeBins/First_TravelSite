@@ -737,6 +737,7 @@ a:focus, .button:focus, button:focus, .btn:focus {
 /* line 129, /Applications/MAMP/htdocs/palash/cl/july 2019/193 Travel/193 travel html/sass/_common.scss */
 .section_tittle {
   margin-bottom: 73px;
+  
 }
 
 @media (max-width: 991px) {

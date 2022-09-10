@@ -139,7 +139,7 @@
             <div>
     			<!-- hotel list css start-->          
           		<div class="row justify-content-center">
-				<div class="section_tittle text-center">
+				<div class="section_tittle text-center" style="width: 700px;">
 					<h2>태백산맥문학관</h2>
     <!-- hotel list css end -->
 	

@@ -181,7 +181,6 @@
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Green Tea Field</h3>
-                          
                             </div>
                             <form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">

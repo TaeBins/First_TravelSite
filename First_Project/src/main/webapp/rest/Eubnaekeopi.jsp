@@ -140,7 +140,7 @@
     			<!-- hotel list css start-->          
           		<div class="row justify-content-center">
 				<div class="section_tittle text-center">
-					<h2>외서댁 꼬막나라</h2>
+					<h2>읍내커피</h2>
     <!-- hotel list css end -->
 	
 <!-- Start cssSlider.com -->
@@ -155,13 +155,13 @@
 				<img src="http://cssslider.com/sliders/pen/images/buns.jpg" style="width: 100%;">
 			</div>
 			<li class='num0 img'>
-				 <img src='../img1/rest/b1-2.jpg' alt='Buns' title='1' />
+				 <img src='../img1/rest/d6-2.jpg' alt='Buns' title='1' />
 			</li>
 			<li class='num1 img'>
-				 <img src='../img1/rest/b1-3.jpg' alt='Croissant' title='2' />
+				 <img src='../img1/rest/d6-5.jpg' alt='Croissant' title='2' />
 			</li>
 			<li class='num2 img'>
-				 <img src='../img1/rest/b1-7.jpg' alt='Lemon pie' title='3' /> 
+				 <img src='../img1/rest/d6-6.jpg' alt='Lemon pie' title='3' /> 
 			</li>
 		</ul>
 		<div class='cs_arrowprev'>
@@ -177,15 +177,15 @@
 		<div class='cs_bullets'>
 			<label class='num0' for='cs_slide1_0'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='../img1/rest/b1-2.jpg' alt='Buns' title='1' /></span>
+				<span class='cs_thumb'><img src='../img1/rest/d6-2.jpg' alt='Buns' title='1' /></span>
 			</label>
 			<label class='num1' for='cs_slide1_1'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='../img1/rest/b1-3.jpg' alt='Croissant' title='2' /></span>
+				<span class='cs_thumb'><img src='../img1/rest/d6-5.jpg' alt='Croissant' title='2' /></span>
 			</label>
 			<label class='num2' for='cs_slide1_2'>
 				<span class='cs_point'></span>
-				<span class='cs_thumb'><img src='../img1/rest/b1-7.jpg' alt='Lemon pie' title='3' /></span>
+				<span class='cs_thumb'><img src='../img1/rest/d6-6.jpg' alt='Lemon pie' title='3' /></span>
 			</label>
 		</div>
 	</div>
@@ -202,15 +202,15 @@
 		<tbody>
 			<tr>
 			<th class="ththth">주소</th>
-			<td class="tdtdtd">전남 보성군 벌교읍 조정래길 56</td>
+			<td class="tdtdtd">전남 담양군 담양읍 추성로 1327 읍내커피</td>
 			</tr>
 			<tr>
 			<th class="ththth">영업시간</th>
-			<td class="tdtdtd">09:00 ~ 21:00</td>
+			<td class="tdtdtd">11:00 ~ 22:00</td>
 			</tr>
 			<tr>
 			<th class="ththth">전화번호</th>
-			<td class="tdtdtd">061-858-3330</td>
+			<td class="tdtdtd">0507-1362-9605</td>
 			</tr>
 			<tr>
 			<th class="ththth">휴무</th>
@@ -463,7 +463,7 @@ var map = new kakao.maps.Map(mapContainer, mapOption);
 var geocoder = new kakao.maps.services.Geocoder();
 
 // 주소로 좌표를 검색합니다
-geocoder.addressSearch('전남 보성군 벌교읍 조정래길 56', function(result, status) {
+geocoder.addressSearch('전남 담양군 담양읍 추성로 1327 읍내커피', function(result, status) {
 
     // 정상적으로 검색이 완료됐으면 
      if (status === kakao.maps.services.Status.OK) {
@@ -478,7 +478,7 @@ geocoder.addressSearch('전남 보성군 벌교읍 조정래길 56', function(result, status
 
         // 인포윈도우로 장소에 대한 설명을 표시합니다
         var infowindow = new kakao.maps.InfoWindow({
-            content: '<div style="width:150px;text-align:center;padding: 3px 0;">외서댁꼬막나라</div>'
+            content: '<div style="width:150px;text-align:center;padding: 3px 0;">읍내커피</div>'
         });
         infowindow.open(map, marker);
 

@@ -194,14 +194,14 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g1-2.jpg"></a>
+									<a href="rest/Why.jsp"> <img src="img2/g1-2.jpg"></a>
 								</div>
 							</div>
 						</div>
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="#"> Hotel Polonia</a>
+								<a href="#">Whyseo House</a>
 							</h3>
 							<div class="place_review">
 								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i

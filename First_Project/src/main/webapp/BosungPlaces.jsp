@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                       <a href="Deukryang.jsp"><img src="img2/places/Deukryang1.jpg" width="555px" height="396px"></a>
+                       <a href="place/Deukryang.jsp"><img src="img2/places/Deukryang1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Deukryang Bay Sea</h3>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Green_Tea.jsp"><img src="img2/places/GreenTea1.jpg" width="555px" height="396px"></a>
+                        <a href="place/Green_Tea.jsp"><img src="img2/places/GreenTea1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Green Tea Field</h3>
@@ -203,7 +203,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Yulpo_Beach.jsp"><img src="img2/places/Yulpo1.jpg" width="555px" height="396px"></a>
+                        <a href="place/Yulpo_Beach.jsp"><img src="img2/places/Yulpo1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Yulpo Beach</h3>
@@ -229,7 +229,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Tea_Museum.jsp"><img src="img2/places/bo1.jpg" width="555px" height="396px"></a>
+                        <a href="place/Tea_Museum.jsp"><img src="img2/places/bo1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Korea Tea Museum</h3>
@@ -255,7 +255,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Seo.jsp"><img src="img2/places/bo2.jpg" width="555px" height="396px"></a>
+                        <a href="place/Seo.jsp"><img src="img2/places/bo2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Seo Jae-pil Memorial Hall</h3>
@@ -281,7 +281,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Illimsan.jsp"><img src="img2/places/bo3.jpg" width="555px" height="396px"></a>
+                        <a href="place/Illimsan.jsp"><img src="img2/places/bo3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Illimsan</h3>
@@ -307,7 +307,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Daewonsa.jsp"><img src="img2/places/bo4.jpg" width="555px" height="396px"></a>
+                        <a href="place/Daewonsa.jsp"><img src="img2/places/bo4.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Daewonsa Temple</h3>
@@ -333,7 +333,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Taebaek.jsp"><img src="img2/places/bo5.jpg" width="555px" height="396px"></a>
+                        <a href="place/Taebaek.jsp"><img src="img2/places/bo5.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Taebaek Mountains Literature Museum</h3>

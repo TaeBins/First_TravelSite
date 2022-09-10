@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Hanok.jsp"><img src="img2/places/han21.jpg" width="555px" height="396px"></a>
+                        <a href="place/Hanok.jsp"><img src="img2/places/han21.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Hanok Town</h3>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Pungnammun.jsp"><img src="img2/places/han22.jpg" width="555px" height="396px"></a>
+                        <a href="place/Pungnammun.jsp"><img src="img2/places/han22.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Pungnammun Gate</h3>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Hyanggyo.jsp"><img src="img2/places/han3.jpg" width="555px" height="396px"></a>
+                        <a href="place/Hyanggyo.jsp"><img src="img2/places/han3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Hyanggyo Daeseongjeon</h3>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Jeondong.jsp"><img src="img2/places/han9.jpg" width="555px" height="396px"></a>
+                        <a href="place/Jeondong.jsp"><img src="img2/places/han9.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Jeondong Cathedral</h3>
@@ -256,7 +256,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Cheong.jsp"><img src="img2/places/han23.jpg" width="555px" height="396px"></a>
+                        <a href="place/Cheong.jsp"><img src="img2/places/han23.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Cheong-Yeonlu</h3>
@@ -282,7 +282,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Namcheon.jsp"><img src="img2/places/han12.jpg" width="555px" height="396px"></a>
+                        <a href="place/Namcheon.jsp"><img src="img2/places/han12.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Namcheon Bridge</h3>
@@ -308,7 +308,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="A-Jung.jsp"><img src="img2/places/ag1.jpg" width="555px" height="396px"></a>
+                        <a href="place/A-Jung.jsp"><img src="img2/places/ag1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>AJung Lake</h3>
@@ -334,7 +334,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Jaman.jsp"><img src="img2/places/han24.jpg" width="555px" height="396px"></a>
+                        <a href="place/Jaman.jsp"><img src="img2/places/han24.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Jaman Mural Village</h3>

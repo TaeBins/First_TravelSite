@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="D-Ocean.jsp"><img src="img2/places/D-Ocean Water Park.jpg" width="555px" height="396px"></a>
+                        <a href="place/D-Ocean.jsp"><img src="img2/places/D-Ocean Water Park.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>D-Ocean Water Park</h3>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Moipin.jsp"><img src="img2/places/Moipin Cafe.jpg" width="555px" height="396px"></a>
+                        <a href="place/Moipin.jsp"><img src="img2/places/Moipin Cafe.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Moipin Cafe</h3>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="High.jsp"><img src="img2/places/high class.jpg" width="555px" height="396px"></a>
+                        <a href="place/High.jsp"><img src="img2/places/high class.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>High Class</h3>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Odongdo.jsp"><img src="img2/places/Odongdo.jpg" width="555px" height="396px"></a>
+                        <a href="place/Odongdo.jsp"><img src="img2/places/Odongdo.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Odongdo</h3>
@@ -256,7 +256,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Bridge1.jsp"><img src="img2/places/ye1.jpg" width="555px" height="396px"></a>
+                        <a href="place/Bridge1.jsp"><img src="img2/places/ye1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Yi Sun-sin Bridge</h3>
@@ -282,7 +282,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Geumo.jsp"><img src="img2/places/ye2.jpg" width="555px" height="396px"></a>
+                        <a href="place/Geumo.jsp"><img src="img2/places/ye2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Geumo-do</h3>
@@ -308,7 +308,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Geomundo.jsp"><img src="img2/places/ye3.jpg" width="555px" height="396px"></a>
+                        <a href="place/Geomundo.jsp"><img src="img2/places/ye3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Geomundo</h3>
@@ -334,7 +334,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Jinnamgwan.jsp"><img src="img2/places/ye4.jpg" width="555px" height="396px"></a>
+                        <a href="place/Jinnamgwan.jsp"><img src="img2/places/ye4.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Jinnamgwan</h3>

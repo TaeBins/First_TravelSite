@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Nagan.jsp"><img src="img2/places/Nagan Eupseong Folk Village.jpg" width="555px" height="396px"></a>
+                        <a href="place/Nagan.jsp"><img src="img2/places/Nagan Eupseong Folk Village.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Nagan Eupseong Folk Village</h3>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Drama.jsp"><img src="img2/places/Drama Set.webp" width="555px" height="396px"></a>
+                        <a href="place/Drama.jsp"><img src="img2/places/Drama Set.webp" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Drama Set</h3>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Garden.jsp"><img src="img2/places/Suncheon Bay National Garden.jpg" width="555px" height="396px"></a>
+                        <a href="place/Garden.jsp"><img src="img2/places/Suncheon Bay National Garden.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Suncheon Bay National Garden</h3>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Wetland.jsp"><img src="img2/places/Suncheon Bay Wetland.webp" width="555px" height="396px"></a>
+                        <a href="place/Wetland.jsp"><img src="img2/places/Suncheon Bay Wetland.webp" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Suncheon Bay Wetland</h3>
@@ -256,7 +256,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Waon.jsp"><img src="img2/places/su2.jpg" width="555px" height="396px"></a>
+                        <a href="place/Waon.jsp"><img src="img2/places/su2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Waon Beach</h3>
@@ -282,7 +282,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Folklore.jsp"><img src="img2/places/su3.jpg" width="555px" height="396px"></a>
+                        <a href="place/Folklore.jsp"><img src="img2/places/su3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Nag-an Folklore Natural Recreation Forest</h3>
@@ -308,7 +308,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Geomdan.jsp"><img src="img2/places/su4.jpg" width="555px" height="396px"></a>
+                        <a href="place/Geomdan.jsp"><img src="img2/places/su4.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Geumjeonsan</h3>
@@ -334,7 +334,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Dwarf.jsp"><img src="img2/places/su5.jpg" width="555px" height="396px"></a>
+                        <a href="place/Dwarf.jsp"><img src="img2/places/su5.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Suncheon dwarf</h3>

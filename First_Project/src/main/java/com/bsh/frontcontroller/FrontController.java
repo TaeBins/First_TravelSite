@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.bsh.command.Command;
 import com.bsh.controller.DeleteCon;
+import com.bsh.controller.DeleteMemberCon;
 import com.bsh.controller.DeleteOneCon;
 import com.bsh.controller.IdCheckCon;
 import com.bsh.controller.IdselectCon;
@@ -82,7 +83,11 @@ public class FrontController extends HttpServlet {
 		} else if (requestURI.equals("WishselectCon.do")) {
 			con = new WishselectCon();
 			
+		} else if (requestURI.equals("DeleteMemberCon.do")) {
+			con = new DeleteMemberCon();
+			
 		} 
+		
 
 		String moveURL = con.execute(request, response);
 

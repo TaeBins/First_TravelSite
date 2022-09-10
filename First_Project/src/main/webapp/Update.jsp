@@ -127,7 +127,7 @@
 	%>
 	<div class="container-taebins">
 		<div class="container-TB">
-			<svg class = "qna_set" viewBox="0 0 960 300">
+			<svg class="qna_set" viewBox="0 0 960 300">
     <symbol id="s-text">
       <text text-anchor="middle" x="50%" y="80%">User List</text>
     </symbol>
@@ -183,16 +183,20 @@
 				<h3 align="center">정보 수정</h3>
 				<br>
 				<h5>변경할 비밀번호</h5>
-				<input type="password" name="mb_pw" class="pwselect-field" placeholder="변경할 비밀번호" required>
+				<input type="password" title="비밀번호 입력." name="mb_pw" class="pwselect-field" placeholder="변경할 비밀번호" required>
 				<h5>닉네임</h5>
-				<input type="text" name="mb_nick" class="pwselect-field" placeholder="닉네임" required>
+				<input type="text" title="닉네임 입력." name="mb_nick" class="pwselect-field" placeholder="닉네임" required>
 				<h5>전화번호</h5>
-				<input type="text" minlength="11" maxlength="11" name="mb_phone" class="pwselect-field" placeholder="- 제외 번호 11자리" required>
+				<input type="tel" title="전화번호 입력." placeholder="010-1234-5678" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}" maxlength="13" name="mb_phone" class="pwselect-field" required>
 				<h5>힌트</h5>
-				<input type="text" name="mb_hint" class="pwselect-field" placeholder="보물 제1호는?" required>
+				<input type="text" title="힌트 입력." name="mb_hint" class="pwselect-field" placeholder="보물 제1호는?" required>
 				<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
 				<br> <br>
 				<input type="submit" class="pwsubmit-btn" value="제출">
+			</form>
+			<form action="DeleteMemberCon.do" method="post">
+				<input type="hidden" name = "mb_id" value="<%=log.getMb_id()%>">
+				<input type="submit" class="deletesubmit-btn" value="회원탈퇴">
 			</form>
 		</div>
 	</div>

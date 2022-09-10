@@ -37,4 +37,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		select mb_id from bsh_member where mb_phone = #{mb_phone} and mb_birthdate = #{mb_birthdate} and mb_hint = #{mb_hint}
 	</select>
 	
+	<delete id="deletemember" parameterType="MemberDTO">
+		delete from bsh_member where mb_id=#{mb_id}
+	</delete>
+	
 </mapper>

@@ -52,4 +52,9 @@ public class MemberDTO {
 		this.mb_birthdate = mb_birthdate;
 		this.mb_hint = mb_hint;
 	}
+	
+	public MemberDTO(String mb_id) {
+		this.mb_id = mb_id;
+	}
+
   }

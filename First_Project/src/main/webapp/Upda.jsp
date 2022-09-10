@@ -128,7 +128,7 @@
 			<form action="PwCheckCon.do" method="post">
 				<h3 align="center">비밀번호 확인</h3>
 				<br>
-				<input type="password" name="mb_pw" class="pwselect-field" placeholder="비밀번호" required>
+				<input type="password" title="비밀번호 입력." name="mb_pw" class="pwselect-field" placeholder="비밀번호" required>
 				<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
 				<br>
 				<br>

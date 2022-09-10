@@ -139,7 +139,7 @@
             <div>
     			<!-- hotel list css start-->          
           		<div class="row justify-content-center">
-				<div class="section_tittle text-center">
+				<div class="section_tittle text-center" style="width: 700px;">
 					<h2>스마트인재개발원</h2>
     <!-- hotel list css end -->
 	

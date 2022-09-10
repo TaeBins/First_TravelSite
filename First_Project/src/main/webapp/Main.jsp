@@ -164,7 +164,7 @@
   overflow: hidden;
   position: relative;
   padding-right: 20px;
-  font-size: 45px;
+  font-size: 50px;
   color: #fff;
   word-spacing: 10px;
 }
@@ -398,7 +398,7 @@ body {
 }
 .demo-cont__credits-heading {
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 48px;
   margin-bottom: 20px;
 }
 .demo-cont__credits-img {
@@ -432,15 +432,15 @@ body {
 }
 .example-slider .fnc-slide-1 .fnc-slide__inner,
 .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MjdfMTUx%2FMDAxNjYxNTgyNjk5MTMz.1B4UY_Shu3aR1Q1j95xoOmIviJqv_h_spGlsN1tx5NMg.22YKfCaM4wpnZDvGYtEFDlChfGaVM7ZRUuU5hH72y6cg.JPEG.mihong21%2F20220825%25A3%25DF113324.jpg&type=sc960_832");
+  background-image: url("img2/back2.jpg");
 }
 .example-slider .fnc-slide-2 .fnc-slide__inner,
 .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
-  background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MTNfNDgg%2FMDAxNjYwMzc1NTQwODg4.bVZibx5Mu0xRBuAa1bqHEAbcxdGI91iXifoZeauPf_sg.qb-CcdxkjlDwNfrYGB6Yu0AG9sA52EkhUQRlPYzovC8g.JPEG.guswn4769%2FIMG_4540.jpg&type=sc960_832");
+  background-image: url("img2/back3.jpg");
 }
 .example-slider .fnc-slide-3 .fnc-slide__inner,
 .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MjFfMTUz%2FMDAxNjYxMDgzMzM5ODk1.GebtX3acIGLfa-t-pfUfD9xRRtMpNO0Kr5bPM66AOj0g.jLIpQi6_PjX_1qVtNUP7DXQyCCup_h48DLyGpRiZJzUg.JPEG.ggoa95%2FIMG_1059.jpg&type=sc960_832");
+  background-image: url("img2/back4.jpg");
 }
 .example-slider .fnc-slide-3 .fnc-slide__inner:before {
   content: "";
@@ -453,7 +453,7 @@ body {
 }
 .example-slider .fnc-slide-4 .fnc-slide__inner,
 .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-  background-image: url("img2/ss2.png");
+  background-image: url("img2/back1.png");
 }
 .example-slider .fnc-slide-4 .fnc-slide__inner:before {
   content: "";
@@ -764,10 +764,10 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h2 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Black</span>
+                <span style="height: 55px;">Jeonju</span>
               </div>
               <div class="fnc-slide__heading-line">
-                <span>Widow</span>
+                <span></span>
               </div>
             </h2>
             <button type="button" class="fnc-slide__action-btn">
@@ -787,10 +787,10 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h2 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Captain</span>
+                <span style="height: 55px;">Yeosu</span>
               </div>
               <div class="fnc-slide__heading-line">
-                <span>America</span>
+                <span></span>
               </div>
             </h2>
             <button type="button" class="fnc-slide__action-btn">
@@ -810,10 +810,10 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h2 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Iron</span>
+                <span style="height: 55px;">Damyang</span>
               </div>
               <div class="fnc-slide__heading-line">
-                <span>Man</span>
+                <span></span>
               </div>
             </h2>
             <button type="button" class="fnc-slide__action-btn">
@@ -833,10 +833,10 @@ because it requires specific images, where more than 50% of bg is transparent or
           <div class="fnc-slide__content">
             <h2 class="fnc-slide__heading">
               <div class="fnc-slide__heading-line">
-                <span>Thor</span>
+                <span style="height: 55px;">Gwangju</span>
               </div>
               <div class="fnc-slide__heading-line">
-                <span>Just Thor</span>
+                <span></span>
               </div>
             </h2>
             <button type="button" class="fnc-slide__action-btn">
@@ -857,19 +857,19 @@ because it requires specific images, where more than 50% of bg is transparent or
       </div>
       <div class="fnc-nav__controls">
         <button class="fnc-nav__control">
-          Black Widow
+          Jeonju
           <span class="fnc-nav__control-progress"></span>
         </button>
         <button class="fnc-nav__control">
-          Captain America
+          Yeosu
           <span class="fnc-nav__control-progress"></span>
         </button>
         <button class="fnc-nav__control">
-          Iron Man
+          Damyang
           <span class="fnc-nav__control-progress"></span>
         </button>
         <button class="fnc-nav__control">
-          Thor
+          Gwangju
           <span class="fnc-nav__control-progress"></span>
         </button>
       </div>

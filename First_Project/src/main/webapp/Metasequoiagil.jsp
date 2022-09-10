@@ -139,7 +139,7 @@
             <div>
     			<!-- hotel list css start-->          
           		<div class="row justify-content-center">
-				<div class="section_tittle text-center">
+				<div class="section_tittle text-center" style="width: 700px;">
 					<h2>메타세콰이어길</h2>
     <!-- hotel list css end -->
 	

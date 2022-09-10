@@ -152,7 +152,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Gwanbangjerim.jsp"><img src="img2/places/Gwanbangjerim1.png" width="555px" height="396px"></a>
+                        <a href="place/Gwanbangjerim.jsp"><img src="img2/places/Gwanbangjerim1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Gwanbangjerim</h3>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Geumseong.jsp"><img src="img2/places/Geumseong Sanseong1.png" width="555px" height="396px"></a>
+                        <a href="place/Geumseong.jsp"><img src="img2/places/Geumseong Sanseong1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Geumseong Sanseong</h3>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Yongmaru.jsp"><img src="img2/places/Yongmaru-gil1.png" width="555px" height="396px"></a>
+                        <a href="place/Yongmaru.jsp"><img src="img2/places/Yongmaru-gil1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Yongmaru-gil</h3>
@@ -230,7 +230,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Chuwolsan.jsp"><img src="img2/places/Chuwolsan1.png" width="555px" height="396px"></a>
+                        <a href="place/Chuwolsan.jsp"><img src="img2/places/Chuwolsan1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Chuwolsan</h3>
@@ -256,7 +256,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Metasequoiagil.jsp"><img src="img2/places/Metasequoiagil1.png" width="555px" height="396px"></a>
+                        <a href="place/Metasequoiagil.jsp"><img src="img2/places/Metasequoiagil1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Metasequoiagil</h3>
@@ -282,7 +282,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Juknokwon.jsp"><img src="img2/places/Juknokwon1.png" width="555px" height="396px"></a>
+                        <a href="place/Juknokwon.jsp"><img src="img2/places/Juknokwon1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Juknokwon</h3>
@@ -308,7 +308,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Taemok.jsp"><img src="img2/places/dy1.jpg" width="555px" height="396px"></a>
+                        <a href="place/Taemok.jsp"><img src="img2/places/dy1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Taemok-ri bamboo</h3>
@@ -334,7 +334,7 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <a href="Changpyeong.jsp"><img src="img2/places/dy2.jpg" width="555px" height="396px"></a>
+                        <a href="place/Changpyeong.jsp"><img src="img2/places/dy2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
                                 <h3>Changpyeong Hyanggyo</h3>

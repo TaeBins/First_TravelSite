@@ -26,6 +26,7 @@ public class LoginCon implements Command {
 		// 로그인 메소드 실행
 		MemberDTO info = new MemberDAO().login(dto);
 
+		String moveURL;
 		// 성공/실패 여부
 		if (info != null) {
 			System.out.println("로그인 성공");
@@ -34,11 +35,13 @@ public class LoginCon implements Command {
 			// 객체 불러온 후 데이터 담아서 보내기
 			HttpSession session = request.getSession();
 			session.setAttribute("info", info);
+			moveURL = "./Main.jsp";
 		} else {
 			System.out.println("로그인 실패");
+			moveURL = "./Member.jsp";
 		}
 		
-		return "Main.jsp";
+		return moveURL;
 
 	}
 

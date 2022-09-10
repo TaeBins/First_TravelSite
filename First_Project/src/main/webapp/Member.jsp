@@ -159,38 +159,38 @@
 				<div class="input-donta">
 					<table>
 						<td>
-							<input type="text" id="#{label}" name="mb_id" required="required" />
+							<input type="text" title="아이디 입력." id="#{label}" name="mb_id" required="required" />
 						</td>
 						<p id="idCheck"></p>
 						<td>
-							<button id="btnn" class="idcheckbott" type="button">중복확인</button>
+							<button id="btnn" title="아이디 중복확인." class="idcheckbott" type="button">중복확인</button>
 						</td>
 						<label for="#{label}">UserID</label>
 						<div class="bar"></div>
 					</table>
 				</div>
 				<div class="input-donta">
-					<input type="password" id="#{label}" name="mb_pw" required="required" />
+					<input type="password" title="비밀번호 입력." id="#{label}" name="mb_pw" required="required" />
 					<label for="#{label}">Password</label>
 					<div class="bar"></div>
 				</div>
 				<div class="input-donta">
-					<input type="text" id="#{label}" name="mb_nick" required="required" />
+					<input type="text" title="닉네임 입력." id="#{label}" name="mb_nick" required="required" />
 					<label for="#{label}">Nick Name</label>
 					<div class="bar"></div>
 				</div>
 				<div class="input-donta">
-					<input type="text" minlength="11" maxlength="11" id="#{label}" name="mb_phone" required="required" />
+					<input type="tel" title="전화번호 입력." placeholder="010-1234-5678" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}" id="#{label}" name="mb_phone" required="required" maxlength="13" />
 					<label for="#{label}">Phone</label>
 					<div class="bar"></div>
 				</div>
 				<div class="input-donta">
-					<input type="text" minlength="6" maxlength="6" id="#{label}" name="mb_birthdate" required="required" />
+					<input type="date" title="생년월일 입력." id="#{label}" name="mb_birthdate" required="required" />
 					<label for="#{label}">brith</label>
 					<div class="bar"></div>
 				</div>
 				<div class="input-donta">
-					<input type="text" id="#{label}" name="mb_hint" required="required" />
+					<input type="text" title="힌트 입력." id="#{label}" name="mb_hint" required="required" />
 					<label for="#{label}" placeholder="보물 제1호는?">hint</label>
 					<div class="bar"></div>
 				</div>
@@ -330,6 +330,8 @@
 				success : function(result) {
 					if (result == 'true') {
 						$('#idCheck').html("아이디가 중복됩니다!");
+					} else if (result == '') {
+						$('#idCheck').html("아이디를 입력해주세요");
 					} else {
 						$('#idCheck').html("생성 가능한 아이디입니다!");
 					}

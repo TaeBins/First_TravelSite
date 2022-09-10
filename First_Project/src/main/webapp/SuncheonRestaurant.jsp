@@ -165,8 +165,8 @@
 				<div class="col-lg-12">
 					<div class="breadcrumb_iner">
 						<div class="breadcrumb_iner_item text-center">
-							<h2>Gwangju</h2>
-							<p>Gwangju . Restaurants</p>
+							<h2>Suncheon</h2>
+							<p>Suncheon . Restaurants</p>
 						</div>
 					</div>
 				</div>
@@ -194,27 +194,30 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g1-2.jpg"></a>
+									<a href="rest/Camellia.jsp"><img src="img1/rest/k1-3.png"></a>
 								</div>
 							</div>
 						</div>
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="#"> Hotel Polonia</a>
+								<a href="rest/Camellia.jsp">Camellia Katsu</a>
 							</h3>
-							<div class="place_review">
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <span>(210 review)</span>
-							</div>
-							<p>London, United Kingdom Date: 23 Aug 2019</p>
-							<p></p>
-							<p>Duration: 5 days</p>
-							<h5>
-								From <span>$500</span>
-							</h5>
+							<form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+              					<button type="button" class="btn btn-outline-danger">
+                						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5ZM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1v3ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"></path>
+										</svg>
+							                wish
+				              	</button>
+                            </form>
 						</div>
 					</div>
 				</div>
@@ -223,24 +226,29 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g2-6.jpg"></a>
+									<a href="rest/NaNa.jsp"><img src="img1/rest/k2-2.jpg"></a>
 								</div>
 							</div>
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="#"> Hotel Polonia</a>
+								<a href="rest/NaNa.jsp">NaNa Bangkok</a>
 							</h3>
-							<div class="place_review">
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <span>(210 review)</span>
-								<p>Date: 23 Aug 2019</p>
-								<p>Duration: 5 days</p>
-								<h5>
-									From <span>$500</span>
-								</h5>
+							<form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+              					<button type="button" class="btn btn-outline-danger">
+                						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5ZM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1v3ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"></path>
+										</svg>
+							                wish
+				              	</button>
+                            </form>
 							</div>
 						</div>
 					</div>
@@ -258,26 +266,29 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g3-2.jpg"></a>
-			</div>
+									<a href="rest/Longevity.jsp"> <img src="img1/rest/k3-3.jpg"></a>
+								</div>
 							</div>
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="#"> Hotel Polonia</a>
+								<a href="rest/Longevity.jsp">Longevity Sky Cow</a>
 							</h3>
-							<div class="place_review">
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <span>(210 review)</span>
-							</div>
-							<p>London, United Kingdom</p>
-							<p>Date: 23 Aug 2019</p>
-							<p>Duration: 5 days</p>
-							<h5>
-								From <span>$500</span>
-							</h5>
+							<form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+              					<button type="button" class="btn btn-outline-danger">
+                						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5ZM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1v3ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"></path>
+										</svg>
+							                wish
+				              	</button>
+                            </form>
 						</div>
 					</div>
 				</div>
@@ -286,26 +297,29 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g4-7.jpg"></a>
+									<a href="rest/Palace.jsp"><img src="img1/rest/k5-2.jpg"></a>
 								</div>
 							</div>
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="#"> Hotel Polonia</a>
+								<a href="rest/Palace.jsp">Palace Confectionery</a>
 							</h3>
-							<div class="place_review">
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <span>(210 review)</span>
-							</div>
-							<p>London, United Kingdom</p>
-							<p>Date: 23 Aug 2019</p>
-							<p>Duration: 5 days</p>
-							<h5>
-								From <span>$500</span>
-							</h5>
+							<form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+              					<button type="button" class="btn btn-outline-danger">
+                						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5ZM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1v3ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"></path>
+										</svg>
+							                wish
+				              	</button>
+                            </form>
 						</div>
 					</div>
 				</div>
@@ -323,27 +337,30 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g5-6.jpg"></a>
+									<a href="rest/OIC.jsp"><img src="img1/rest/k4-2.jpg"></a>
 								</div>
 							</div>
 						</div>
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="#"> Hotel Polonia</a>
+								<a href="rest/OIC.jsp">Lounge OIC</a>
 							</h3>
-							<div class="place_review">
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <span>(210 review)</span>
-							</div>
-							<p>London, United Kingdom</p>
-							<p>Date: 23 Aug 2019</p>
-							<p>Duration: 5 days</p>
-							<h5>
-								From <span>$500</span>
-							</h5>
+							<form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+              					<button type="button" class="btn btn-outline-danger">
+                						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5ZM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1v3ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"></path>
+										</svg>
+							                wish
+				              	</button>
+                            </form>
 						</div>
 					</div>
 				</div>
@@ -352,26 +369,29 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="test.jsp"> <img src="img2/g6-2.jpg"></a>
+									<a href="rest/Mid.jsp"> <img src="img1/rest/k7-2.jpg"></a>
 								</div>
 							</div>
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="#"> Hotel Polonia</a>
+								<a href="rest/Mid.jsp">Mid Pick</a>
 							</h3>
-							<div class="place_review">
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <a href="#"><i class="fas fa-star"></i></a>
-								<a href="#"><i class="fas fa-star"></i></a> <a href="#"><i
-									class="fas fa-star"></i></a> <span>(210 review)</span>
-							</div>
-							<p>London, United Kingdom</p>
-							<p>Date: 23 Aug 2019</p>
-							<p>Duration: 5 days</p>
-							<h5>
-								From <span>$500</span>
-							</h5>
+							<form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+              					<button type="button" class="btn btn-outline-danger">
+                						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart-fill" viewBox="0 0 16 16">
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5ZM8.5 4h6l.5.667V5H1v-.333L1.5 4h6V1h1v3ZM8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"></path>
+										</svg>
+							                wish
+				              	</button>
+                            </form>
 						</div>
 					</div>
 				</div>

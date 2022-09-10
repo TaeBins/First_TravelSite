@@ -369,13 +369,13 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="rest/Mid.jsp"> <img src="img1/rest/k7-2.jpg"></a>
+									<a href="rest/SokoA.jsp"> <img src="img1/rest/s6-8.jpg"></a>
 								</div>
 							</div>
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Mid.jsp">Mid Pick</a>
+								<a href="rest/SokoA.jsp">SokoA</a>
 							</h3>
 							<form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">

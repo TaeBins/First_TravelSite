@@ -139,7 +139,7 @@
             <div>
     			<!-- hotel list css start-->          
           		<div class="row justify-content-center">
-				<div class="section_tittle text-center">
+				<div class="section_tittle text-center"style="width: 700px;">
 					<h2>여수바다 닭강정</h2>
     <!-- hotel list css end -->
 	

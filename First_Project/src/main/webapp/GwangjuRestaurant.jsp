@@ -165,8 +165,8 @@
 				<div class="col-lg-12">
 					<div class="breadcrumb_iner">
 						<div class="breadcrumb_iner_item text-center">
-							<h2>Damyang</h2>
-							<p>Damyang . Restaurants</p>
+							<h2>Gwangju</h2>
+							<p>Gwangju . Restaurants</p>
 						</div>
 					</div>
 				</div>

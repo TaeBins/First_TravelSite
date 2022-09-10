@@ -3,21 +3,26 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 .Alltable {
-	width: 1300px;
-	right: 200px;
+	
 }
 
 .tdtdtable {
-	width: 400px;
-	padding-left: 80px;
+	width: 350px;
+	padding-left: 150px;
 }
+
+.tedtable {
+	width: 350px;
+	padding-left: 500px;
+}
+
 .tedtdtable {
 	width: 400px;
 	padding-left: 200px;
 }
 
 .divtable {
-	width: 700px;
+	width: 300px;
 }
 
 .tdtable {
@@ -27,6 +32,14 @@
 .twotable {
 	background-color: #64AEFF;
 	padding-left: 200px;
+}
+
+.tte {
+	width: 100px;
+}
+
+.tet {
+	width: 50px;
 }
 
 .container-taebins {
@@ -149,21 +162,21 @@ thead {
 		right: 0;
 		font-size: 12px;
 	}
-	.tdtdtable{
-		width: 50px;
-		padding-left: 0;
+	.onetable {
+		width: 200px;
 	}
-	.tedtdtable{
-		width: 50px;
-		padding-left: 0;
+	.divtable {
+		width: 200px;
 	}
-	.divtable{
-		width: 25px;
+	.tdtdtable {
+		width: 100px;
+		padding-left: 20px;
 	}
-	.twotable{
-		width: 370px;
+	.tedtable {
+		width: 100px;
+		padding-left: 30px;
 	}
-	.tdtable{
+	.theded {
 		width: 50px;
 	}
 }

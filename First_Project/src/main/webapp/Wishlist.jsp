@@ -148,21 +148,21 @@
 		<td class="tdtdtable">
 		<div class="divtable">
 			<table class="onetable">
-				<thead>
-					<tr>
-						<td width="100px">No</td>
-						<td>Title</td>
-						<td>UserID</td>
-						<td>Date</td>
-						<td>Delete</td>
+				<thead class="theded">
+					<tr class="trtable">
+						<td class="tet">No</td>
+						<td class="tte">Title</td>
+						<td class="tte">UserID</td>
+						<td class="tte">Date</td>
+						<td class="tte">Delete</td>
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td width="100px">1</td>
-						<td><a style="color : #212529;" href="ShowMessage.jsp">2</a></td>
-						<td>3</td>
-						<td>4</td>
+					<tr class="trtable">
+						<td class="tet">1</td>
+						<td class="tte"><a style="color : #212529;" href="ShowMessage.jsp">2</a></td>
+						<td class="tte">3</td>
+						<td class="tte">4</td>
 						<td class = "tasize">
 							<form action="DeleteOneCon.do" method="post">
 								<input type="hidden" name="q_seq" value="5">
@@ -174,24 +174,24 @@
 			</table>
 		</div>
 		</td>
-		<td class="tedtdtable">
-		<div style="width: 700px;">
+		<td class="tedtable">
+		<div class="divtable">
 			<table class="onetable">
-				<thead>
-					<tr>
-						<td width="100px">No</td>
-						<td>Title</td>
-						<td>UserID</td>
-						<td>Date</td>
-						<td>Delete</td>
+				<thead class="theded">
+					<tr class="trtable">
+						<td class="tet">No</td>
+						<td class="tte">Title</td>
+						<td class="tte">UserID</td>
+						<td class="tte">Date</td>
+						<td class="tte">Delete</td>
 					</tr>
 				</thead>
 				<tbody>
-					<tr>
-						<td width="100px">1</td>
-						<td><a style="color : #212529;" href="ShowMessage.jsp">2</a></td>
-						<td>3</td>
-						<td>4</td>
+					<tr class="trtable">
+						<td class="tet">1</td>
+						<td class="tte"><a style="color : #212529;" href="ShowMessage.jsp">2</a></td>
+						<td class="tte">3</td>
+						<td class="tte">4</td>
 						<td class = "tasize">
 							<form action="DeleteOneCon.do" method="post">
 								<input type="hidden" name="q_seq" value="5">
@@ -203,13 +203,6 @@
 			</table>
 		</div>
 		</td>
-		</tr>
-		<tr>
-			<td class="tdtable">
-			<form action="DeleteCon.do" method="post">
-				<input class="clear-btn" type="submit" value="Wish All Clear">
-			</form>
-			</td>
 		</tr>
 		</table>
 	</div>

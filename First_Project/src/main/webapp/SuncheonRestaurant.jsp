@@ -194,14 +194,14 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="rest/Camellia.jsp"><img src="img1/rest/k1-3.png"></a>
+									<a href="rest/khao.jsp"><img src="img1/rest/s1-3.jpg"></a>
 								</div>
 							</div>
 						</div>
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Camellia.jsp">Camellia Katsu</a>
+								<a href="rest/khao.jsp">khao</a>
 							</h3>
 							<form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">
@@ -226,13 +226,13 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="rest/NaNa.jsp"><img src="img1/rest/k2-2.jpg"></a>
+									<a href="rest/Do.jsp"><img src="img1/rest/s2-7.jpg"></a>
 								</div>
 							</div>
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/NaNa.jsp">NaNa Bangkok</a>
+								<a href="rest/Do.jsp">Do Won-kyung</a>
 							</h3>
 							<form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">
@@ -266,13 +266,13 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="rest/Longevity.jsp"> <img src="img1/rest/k3-3.jpg"></a>
+									<a href="rest/BrewWorks.jsp"> <img src="img1/rest/s3-6.jpg"></a>
 								</div>
 							</div>
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Longevity.jsp">Longevity Sky Cow</a>
+								<a href="rest/BrewWorks.jsp">BrewWorks</a>
 							</h3>
 							<form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">
@@ -297,13 +297,13 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="rest/Palace.jsp"><img src="img1/rest/k5-2.jpg"></a>
+									<a href="rest/Southern.jsp"><img src="img1/rest/s4-2.jpg"></a>
 								</div>
 							</div>
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Palace.jsp">Palace Confectionery</a>
+								<a href="rest/Southern.jsp">Southern field dining table</a>
 							</h3>
 							<form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">
@@ -337,14 +337,14 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="rest/OIC.jsp"><img src="img1/rest/k4-2.jpg"></a>
+									<a href="rest/Hagos.jsp"><img src="img1/rest/s5-8.jpg"></a>
 								</div>
 							</div>
 						</div>
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/OIC.jsp">Lounge OIC</a>
+								<a href="rest/Hagos.jsp">Hagos</a>
 							</h3>
 							<form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">

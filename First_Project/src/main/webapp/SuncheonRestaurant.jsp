@@ -194,7 +194,7 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-									<a href="rest/khao.jsp"><img src="img1/rest/s1-3.jpg"></a>
+									<a href="rest/Khao.jsp"><img src="img1/rest/s1-3.jpg"></a>
 								</div>
 							</div>
 						</div>

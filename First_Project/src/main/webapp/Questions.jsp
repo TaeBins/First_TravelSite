@@ -169,10 +169,12 @@
 					%>
 					<tr>
 						<td width="100px"><%=i + 1%></td>
-						<td><a style="color : #212529;" href="ShowMessage.jsp?seq=<%= msg_list.get(i).getQ_seq()%>"><%=msg_list.get(i).getQ_title()%></a></td>
+						<td>
+							<a style="color: #212529;" href="ShowMessage.jsp?seq=<%=msg_list.get(i).getQ_seq()%>"><%=msg_list.get(i).getQ_title()%></a>
+						</td>
 						<td><%=msg_list.get(i).getMb_id()%></td>
 						<td><%=msg_list.get(i).getQ_date()%></td>
-						<td class = "tasize">
+						<td class="tasize">
 							<form action="DeleteOneCon.do" method="post">
 								<input type="hidden" name="q_seq" value="<%=msg_list.get(i).getQ_seq()%>">
 								<input class="tb-btn" type="submit" value="DEL">

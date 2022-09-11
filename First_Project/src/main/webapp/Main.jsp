@@ -4,6 +4,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style type="text/css">
+.book::after,
+.book::before, .book img, .book {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  display: table;
+  text-align: center;
+}
+
+ul {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  margin-left: 2em;
+}
+.list-inline > li:first-child {
+  margin-left: 0;
+}
+
+.book {
+  cursor: pointer;
+  display: block;
+  width: 250px;
+  height: 380px;
+  position: relative;
+  background: white;
+  z-index: 1;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 9px 20px 0 rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  transition: box-shadow 0.3s linear;
+}
+
+.book img {
+  width: inherit;
+  height: inherit;
+  transform-origin: 0 50%;
+  transform: rotateY(0);
+  transition: all 0.45s ease;
+}
+
+.book:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 9px 20px 0 rgba(0, 0, 0, 0.45);
+}
+.book:hover img {
+  transform: rotateY(-25deg);
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.book::after,
+.book::before {
+  content: "";
+  display: block;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  background: white;
+  border: 1px solid #d9d9d9;
+}
+
+.book::before {
+  left: -3px;
+}
+
+.book::after {
+  left: -6px;
+}
+</style>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -282,6 +364,37 @@ because it requires specific images, where more than 50% of bg is transparent or
     
     <!--top place start-->
     <section class="top_place section_padding">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6">
+                    <div class="section_tittle text-center">
+
+
+
+
+ 
+
+
+                        <h2>전남 축제 DOING</h2>
+                        <p>South Jeolla Festival in Progress</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+    <li class='book'>
+    <img src='img2/common.jfif' />
+  </li>
+  <li class='book'>
+    <img src='img2/common2.jfif' />
+  </li> 
+  <li class='book'>
+    <img src='img2/common3.jfif' />
+  </li>
+   <li class='book'>
+    <img src='img2/common4.jfif' />
+  </li>
+  </section>
+   <section class="top_place section_padding">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6">
@@ -750,5 +863,6 @@ BSH &copy;<script>document.write(new Date().getFullYear());</script> Places & Fo
     	document.querySelector(".js-activate-global-blending").addEventListener("click", function() {
     	  document.querySelector(".example-slider").classList.toggle("m--global-blending-active");
     	});</script>
+ 
 </body>
 </html>

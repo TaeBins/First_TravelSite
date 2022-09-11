@@ -131,11 +131,11 @@
 		    		<h3 align="center">아이디 찾기</h3>
 		    		<br>
 		    		<h5>가입시 전화번호</h5>
-		    		<input type = "text" minlength="11" maxlength="11" name="mb_phone" class = "idselect-field" placeholder="- 제외 번호 11자리" required>
+		    		<input type = "tel" title="전화번호 입력." placeholder="010-1234-5678" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}" maxlength="13" name="mb_phone" class = "idselect-field" required>
 		    		<h5>생년월일</h5>
-		    		<input type = "text" minlength="6" maxlength="6" name="mb_birthdate" class = "idselect-field" placeholder="YYMMDD" required>
+		    		<input type = "date" title="생년월일 입력." name="mb_birthdate" class = "idselect-field"  required>
 		    		<h5>힌트</h5>
-		    		<input type = "text" name="mb_hint" class = "idselect-field" placeholder="보물 제1호는?" required>
+		    		<input type = "text" title="힌트 입력." name="mb_hint" class = "idselect-field" placeholder="보물 제1호는?" required>
 		    		<br>
 		    		<input type = "submit" class = "idsubmit-btn" value="제출">
 		    	</form>

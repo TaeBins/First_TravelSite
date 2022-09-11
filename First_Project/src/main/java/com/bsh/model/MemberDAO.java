@@ -94,4 +94,12 @@ public class MemberDAO {
 		return idselect;
 	}
 	
+	public int deletemember(MemberDTO dto) {
+		SqlSession session = sqlSessionFactory.openSession(true);
+		int row = session.delete("deletemember", dto);
+		session.close();
+		
+		return row;
+	}
+	
 }

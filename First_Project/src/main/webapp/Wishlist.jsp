@@ -133,7 +133,7 @@
 		<div class="container-TB">
 			<svg class="qna_set" viewBox="0 0 960 300">
     <symbol id="s-text">
-      <text text-anchor="middle" x="50%" y="80%">QnA List</text>
+      <text text-anchor="middle" x="50%" y="80%">Wish List</text>
     </symbol>
 
     <g class="g-ants">
@@ -144,66 +144,68 @@
   </svg>
 		</div>
 		<table class="Alltable">
-		<tr class="twotable">
-		<td class="tdtdtable">
-		<div class="divtable">
-			<table class="onetable">
-				<thead class="theded">
-					<tr class="trtable">
-						<td class="tet">No</td>
-						<td class="tte">Title</td>
-						<td class="tte">UserID</td>
-						<td class="tte">Date</td>
-						<td class="tte">Delete</td>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="trtable">
-						<td class="tet">1</td>
-						<td class="tte"><a style="color : #212529;" href="ShowMessage.jsp">2</a></td>
-						<td class="tte">3</td>
-						<td class="tte">4</td>
-						<td class = "tasize">
-							<form action="DeleteOneCon.do" method="post">
-								<input type="hidden" name="q_seq" value="5">
-								<input class="tb-btn" type="submit" value="DEL">
-							</form>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		</td>
-		<td class="tedtable">
-		<div class="divtable">
-			<table class="onetable">
-				<thead class="theded">
-					<tr class="trtable">
-						<td class="tet">No</td>
-						<td class="tte">Title</td>
-						<td class="tte">UserID</td>
-						<td class="tte">Date</td>
-						<td class="tte">Delete</td>
-					</tr>
-				</thead>
-				<tbody>
-					<tr class="trtable">
-						<td class="tet">1</td>
-						<td class="tte"><a style="color : #212529;" href="ShowMessage.jsp">2</a></td>
-						<td class="tte">3</td>
-						<td class="tte">4</td>
-						<td class = "tasize">
-							<form action="DeleteOneCon.do" method="post">
-								<input type="hidden" name="q_seq" value="5">
-								<input class="tb-btn" type="submit" value="DEL">
-							</form>
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-		</td>
-		</tr>
+			<tr class="twotable">
+				<td class="tdtdtable">
+					<div class="divtable">
+						<table class="onetable">
+							<thead class="theded">
+								<tr class="trtable">
+									<td class="tet">No</td>
+									<td class="tte">P_Name</td>
+									<td class="tte">Date</td>
+									<td class="tte">Delete</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="trtable">
+									<td class="tet">1</td>
+									<td class="tte">
+										<a style="color: #212529;" href="ShowMessage.jsp">2</a>
+									</td>
+									<td class="tte">3</td>
+									<td class="tasize">
+										<form action="DeleteOneCon.do" method="post">
+											<input type="hidden" name="q_seq" value="5">
+											<input class="tb-btn" type="submit" value="DEL">
+										</form>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</td>
+				<td class="tedtable">
+					<div class="divtable">
+						<table class="onetable">
+							<thead class="theded">
+								<tr class="trtable">
+									<td class="tet">No</td>
+									<td class="tte">Place</td>
+									<td class="tte">R_Name</td>
+									<td class="tte">Date</td>
+									<td class="tte">Delete</td>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="trtable">
+									<td class="tet">1</td>
+									<td class="tte">
+										<a style="color: #212529;" href="ShowMessage.jsp">2</a>
+									</td>
+									<td class="tte">3</td>
+									<td class="tte">4</td>
+									<td class="tasize">
+										<form action="DeleteOneCon.do" method="post">
+											<input type="hidden" name="q_seq" value="5">
+											<input class="tb-btn" type="submit" value="DEL">
+										</form>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</td>
+			</tr>
 		</table>
 	</div>
 	<!-- ================ contact section end ================= -->

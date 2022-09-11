@@ -43,3 +43,15 @@
 	width: 70%;
 	height: 50px;
 }
+
+.deletesubmit-btn {
+	color: #EEEFF1;
+	font-size: 14px;
+	background-color: #162b45;
+	margin-bottom: 30px;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	width: 70%;
+	height: 50px;
+}

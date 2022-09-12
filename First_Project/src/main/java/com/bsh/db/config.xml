@@ -9,6 +9,7 @@
 		<typeAlias type="com.bsh.model.MemberDTO" alias="MemberDTO"/>
 		<typeAlias type="com.bsh.model.MessageDTO" alias="MessageDTO"/>
 		<typeAlias type="com.bsh.model.WishPlaceDTO" alias="WishPlaceDTO"/>
+		<typeAlias type="com.bsh.model.WishRestDTO" alias="WishRestDTO"/>
 	</typeAliases>
 
   <environments default="development">
@@ -27,5 +28,6 @@
     <mapper resource="com/bsh/mapper/MemberMapper.xml"/>
     <mapper resource="com/bsh/mapper/MessageMapper.xml"/>
     <mapper resource="com/bsh/mapper/WishPlaceMapper.xml"/>
+    <mapper resource="com/bsh/mapper/WishRestMapper.xml"/>
   </mappers>
 </configuration>

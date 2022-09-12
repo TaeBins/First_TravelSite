@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper 
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.bsh.mapper.WishRestMapper">
+	<insert id="wishr" parameterType="MemberDTO">
+		insert into bsh_wish_rest (wr_seq, rest_seq, wr_date, mb_id)
+		select bsh_wish_rest_seq.nextval, #{rest_seq}, sysdate, #{mb_id} from dual
+		where not exists (
+							select rest_seq, mb_id 
+							from bsh_wish_rest 
+							where rest_seq=#{rest_seq} and mb_id=#{mb_id}
+							)
+	</insert>
+	
+	<select id="r_list" parameterType="WishRestDTO" resultType="WishRestDTO">
+		SELECT r1.wr_seq, r1.rest_seq, r1.wr_date, r1.mb_id, r2.mb_id, r3.rest_seq, r3.rest_name, r3.rest_link
+		FROM bsh_wish_rest r1 
+   	 	INNER JOIN bsh_member r2 ON r1.mb_id = r2.mb_id
+   	 	INNER JOIN BSH_RESTAURANT r3 ON r1.rest_seq = r3.rest_seq
+	</select>
+	
+</mapper>

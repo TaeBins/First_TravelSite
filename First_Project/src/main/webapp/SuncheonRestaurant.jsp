@@ -150,20 +150,14 @@
 						<div class="container">
 							<div class="thumbex">
 								<div class="thumbnail">
-<<<<<<< HEAD
 									<a href="rest/Khao.jsp"><img src="img1/rest/s1-3.jpg"></a>
-=======
-									<a href="rest/khao.jsp">
-										<img src="img1/rest/s1-3.jpg">
-									</a>
->>>>>>> branch 'master' of https://github.com/2022-SMHRD-KDT-DCX-BigData-3/5Team.git
 								</div>
 							</div>
 						</div>
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/khao.jsp">khao</a>
+								<a href="rest/Khao.jsp">khao</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">

@@ -4,12 +4,21 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.bsh.mapper.WishPlaceMapper">
-	<insert id="wishplace" parameterType="MemberDTO">
-		insert into BSH_WISH_PLACE values(bsh_wish_place_wp_seq.nextval, bsh_wish_place_place_seq.nextval, SYSDATE, #{mb_id})
+	<insert id="wish" parameterType="MemberDTO">
+		insert into bsh_wish_place (wp_seq, place_seq, wr_date, mb_id)
+		select bsh_wish_place_seq.nextval, #{place_seq}, sysdate, #{mb_id} from dual
+		where not exists (
+							select place_seq, mb_id 
+							from bsh_wish_place 
+							where place_seq=#{place_seq} and mb_id=#{mb_id}
+							)
 	</insert>
 	
-	<select id="wishplaceall" parameterType="MemberDTO" resultType="MemberDTO">
-		select * from BSH_WISH_PLACE where mb_id =#{mb_id}
+	<select id="p_list" parameterType="WishPlaceDTO" resultType="WishPlaceDTO">
+		SELECT b1.wp_seq, b1.place_seq, b1.wr_date, b1.mb_id, b2.mb_id, b3.place_seq, b3.place_name, b3.place_link
+		FROM bsh_wish_place b1 
+   	 	INNER JOIN bsh_member b2 ON b1.mb_id = b2.mb_id
+   	 	INNER JOIN bsh_place b3 ON b1.place_seq = b3.place_seq
 	</select>
 	
 </mapper>

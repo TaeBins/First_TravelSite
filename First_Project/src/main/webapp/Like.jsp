@@ -1,3 +1,5 @@
+<%@page import="com.bsh.model.WishPlaceDAO"%>
+<%@page import="com.bsh.model.WishPlaceDTO"%>
 <%@page import="java.util.List"%>
 <%@page import="com.bsh.model.MessageDTO"%>
 <%@page import="java.util.ArrayList"%>
@@ -129,6 +131,10 @@
 	<!-- Header part end-->
 
 	<!-- ================ contact section start ================= -->
+	<%
+	ArrayList<WishPlaceDTO> p_list = new ArrayList<WishPlaceDTO>();
+	p_list = new WishPlaceDAO().p_list(log.getMb_id());
+	%>
 	<div class="container-taebins">
 		<div class="container-TB">
 			<svg class="qna_set" viewBox="0 0 960 300">
@@ -157,19 +163,25 @@
 								</tr>
 							</thead>
 							<tbody>
+								<%
+								for (int i = 0; i < p_list.size(); i++) {
+								%>
 								<tr class="trtable">
-									<td class="tet">1</td>
+									<td class="tet"><%=i + 1%></td>
 									<td class="tte">
-										<a style="color: #212529;" href="ShowMessage.jsp">2</a>
+										<a style="color: #212529;" href="./place/<%= p_list.get(i).getPlace_link()%>"><%=p_list.get(i).getPlace_name()%></a>
 									</td>
-									<td class="tte">3</td>
+									<td class="tte"><%=p_list.get(i).getWr_date()%></td>
 									<td class="tasize">
-										<form action="DeleteOneCon.do" method="post">
-											<input type="hidden" name="q_seq" value="5">
+										<form action="WishDeleteOneCon.do" method="post">
+											<input type="hidden" name="wp_seq" value="<%=p_list.get(i).getWp_seq()%>">
 											<input class="tb-btn" type="submit" value="DEL">
 										</form>
 									</td>
 								</tr>
+								<%
+								}
+								%>
 							</tbody>
 						</table>
 					</div>

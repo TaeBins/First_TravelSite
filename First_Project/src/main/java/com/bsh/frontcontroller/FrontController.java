@@ -77,7 +77,7 @@ public class FrontController extends HttpServlet {
 		} else if (requestURI.equals("PwCheckCon.do")) {
 			con = new PwCheckCon();
 			
-		} else if (requestURI.equals("WishCon.do")) {
+		} else if (requestURI.equals("place/WishCon.do")) {
 			con = new WishCon();
 			
 		} else if (requestURI.equals("WishselectCon.do")) {

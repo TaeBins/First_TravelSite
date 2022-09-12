@@ -72,7 +72,6 @@
 											<a class="dropdown-item" href="YeosuRestaurant.jsp">Yeosu</a>
 											<a class="dropdown-item" href="SuncheonRestaurant.jsp">Suncheon</a>
 										</div></li>
-									<li class="nav-item"><a class="nav-link" href="Board.jsp">Board</a></li>
 									<li class="nav-item"><a class="nav-link" href="Questions.jsp">1:1 Questions</a></li>
 									<%
 									MemberDTO log = (MemberDTO) session.getAttribute("info");
@@ -130,8 +129,7 @@
 				<br>
 				<input type="password" title="비밀번호 입력." name="mb_pw" class="pwselect-field" placeholder="비밀번호" required>
 				<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
-				<br>
-				<br>
+				<br> <br>
 				<input type="submit" class="pwsubmit-btn" value="확인하기">
 			</form>
 		</div>

@@ -19,6 +19,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		FROM bsh_wish_rest r1 
    	 	INNER JOIN bsh_member r2 ON r1.mb_id = r2.mb_id
    	 	INNER JOIN BSH_RESTAURANT r3 ON r1.rest_seq = r3.rest_seq
+   	 	where r1.mb_id=#{mb_id}
 	</select>
 	
 </mapper>

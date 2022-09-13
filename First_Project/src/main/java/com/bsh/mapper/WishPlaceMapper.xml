@@ -19,6 +19,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		FROM bsh_wish_place b1 
    	 	INNER JOIN bsh_member b2 ON b1.mb_id = b2.mb_id
    	 	INNER JOIN bsh_place b3 ON b1.place_seq = b3.place_seq
+   	 	where b1.mb_id=#{mb_id}
 	</select>
 	
 </mapper>

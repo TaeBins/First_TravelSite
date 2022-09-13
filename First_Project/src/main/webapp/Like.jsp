@@ -1,3 +1,4 @@
+<%@page import="org.apache.ibatis.reflection.SystemMetaObject"%>
 <%@page import="com.bsh.model.WishRestDAO"%>
 <%@page import="com.bsh.model.WishRestDTO"%>
 <%@page import="com.bsh.model.WishPlaceDAO"%>
@@ -136,6 +137,8 @@
 	<%
 	ArrayList<WishPlaceDTO> p_list = new ArrayList<WishPlaceDTO>();
 	p_list = new WishPlaceDAO().p_list(log.getMb_id());
+	
+	
 	ArrayList<WishRestDTO> r_list = new ArrayList<WishRestDTO>();
 	r_list = new WishRestDAO().r_list(log.getMb_id());
 	%>

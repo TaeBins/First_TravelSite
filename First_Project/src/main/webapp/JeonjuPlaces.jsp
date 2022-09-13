@@ -314,7 +314,7 @@
                 </div>
             </div>
            		<div align="center">
-	           		<button class="morebut"><a href="Jeonjuphoto.jsp" class="mobtn" target="_blank">MorePhoto</a></button>
+	           		<button class="morebut"><a href="Jeonjuphoto.jsp" class="mobtn">MorePhoto</a></button>
 	           	</div>
         </div>
     </section>

@@ -22,4 +22,12 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
    	 	where b1.mb_id=#{mb_id}
 	</select>
 	
+	<delete id="deleteOne1" parameterType="int">
+		delete from bsh_wish_place where wp_seq = #{wp_seq}
+	</delete>
+	
+	<delete id="delete1" parameterType="String">
+		delete from bsh_wish_place where mb_id = #{mb_id}
+	</delete>
+	
 </mapper>

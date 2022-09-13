@@ -27,4 +27,20 @@ public class WishPlaceDAO {
 		return p_list;
 	}
 	
+	public int deleteOne1(int wp_seq) {
+		SqlSession session = sqlSessionFactory.openSession(true);
+		int row = session.delete("deleteOne1", wp_seq);
+		session.close();
+
+		return row;
+	}
+	
+	public int delete1(String mb_id) {
+		SqlSession session = sqlSessionFactory.openSession(true);
+		int row = session.delete("delete1", mb_id);
+		session.close();
+
+		return row;
+	}
+	
 }

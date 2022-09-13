@@ -20,9 +20,13 @@ import com.bsh.controller.LogoutCon;
 import com.bsh.controller.MessageCon;
 import com.bsh.controller.PwCheckCon;
 import com.bsh.controller.PwselectCon;
+import com.bsh.controller.RWishCon;
+import com.bsh.controller.RWishDeleteCon;
+import com.bsh.controller.RWishDeleteOneCon;
 import com.bsh.controller.UpdateCon;
 import com.bsh.controller.WishCon;
-import com.bsh.controller.RWishCon;
+import com.bsh.controller.WishDeleteCon;
+import com.bsh.controller.WishDeleteOneCon;
 
 public class FrontController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response)
@@ -85,6 +89,18 @@ public class FrontController extends HttpServlet {
 			
 		} else if (requestURI.equals("DeleteMemberCon.do")) {
 			con = new DeleteMemberCon();
+			
+		} else if (requestURI.equals("RWishDeleteOneCon.do")) {
+			con = new RWishDeleteOneCon();
+			
+		} else if (requestURI.equals("RWishDeleteCon.do")) {
+			con = new RWishDeleteCon();
+			
+		} else if (requestURI.equals("WishDeleteOneCon.do")) {
+			con = new WishDeleteOneCon();
+			
+		} else if (requestURI.equals("WishDeleteCon.do")) {
+			con = new WishDeleteCon();
 			
 		} 
 		

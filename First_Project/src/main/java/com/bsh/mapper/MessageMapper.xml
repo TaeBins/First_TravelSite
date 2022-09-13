@@ -22,5 +22,7 @@
 	<delete id="deleteMessageOne" parameterType="int">
 		delete from bsh_qna where q_seq = #{q_seq}
 	</delete>
+	
+	
 
 </mapper>

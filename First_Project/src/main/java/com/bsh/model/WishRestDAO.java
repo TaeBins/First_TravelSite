@@ -27,4 +27,19 @@ public class WishRestDAO {
 		return r_list;
 	}
 	
+	public int deleteOne(int wr_seq) {
+		SqlSession session = sqlSessionFactory.openSession(true);
+		int row = session.delete("deleteOne", wr_seq);
+		session.close();
+
+		return row;
+	}
+	
+	public int delete(String mb_id) {
+		SqlSession session = sqlSessionFactory.openSession(true);
+		int row = session.delete("delete", mb_id);
+		session.close();
+
+		return row;
+	}
 }

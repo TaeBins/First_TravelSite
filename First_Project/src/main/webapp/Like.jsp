@@ -41,6 +41,8 @@
 <link rel="stylesheet" href="css2/style.css">
 <!-- style CSS -->
 <link rel="stylesheet" href="css2/te.css">
+<!-- style CSS -->
+<link rel="stylesheet" href="css2/Message.css">
 </head>
 
 <body>
@@ -137,8 +139,7 @@
 	<%
 	ArrayList<WishPlaceDTO> p_list = new ArrayList<WishPlaceDTO>();
 	p_list = new WishPlaceDAO().p_list(log.getMb_id());
-	
-	
+
 	ArrayList<WishRestDTO> r_list = new ArrayList<WishRestDTO>();
 	r_list = new WishRestDAO().r_list(log.getMb_id());
 	%>
@@ -176,7 +177,7 @@
 								<tr class="trtable">
 									<td class="tet"><%=i + 1%></td>
 									<td class="tte">
-										<a style="color: #212529;" href="./place/<%= p_list.get(i).getPlace_link()%>"><%=p_list.get(i).getPlace_name()%></a>
+										<a style="color: #212529;" href="./place/<%=p_list.get(i).getPlace_link()%>"><%=p_list.get(i).getPlace_name()%></a>
 									</td>
 									<td class="tte"><%=p_list.get(i).getWr_date()%></td>
 									<td class="tasize">
@@ -191,6 +192,10 @@
 								%>
 							</tbody>
 						</table>
+						<form action="WishDeleteCon.do" method="post">
+							<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
+							<input class="clear-btn" type="submit" value="Clear">
+						</form>
 					</div>
 				</td>
 				<td class="tedtable">
@@ -205,24 +210,31 @@
 								</tr>
 							</thead>
 							<tbody>
-								<% for (int i = 0; i < r_list.size(); i++) {
+								<%
+								for (int i = 0; i < r_list.size(); i++) {
 								%>
 								<tr class="trtable">
-									<td class="tet"><%= i + 1 %></td>
+									<td class="tet"><%=i + 1%></td>
 									<td class="tte">
-										<a style="color: #212529;" href="./rest/<%= r_list.get(i).getRest_link()%>"><%=r_list.get(i).getRest_name()%></a>
+										<a style="color: #212529;" href="./rest/<%=r_list.get(i).getRest_link()%>"><%=r_list.get(i).getRest_name()%></a>
 									</td>
 									<td class="tte"><%=r_list.get(i).getWr_date()%></td>
 									<td class="tasize">
 										<form action="RWishDeleteOneCon.do" method="post">
-											<input type="hidden" name="Wr_seq" value="<%=r_list.get(i).getWr_seq()%>">
+											<input type="hidden" name="wr_seq" value="<%=r_list.get(i).getWr_seq()%>">
 											<input class="tb-btn" type="submit" value="DEL">
 										</form>
 									</td>
 								</tr>
-								<%}%>
+								<%
+								}
+								%>
 							</tbody>
 						</table>
+						<form action="RWishDeleteCon.do" method="post">
+							<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
+							<input class="clear-btn" type="submit" value="Clear">
+						</form>
 					</div>
 				</td>
 			</tr>

@@ -41,8 +41,6 @@
 <link rel="stylesheet" href="css2/style.css">
 <!-- style CSS -->
 <link rel="stylesheet" href="css2/te.css">
-<!-- style CSS -->
-<link rel="stylesheet" href="css2/Message.css">
 </head>
 
 <body>
@@ -130,18 +128,7 @@
 	r_list = new WishRestDAO().r_list(log.getMb_id());
 	%>
 	<div class="container-taebins">
-		<div class="container-TB">
-			<svg class="qna_set" viewBox="0 0 960 300">
-    <symbol id="s-text">
-      <text text-anchor="middle" x="50%" y="80%">Wish List</text>
-    </symbol>
-
-    <g class="g-ants">
-      <use xlink:href="#s-text" class="text-copy"></use>
-      <use xlink:href="#s-text" class="text-copy"></use>
-      <use xlink:href="#s-text" class="text-copy"></use>
-    </g>
-  </svg>
+		<h1 class="wishtext">Wish List</h1>
 		</div>
 		<table class="Alltable">
 			<tr class="twotable">

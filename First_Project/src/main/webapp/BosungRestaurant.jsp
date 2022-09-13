@@ -131,8 +131,8 @@
 				<div class="col-xl-6">
 					<div class="section_tittle text-center">
 						<h2>Restaurants</h2>
-						<p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
-					</div>
+                        <p>Top Restaurant in Bosung</p>
+                    </div>
 				</div>
 			</div>
 			<div class="row">

@@ -80,9 +80,6 @@
   background-position: center top;
   transform: translate3d(0, 0, 0);
 }
-.m--global-blending-active .fnc-slide__inner, .m--blend-bg-active .fnc-slide__inner {
-  background-blend-mode: luminosity;
-}
 .m--before-sliding .fnc-slide__inner {
   transform: translate3d(-100%, 0, 0);
 }
@@ -351,7 +348,7 @@ body {
   width: 400px;
   height: 100%;
   padding: 20px 10px 30px;
-  background: #303030;
+  background: #000000;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   color: #fff;
   text-align: center;
@@ -404,6 +401,7 @@ body {
 .demo-cont__credits-name {
   margin-bottom: 20px;
   font-size: 30px;
+  color: #ffffff;
 }
 .demo-cont__credits-link {
   display: block;

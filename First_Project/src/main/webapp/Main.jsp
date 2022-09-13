@@ -343,12 +343,11 @@ because it requires specific images, where more than 50% of bg is transparent or
     <div class="demo-cont__credits-close"></div>
     <h2 class="demo-cont__credits-heading">Made by</h2>
     <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/142996/profile/profile-512_5.jpg" alt="" class="demo-cont__credits-img" />
-    <h3 class="demo-cont__credits-name">Nikolay Talanov</h3>
-    <a href="https://codepen.io/suez/" target="_blank" class="demo-cont__credits-link">My codepen</a>
-    <a href="https://twitter.com/NikolayTalanov" target="_blank" class="demo-cont__credits-link">My twitter</a>
+    <h3 class="demo-cont__credits-name">강선구</h3>
+    <h3 class="demo-cont__credits-name">이신행</h3>
+    <h3 class="demo-cont__credits-name">김태빈</h3>
     <h2 class="demo-cont__credits-heading">Based on</h2>
-    <a href="https://dribbble.com/shots/2375246-Fashion-Butique-slider-animation" target="_blank" class="demo-cont__credits-link">Concept by Kreativa Studio</a>
-    <h4 class="demo-cont__credits-blend">Global Blend Mode</h4>
+    <a href="https://smhrd.or.kr/" target="_blank" class="demo-cont__credits-link">스마트인재개발원</a>
     <div class="colorful-switch">
       <input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
       <label class="colorful-switch__label" for="colorful-switch-cb">
@@ -370,14 +369,7 @@ because it requires specific images, where more than 50% of bg is transparent or
             <div class="row justify-content-center">
                 <div class="col-xl-6">
                     <div class="section_tittle text-center">
-
-
-
-
- 
-
-
-                        <h2>전남 축제 DOING</h2>
+                        <h2>Festival DOING</h2>
                         <p>South Jeolla Festival in Progress</p>
                     </div>
                 </div>
@@ -401,108 +393,92 @@ because it requires specific images, where more than 50% of bg is transparent or
             <div class="row justify-content-center">
                 <div class="col-xl-6">
                     <div class="section_tittle text-center">
-                        <h2>Top Places to visit</h2>
-                        <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
+                        <h2>Popular Attraction</h2>
+                        <p>Popular places these days</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_1.png" alt="">
+                        <a href="place/Smart.jsp"><img src="img2/places/Smart Talent Development Center1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="Morephoto.jsp" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
-                                <div class="place_review">
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <span>(210 review)</span>
-                                </div>
+                                <h3>Smart Talent Development Center</h3>
+                         
                             </div>
+                            <form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+                            </form>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_2.png" alt="">
+                        <a href="place/D-Ocean.jsp"><img src="img2/places/D-Ocean Water Park.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
-                                <div class="place_review">
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <span>(210 review)</span>
-                                </div>
+                                <h3>D-Ocean Water Park</h3>
+                            
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
+                            <form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+                            </form>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_3.png" alt="">
+                        <a href="place/Sol.jsp"><img src="img2/places/soso1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
-                                <div class="place_review">
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <span>(210 review)</span>
-                                </div>
+                                <h3>Sol Beach</h3>
+                           
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
+                            <form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+                            </form>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="single_place">
-                        <img src="img2/single_place_4.png" alt="">
+                        <a href="place/Jeondong.jsp"><img src="img2/places/han9.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <a href="#" class="place_btn">travel</a>
-                                <h3>Saintmartine Iceland</h3>
-                                <p>Technaf, Bangladesh</p>
-                                <div class="place_review">
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <a href="#"><i class="fas fa-star"></i></a>
-                                    <span>(210 review)</span>
-                                </div>
+                                <h3>Jeondong Cathedral</h3>
+                             
                             </div>
-                            <a href="#">
-                            <div class="details_icon text-right">
-                                <i class="ti-share"></i>
-                            </div>
-                            </a>
+                            <form action="wishCon.do">
+                            	<button type="button" class="btn btn-outline-danger">
+               							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+                							wish
+              					</button>
+                            </form>
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn_1 text-cnter">Discover more</a>
             </div>
         </div>
     </section>
@@ -514,72 +490,94 @@ because it requires specific images, where more than 50% of bg is transparent or
             <div class="row justify-content-center">
                 <div class="col-xl-6">
                     <div class="section_tittle text-center">
-                        <h2>Top Hotel & Restaurants</h2>
-                        <p>Waters make fish every without firmament saw had. Morning air subdue. Our. Air very one. Whales grass is fish whales winged.</p>
+                        <h2>Popular Restaurant</h2>
+                        <p>Popular restaurants these days</p>
                     </div>
                 </div>
             </div> 
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <div class="thumbex">
-    						<div class="thumbnail"><a href="javascript:void(0)"><img src="https://bit.ly/2NZ6ahm"/><span>Forest</span></a></div>
-  						</div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
+					<div class="single_ihotel_list">
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="rest/1st.jsp">
+										<img src="img1/rest/y3-4.jpg">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="rest/1st.jsp">Kkotdolgejang 1st Avenue</a>
+							</h3>
+							<form action="wishCon.do">
+								<button type="button" class="btn btn-outline-danger">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+									wish
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <div class="thumbex">
-    						<div class="thumbnail"><a href="javascript:void(0)"> <img src="https://bit.ly/2vnI5ZM"/><span>Beaches</span></a></div>
-  						</div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
+					<div class="single_ihotel_list">
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="rest/Mid.jsp">
+										<img src="img1/rest/k7-2.jpg">
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="rest/Mid.jsp">Mid Pick</a>
+							</h3>
+							<form action="wishCon.do">
+								<button type="button" class="btn btn-outline-danger">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+									wish
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single_ihotel_list">
-                        <div class="thumbex">    
-    						<div class="thumbnail"><a href="javascript:void(0)"><img src="https://bit.ly/3qgufUp"/><span>Mountains</span></a></div>
-    					</div>
-                        <div class="hotel_text_iner">
-                            <h3> <a href="#"> Hotel Polonia</a></h3>
-                            <div class="place_review">
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <a href="#"><i class="fas fa-star"></i></a>
-                                <span>(210 review)</span>
-                            </div>
-                            <p>London, United Kingdom</p>
-                            <h5>From <span>$500</span></h5>
-                        </div>
-                    </div>
-                </div>
+					<div class="single_ihotel_list">
+						<div class="container">
+							<div class="thumbex">
+								<div class="thumbnail">
+									<a href="rest/Mug.jsp">
+										<img src="img1/rest/g6-2.jpg">
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div class="hotel_text_iner">
+							<h3>
+								<a href="rest/Mug.jsp">Mug-Eunji</a>
+							</h3>
+							<form action="wishCon.do">
+								<button type="button" class="btn btn-outline-danger">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
+  											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
+  											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
+										</svg>
+									wish
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
             </div>
         </div>
     </section>

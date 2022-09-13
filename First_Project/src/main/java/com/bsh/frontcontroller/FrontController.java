@@ -22,7 +22,7 @@ import com.bsh.controller.PwCheckCon;
 import com.bsh.controller.PwselectCon;
 import com.bsh.controller.UpdateCon;
 import com.bsh.controller.WishCon;
-import com.bsh.controller.WishselectCon;
+import com.bsh.controller.RWishCon;
 
 public class FrontController extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response)
@@ -80,8 +80,8 @@ public class FrontController extends HttpServlet {
 		} else if (requestURI.equals("place/WishCon.do")) {
 			con = new WishCon();
 			
-		} else if (requestURI.equals("WishselectCon.do")) {
-			con = new WishselectCon();
+		} else if (requestURI.equals("rest/RWishCon.do")) {
+			con = new RWishCon();
 			
 		} else if (requestURI.equals("DeleteMemberCon.do")) {
 			con = new DeleteMemberCon();

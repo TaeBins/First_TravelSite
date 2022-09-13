@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 @NoArgsConstructor
 public class WishRestDTO {
 
-	public int wp_seq;
+	public int wr_seq;
 	@NonNull public int rest_seq;
 	public String wr_date;
 	@NonNull public String mb_id;

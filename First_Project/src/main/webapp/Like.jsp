@@ -214,8 +214,8 @@
 									</td>
 									<td class="tte"><%=r_list.get(i).getWr_date()%></td>
 									<td class="tasize">
-										<form action="WishDeleteOneCon.do" method="post">
-											<input type="hidden" name="Wp_seq" value="<%=r_list.get(i).getWp_seq()%>">
+										<form action="RWishDeleteOneCon.do" method="post">
+											<input type="hidden" name="Wr_seq" value="<%=r_list.get(i).getWr_seq()%>">
 											<input class="tb-btn" type="submit" value="DEL">
 										</form>
 									</td>

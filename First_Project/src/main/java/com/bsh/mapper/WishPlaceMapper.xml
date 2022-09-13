@@ -4,7 +4,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.bsh.mapper.WishPlaceMapper">
-	<insert id="wish" parameterType="MemberDTO">
+	<insert id="wish" parameterType="WishPlaceDTO">
 		insert into bsh_wish_place (wp_seq, place_seq, wr_date, mb_id)
 		select bsh_wish_place_seq.nextval, #{place_seq}, sysdate, #{mb_id} from dual
 		where not exists (

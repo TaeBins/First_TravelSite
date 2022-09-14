@@ -171,8 +171,7 @@
 						<div class="slide__img"><div class="slide__img-inner" style="background-image: url(img1/Bosung/보성강골마을23.jpg);"></div></div>
 					</div>
 					<div class="slide__title">
-						<h5 class="slide_title-main">Ganggol Village</h5>
-						<p class="slide__title-sub">주소: 전라남도 보성군 득량면 오봉리 396-1</p>
+						<h5 class="slide__title-sub">Ganggol Village</h5>
 					</div>
 				</div><!-- /slide -->
 				<div class="slide slide--layout-4" data-layout="layout4">
@@ -261,13 +260,13 @@
 					<div class="single-footer-widget" align="center">
 						<h4>Jeola Doing</h4>
 						<ul>
-							<li><a href="#">Gwangju</a></li>
-							<li><a href="#">Jeonju</a></li>
-							<li><a href="#">Damyang</a></li>
-							<li><a href="#">Jindo</a></li>
-							<li><a href="#">Bosung</a></li>
-							<li><a href="#">Yeosu</a></li>
-							<li><a href="#">Suncheon</a></li>
+							<li><a href="./Gwangjuphoto.jsp">Gwangju</a></li>
+							<li><a href="./Jeonjuphoto.jsp">Jeonju</a></li>
+							<li><a href="./Damyangphoto.jsp">Damyang</a></li>
+							<li><a href="./Jindophoto.jsp">Jindo</a></li>
+							<li><a href="./Bosungphoto.jsp">Bosung</a></li>
+							<li><a href="./Yeosuphoto.jsp">Yeosu</a></li>
+							<li><a href="./Suncheonphoto.jsp">Suncheon</a></li>
 						</ul>
 
 					</div>

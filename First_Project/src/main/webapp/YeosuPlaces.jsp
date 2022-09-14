@@ -157,11 +157,11 @@
                         <a href="place/D-Ocean.jsp"><img src="img2/places/D-Ocean Water Park.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>D-Ocean Water Park</h3>
+                                <h3>D-Ocean_WaterPark</h3>
                             
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/D-Ocean.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -177,11 +177,11 @@
                         <a href="place/Moipin.jsp"><img src="img2/places/Moipin Cafe.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Moipin Cafe</h3>
+                                <h3>MoiPin_Cafe</h3>
                            
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Moipin.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -197,11 +197,11 @@
                         <a href="place/High.jsp"><img src="img2/places/high class.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>High Class</h3>
+                                <h3>High_Class</h3>
                                
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/High.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -217,11 +217,11 @@
                         <a href="place/Odongdo.jsp"><img src="img2/places/Odongdo.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Odongdo</h3>
+                                <h3>Odong_Do</h3>
                             
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Odongdo.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -237,11 +237,11 @@
                         <a href="place/Bridge1.jsp"><img src="img2/places/ye1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Yi Sun-sin Bridge</h3>
+                                <h3>Yi-Sunsin_Bridge</h3>
                             
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Bridge1.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -257,11 +257,11 @@
                         <a href="place/Geumo.jsp"><img src="img2/places/ye2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Geumo-do</h3>
+                                <h3>GeumO_Do</h3>
                               
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Geumo.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -277,11 +277,11 @@
                         <a href="place/Geomundo.jsp"><img src="img2/places/ye3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Geomundo</h3>
+                                <h3>GeoMun_Do</h3>
                                
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Geomundo.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -297,11 +297,11 @@
                         <a href="place/Jinnamgwan.jsp"><img src="img2/places/ye4.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Jinnamgwan</h3>
+                                <h3>JinNam_Gwan</h3>
                                
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Jinnamgwan.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>

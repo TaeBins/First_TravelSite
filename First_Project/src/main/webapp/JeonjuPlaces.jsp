@@ -157,11 +157,11 @@
                         <a href="place/Hanok.jsp"><img src="img2/places/han21.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Hanok Town</h3>
+                                <h3>HanOk_Town</h3>
                              
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Hanok.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -177,11 +177,11 @@
                         <a href="place/Pungnammun.jsp"><img src="img2/places/han22.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Pungnammun Gate</h3>
+                                <h3>PungNamMun_Gate</h3>
                               
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Pungnammun.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -197,11 +197,11 @@
                         <a href="place/Hyanggyo.jsp"><img src="img2/places/han3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Hyanggyo Daeseongjeon</h3>
+                                <h3>HyangGyo_DaeSeongJeon</h3>
                              
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Hyanggyo.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -217,11 +217,11 @@
                         <a href="place/Jeondong.jsp"><img src="img2/places/han9.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Jeondong Cathedral</h3>
+                                <h3>JeonDong_Cathedral</h3>
                              
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Jeondong.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -237,11 +237,11 @@
                         <a href="place/Cheong.jsp"><img src="img2/places/han23.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Cheong-Yeonlu</h3>
+                                <h3>Cheong_YeonLu</h3>
                              
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Cheong.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -257,11 +257,11 @@
                         <a href="place/Namcheon.jsp"><img src="img2/places/han12.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Namcheon Bridge</h3>
+                                <h3>NamCheon_Bridge</h3>
                           
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Namcheon.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -277,11 +277,11 @@
                         <a href="place/A-Jung.jsp"><img src="img2/places/ag1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>AJung Lake</h3>
+                                <h3>AJung_Lake</h3>
                           
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/A-Jung.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -297,11 +297,11 @@
                         <a href="place/Jaman.jsp"><img src="img2/places/han24.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Jaman Mural Village</h3>
+                                <h3>JaManByeogHwa_Village</h3>
                              
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Jaman.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -326,7 +326,7 @@
             <div class="row justify-content-between">
                 <div class="col-sm-6 col-md-5">
                     <div class="single-footer-widget"  align="center">
-                        <h4>Jeola Doing</h4>
+                        <h4>JeoLa Doing</h4>
                         <ul>
                             <li><a href="./Gwangjuphoto.jsp">Gwangju</a></li>
 							<li><a href="./Jeonjuphoto.jsp">Jeonju</a></li>

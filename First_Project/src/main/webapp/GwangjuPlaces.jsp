@@ -157,11 +157,11 @@
                         <a href="place/National.jsp"><img src="img2/places/National Asian Culture Center1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>National Asian Culture Center</h3>
+                                <h3>GugAmun_Center</h3>
                              
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/National.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -177,11 +177,11 @@
                         <a href="place/Daein.jsp"><img src="img2/places/Daein Night Market1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Daein Night Market</h3>
+                                <h3>DaeIn_Market</h3>
                         
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Daein.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -197,11 +197,11 @@
                         <a href="place/Mudeungsan.jsp"><img src="img2/places/Mudeungsan1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Mudeungsan</h3>
+                                <h3>MuDeung_Mountain</h3>
                           
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Mudeungsan.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -217,11 +217,11 @@
                         <a href="place/Songjeong.jsp"><img src="img2/places/Songjeong Market1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Songjeong Market</h3>
+                                <h3>SongJeong_Market</h3>
                      
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Songjeong.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -237,11 +237,11 @@
                         <a href="place/Museum_of_Art.jsp"><img src="img2/places/gwa1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Gwangju Museum of Art</h3>
+                                <h3>GwangJu_ArtMuseum</h3>
                         
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Museum_of_Art.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -257,11 +257,11 @@
                         <a href="place/518_Memorial.jsp"><img src="img2/places/gwa2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>518 Memorial Park</h3>
+                                <h3>5.18Memorial_Park</h3>
                           
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/518_Memorial.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -277,11 +277,11 @@
                         <a href="place/Kimchi.jsp"><img src="img2/places/gwa3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Kimchi Town</h3>
+                                <h3>KimChi_Town</h3>
                          
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Kimchi.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -297,11 +297,11 @@
                         <a href="place/Smart.jsp"><img src="img2/places/Smart Talent Development Center1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Smart Talent Development Center</h3>
+                                <h3>SeuInJae_Center</h3>
                          
                             </div>
                             <form action="wishCon.do">
-                            	<button type="button" class="btn btn-outline-danger">
+                            	<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Smart.jsp'">
                							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>

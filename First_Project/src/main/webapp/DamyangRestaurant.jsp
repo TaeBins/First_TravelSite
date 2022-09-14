@@ -150,10 +150,10 @@
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Samgeori.jsp">Samgeori Farm</a>
+								<a href="rest/Samgeori.jsp">Samgeori_Nongwon</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Samgeori.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -177,10 +177,10 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Ssang-Gyo.jsp">Ssang-Gyo</a>
+								<a href="rest/Ssang-Gyo.jsp">Ssang_Gyo</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Ssang-Gyo.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -213,10 +213,10 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Namdo.jsp">Namdo Yedam</a>
+								<a href="rest/Namdo.jsp">Namdo_Yedam</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Namdo.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -240,10 +240,10 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Ttukbang.jsp">Ttukbang noodles</a>
+								<a href="rest/Ttukbang.jsp">Ttukbang_Noodle</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Ttukbang.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -277,10 +277,10 @@
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Old.jsp">Old Book Hall</a>
+								<a href="rest/Old.jsp">Goseo_Hall</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Old.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -304,10 +304,10 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Eubnaekeopi.jsp">Eubnaekeopi</a>
+								<a href="rest/Eubnaekeopi.jsp">Eubnae_Coffee</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Eubnaekeopi.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>

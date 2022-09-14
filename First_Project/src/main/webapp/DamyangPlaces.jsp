@@ -157,7 +157,7 @@
                         <a href="place/Gwanbangjerim.jsp"><img src="img2/places/Gwanbangjerim1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Gwanbangjerim</h3>
+                                <h3>GwanBang_Jerim</h3>
                          
                             </div>
                             <form action="wishCon.do">
@@ -177,7 +177,7 @@
                         <a href="place/Geumseong.jsp"><img src="img2/places/Geumseong Sanseong1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Geumseong Sanseong</h3>
+                                <h3>GeumSeong_SanSeong</h3>
                                
                             </div>
                             <form action="wishCon.do">
@@ -197,7 +197,7 @@
                         <a href="place/Yongmaru.jsp"><img src="img2/places/Yongmaru-gil1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Yongmaru-gil</h3>
+                                <h3>YongMaru_Way</h3>
                               
                             </div>
                             <form action="wishCon.do">
@@ -217,7 +217,7 @@
                         <a href="place/Chuwolsan.jsp"><img src="img2/places/Chuwolsan1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Chuwolsan</h3>
+                                <h3>ChuWol_Mountain</h3>
                           
                             </div>
                             <form action="wishCon.do">
@@ -237,7 +237,7 @@
                         <a href="place/Metasequoiagil.jsp"><img src="img2/places/Metasequoiagil1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Metasequoiagil</h3>
+                                <h3>MeTa_Sequoia</h3>
                              
                             </div>
                             <form action="wishCon.do">
@@ -257,7 +257,7 @@
                         <a href="place/Juknokwon.jsp"><img src="img2/places/Juknokwon1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Juknokwon</h3>
+                                <h3>JukNok_Won</h3>
                        
                             </div>
                             <form action="wishCon.do">
@@ -277,7 +277,7 @@
                         <a href="place/Taemok.jsp"><img src="img2/places/dy1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Taemok-ri bamboo</h3>
+                                <h3>DaeNaMu_Colony</h3>
                         
                             </div>
                             <form action="wishCon.do">
@@ -297,7 +297,7 @@
                         <a href="place/Changpyeong.jsp"><img src="img2/places/dy2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Changpyeong Hyanggyo</h3>
+                                <h3>ChangPyeong_HyangGyo</h3>
                         
                             </div>
                             <form action="wishCon.do">

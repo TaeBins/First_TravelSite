@@ -157,7 +157,7 @@
                         <a href="place/D-Ocean.jsp"><img src="img2/places/D-Ocean Water Park.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>D-Ocean Water Park</h3>
+                                <h3>D-Ocean_WaterPark</h3>
                             
                             </div>
                             <form action="wishCon.do">
@@ -177,7 +177,7 @@
                         <a href="place/Moipin.jsp"><img src="img2/places/Moipin Cafe.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Moipin Cafe</h3>
+                                <h3>MoiPin_Cafe</h3>
                            
                             </div>
                             <form action="wishCon.do">
@@ -197,7 +197,7 @@
                         <a href="place/High.jsp"><img src="img2/places/high class.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>High Class</h3>
+                                <h3>High_Class</h3>
                                
                             </div>
                             <form action="wishCon.do">
@@ -217,7 +217,7 @@
                         <a href="place/Odongdo.jsp"><img src="img2/places/Odongdo.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Odongdo</h3>
+                                <h3>Odong_Do</h3>
                             
                             </div>
                             <form action="wishCon.do">
@@ -237,7 +237,7 @@
                         <a href="place/Bridge1.jsp"><img src="img2/places/ye1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Yi Sun-sin Bridge</h3>
+                                <h3>Yi-Sunsin_Bridge</h3>
                             
                             </div>
                             <form action="wishCon.do">
@@ -257,7 +257,7 @@
                         <a href="place/Geumo.jsp"><img src="img2/places/ye2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Geumo-do</h3>
+                                <h3>GeumO_Do</h3>
                               
                             </div>
                             <form action="wishCon.do">
@@ -277,7 +277,7 @@
                         <a href="place/Geomundo.jsp"><img src="img2/places/ye3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Geomundo</h3>
+                                <h3>GeoMun_Do</h3>
                                
                             </div>
                             <form action="wishCon.do">
@@ -297,7 +297,7 @@
                         <a href="place/Jinnamgwan.jsp"><img src="img2/places/ye4.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Jinnamgwan</h3>
+                                <h3>JinNam_Gwan</h3>
                                
                             </div>
                             <form action="wishCon.do">

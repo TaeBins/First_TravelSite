@@ -150,7 +150,7 @@
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Camellia.jsp">Camellia Katsu</a>
+								<a href="rest/Camellia.jsp">Dongbaeg_Katsu</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -177,7 +177,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/NaNa.jsp">NaNa Bangkok</a>
+								<a href="rest/NaNa.jsp">NaNa_Bangkok</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -213,7 +213,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Longevity.jsp">Longevity Sky Cow</a>
+								<a href="rest/Longevity.jsp">Jangsu_Haneulso</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -240,7 +240,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Palace.jsp">Palace Confectionery</a>
+								<a href="rest/Palace.jsp">Gungjeon_Bakery</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -277,7 +277,7 @@
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/OIC.jsp">Lounge OIC</a>
+								<a href="rest/OIC.jsp">Lounge_OIC</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -304,7 +304,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Mid.jsp">Mid Pick</a>
+								<a href="rest/Mid.jsp">Mid_Pick</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">

@@ -157,7 +157,7 @@
                         <a href="place/Sol.jsp"><img src="img2/places/soso1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Sol Beach</h3>
+                                <h3>Sol_Beach</h3>
                            
                             </div>
                             <form action="wishCon.do">
@@ -177,7 +177,7 @@
                         <a href="place/Bridge.jsp"><img src="img2/places/jin1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Jindo Bridge</h3>
+                                <h3>JinDo_Bridge</h3>
                              
                             </div>
                             <form action="wishCon.do">
@@ -197,7 +197,7 @@
                         <a href="place/Sebangnagjo.jsp"><img src="img2/places/jin2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Sebangnagjo</h3>
+                                <h3>SeBang_NagJo</h3>
                                
                             </div>
                             <form action="wishCon.do">
@@ -217,7 +217,7 @@
                         <a href="place/Dog.jsp"><img src="img2/places/jin3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Jindo Dog Theme Park</h3>
+                                <h3>JinDoGae_ThemePark</h3>
                              
                             </div>
                             <form action="wishCon.do">
@@ -237,7 +237,7 @@
                         <a href="place/JoDo.jsp"><img src="img2/places/jin4.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>JoDo</h3>
+                                <h3>Jo_Do</h3>
                             
                             </div>
                             <form action="wishCon.do">
@@ -257,7 +257,7 @@
                         <a href="place/Yongjangseong.jsp"><img src="img2/places/jin5.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Yongjangseong</h3>
+                                <h3>YongJang_Seong</h3>
                        
                             </div>
                             <form action="wishCon.do">
@@ -277,7 +277,7 @@
                         <a href="place/Ichungmugongjeoncheobbi.jsp"><img src="img2/places/jin6.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Ichungmugongjeoncheobbi</h3>
+                                <h3>Lee_ChungMuGong</h3>
                               
                             </div>
                             <form action="wishCon.do">
@@ -297,7 +297,7 @@
                         <a href="place/Namdojinseong.jsp"><img src="img2/places/jin7.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Namdojinseong</h3>
+                                <h3>NamDo_JinSeong</h3>
                              
                             </div>
                             <form action="wishCon.do">
@@ -326,7 +326,7 @@
             <div class="row justify-content-between">
                 <div class="col-sm-6 col-md-5">
                     <div class="single-footer-widget"  align="center">
-                        <h4>Jeola Doing</h4>
+                        <h4>JeonLa Doing</h4>
                         <ul>
                             <li><a href="./Gwangjuphoto.jsp">Gwangju</a></li>
 							<li><a href="./Jeonjuphoto.jsp">Jeonju</a></li>

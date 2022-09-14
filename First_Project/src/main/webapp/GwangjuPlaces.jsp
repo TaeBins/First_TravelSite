@@ -157,7 +157,7 @@
                         <a href="place/National.jsp"><img src="img2/places/National Asian Culture Center1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>National Asian Culture Center</h3>
+                                <h3>GugAmun_Center</h3>
                              
                             </div>
                             <form action="wishCon.do">
@@ -177,7 +177,7 @@
                         <a href="place/Daein.jsp"><img src="img2/places/Daein Night Market1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Daein Night Market</h3>
+                                <h3>DaeIn_Market</h3>
                         
                             </div>
                             <form action="wishCon.do">
@@ -197,7 +197,7 @@
                         <a href="place/Mudeungsan.jsp"><img src="img2/places/Mudeungsan1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Mudeungsan</h3>
+                                <h3>MuDeung_Mountain</h3>
                           
                             </div>
                             <form action="wishCon.do">
@@ -217,7 +217,7 @@
                         <a href="place/Songjeong.jsp"><img src="img2/places/Songjeong Market1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Songjeong Market</h3>
+                                <h3>SongJeong_Market</h3>
                      
                             </div>
                             <form action="wishCon.do">
@@ -237,7 +237,7 @@
                         <a href="place/Museum_of_Art.jsp"><img src="img2/places/gwa1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Gwangju Museum of Art</h3>
+                                <h3>GwangJu_ArtMuseum</h3>
                         
                             </div>
                             <form action="wishCon.do">
@@ -257,7 +257,7 @@
                         <a href="place/518_Memorial.jsp"><img src="img2/places/gwa2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>518 Memorial Park</h3>
+                                <h3>5.18Memorial_Park</h3>
                           
                             </div>
                             <form action="wishCon.do">
@@ -277,7 +277,7 @@
                         <a href="place/Kimchi.jsp"><img src="img2/places/gwa3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Kimchi Town</h3>
+                                <h3>KimChi_Town</h3>
                          
                             </div>
                             <form action="wishCon.do">
@@ -297,7 +297,7 @@
                         <a href="place/Smart.jsp"><img src="img2/places/Smart Talent Development Center1.png" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Smart Talent Development Center</h3>
+                                <h3>SeuInJae_Center</h3>
                          
                             </div>
                             <form action="wishCon.do">

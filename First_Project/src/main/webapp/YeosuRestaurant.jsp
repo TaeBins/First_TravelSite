@@ -150,7 +150,7 @@
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Haeoreum.jsp">Haeoreum</a>
+								<a href="rest/Haeoreum.jsp">Hae_Oreum</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -177,7 +177,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Korean.jsp">Korean cuisine</a>
+								<a href="rest/Korean.jsp">Hansigui_Jeongseog</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -213,7 +213,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/1st.jsp">Kkotdolgejang 1st Avenue</a>
+								<a href="rest/1st.jsp">1st_Kkochdolgejang</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -240,7 +240,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Yeosu.jsp">Yeosu Sea Chicken Gangjeong</a>
+								<a href="rest/Yeosu.jsp">Yeosu_Gangjeong</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -277,7 +277,7 @@
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Galchiya.jsp">Galchiya</a>
+								<a href="rest/Galchiya.jsp">Galchi_Ya</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -304,7 +304,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Dolmun.jsp">Dolmun-eo Sanghoe</a>
+								<a href="rest/Dolmun.jsp">Dolmuneo_Sanghoe</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">

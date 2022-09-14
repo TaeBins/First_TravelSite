@@ -157,7 +157,7 @@
                        <a href="place/Deukryang.jsp"><img src="img2/places/Deukryang1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Deukryang Bay Sea</h3>
+                                <h3>DeukRyangMan_Sea</h3>
                             </div>
                             <form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">
@@ -176,7 +176,7 @@
                         <a href="place/Green_Tea.jsp"><img src="img2/places/GreenTea1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Green Tea Field</h3>
+                                <h3>GreenTea_Field</h3>
                             </div>
                             <form action="wishCon.do">
                             	<button type="button" class="btn btn-outline-danger">
@@ -195,7 +195,7 @@
                         <a href="place/Yulpo_Beach.jsp"><img src="img2/places/Yulpo1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Yulpo Beach</h3>
+                                <h3>YulPo_Beach</h3>
                       
                             </div>
                             <form action="wishCon.do">
@@ -215,7 +215,7 @@
                         <a href="place/Tea_Museum.jsp"><img src="img2/places/bo1.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Korea Tea Museum</h3>
+                                <h3>KoreaTea_Museum</h3>
                            
                             </div>
                             <form action="wishCon.do">
@@ -235,7 +235,7 @@
                         <a href="place/Seo.jsp"><img src="img2/places/bo2.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Seo Jae-pil Memorial Hall</h3>
+                                <h3>SeoJaePil_MemorialHall</h3>
                      
                             </div>
                             <form action="wishCon.do">
@@ -255,7 +255,7 @@
                         <a href="place/Illimsan.jsp"><img src="img2/places/bo3.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Illimsan</h3>
+                                <h3>IlLim_Mountain</h3>
                            
                             </div>
                             <form action="wishCon.do">
@@ -275,7 +275,7 @@
                         <a href="place/Daewonsa.jsp"><img src="img2/places/bo4.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Daewonsa Temple</h3>
+                                <h3>DaeWonSa_Temple</h3>
                           
                             </div>
                             <form action="wishCon.do">
@@ -295,7 +295,7 @@
                         <a href="place/Taebaek.jsp"><img src="img2/places/bo5.jpg" width="555px" height="396px"></a>
                         <div class="hover_Text d-flex align-items-end justify-content-between">
                             <div class="hover_text_iner">
-                                <h3>Taebaek Mountains Literature Museum</h3>
+                                <h3>TaebaekMountains_Museum</h3>
                      
                             </div>
                             <form action="wishCon.do">

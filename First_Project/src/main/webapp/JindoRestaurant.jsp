@@ -149,7 +149,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Sinhodeunghoegwan.jsp">Sinhodeunghoegwan</a>
+								<a href="rest/Sinhodeunghoegwan.jsp">Sinhodeung_Hall</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -176,7 +176,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Flowering.jsp">Flowering Abalone Restaurant</a>
+								<a href="rest/Flowering.jsp">Kkochpineun_Jeonbog</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -212,7 +212,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Yongcheon.jsp">Yongcheon</a>
+								<a href="rest/Yongcheon.jsp">Yong_Cheon</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -239,7 +239,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Modo.jsp">Modo Sanghoe</a>
+								<a href="rest/Modo.jsp">Modo_Sanghoe</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -276,7 +276,7 @@
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Mug.jsp">Mug-Eunji</a>
+								<a href="rest/Mug.jsp">Mook_Eunji</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">
@@ -303,7 +303,7 @@
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Dalnim.jsp">Dalnim-ine</a>
+								<a href="rest/Dalnim.jsp">Dalnim_Ine</a>
 							</h3>
 							<form action="wishCon.do">
 								<button type="button" class="btn btn-outline-danger">

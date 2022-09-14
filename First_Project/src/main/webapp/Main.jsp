@@ -372,13 +372,17 @@ because it requires specific images, where more than 50% of bg is transparent or
 			</div>
 			<div class="row">
 				<li class='book'><a href="http://www.gjcf.or.kr/cf/culture/citizen/fringe.do">
-						<img src='img2/tt.jpg'/>
+						<img src='img2/tt.jpg' />
 					</a></li>
 				<li class='book'><a href="https://www.sorifestival.com/">
 						<img src='img2/bb1.jpg' />
 					</a></li>
-				<li class='book'><a href="https://www.yeosu.go.kr/tour/culture_festa/geobukseon"><img src='img2/n1.png' /></a></li>
-				<li class='book'><a href="http://www.gwangjugukhwa.com/"><img src='img2/ii.jpg' /></a></li>
+				<li class='book'><a href="https://www.yeosu.go.kr/tour/culture_festa/geobukseon">
+						<img src='img2/n1.png' />
+					</a></li>
+				<li class='book'><a href="http://www.gwangjugukhwa.com/">
+						<img src='img2/ii.jpg' />
+					</a></li>
 	</section>
 	<section class="top_place section_padding">
 		<div class="container">
@@ -398,11 +402,11 @@ because it requires specific images, where more than 50% of bg is transparent or
 						</a>
 						<div class="hover_Text d-flex align-items-end justify-content-between">
 							<div class="hover_text_iner">
-								<h3 style="font-size: 24px">Smart Talent Development Center</h3>
+								<h3>SeuInJae_Center</h3>
 
 							</div>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Smart.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -420,11 +424,11 @@ because it requires specific images, where more than 50% of bg is transparent or
 						</a>
 						<div class="hover_Text d-flex align-items-end justify-content-between">
 							<div class="hover_text_iner">
-								<h3>D-Ocean Water Park</h3>
+								<h3>D-Ocean_WaterPark</h3>
 
 							</div>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='place/D-Ocean.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -442,11 +446,11 @@ because it requires specific images, where more than 50% of bg is transparent or
 						</a>
 						<div class="hover_Text d-flex align-items-end justify-content-between">
 							<div class="hover_text_iner">
-								<h3>Sol Beach</h3>
+								<h3>Sol_Beach</h3>
 
 							</div>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Sol.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -464,11 +468,11 @@ because it requires specific images, where more than 50% of bg is transparent or
 						</a>
 						<div class="hover_Text d-flex align-items-end justify-content-between">
 							<div class="hover_text_iner">
-								<h3>Jeondong Cathedral</h3>
+								<h3>JeonDong_Cathedral</h3>
 
 							</div>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='place/Jeondong.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -509,10 +513,10 @@ because it requires specific images, where more than 50% of bg is transparent or
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/1st.jsp">Kkotdolgejang 1st Avenue</a>
+								<a href="rest/1st.jsp">1st_Kkochdolgejang</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/1st.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -536,10 +540,10 @@ because it requires specific images, where more than 50% of bg is transparent or
 						</div>
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Mid.jsp">Mid Pick</a>
+								<a href="rest/Mid.jsp">Mid_Pick</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Mid.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -564,10 +568,10 @@ because it requires specific images, where more than 50% of bg is transparent or
 
 						<div class="hotel_text_iner">
 							<h3>
-								<a href="rest/Mug.jsp">Mook-Eunji</a>
+								<a href="rest/Mug.jsp">Mook_Eunji</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Mug.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>

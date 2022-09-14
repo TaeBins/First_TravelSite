@@ -151,7 +151,7 @@
 								<a href="rest/Khao.jsp">Kha_O</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Khao.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -178,7 +178,7 @@
 								<a href="rest/Do.jsp">Dowon_Kyung</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Do.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -214,7 +214,7 @@
 								<a href="rest/BrewWorks.jsp">Brew_Works</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/BrewWorks.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -241,7 +241,7 @@
 								<a href="rest/Southern.jsp">Namnyeokdeul_Babsang</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Southern.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -278,7 +278,7 @@
 								<a href="rest/Hagos.jsp">Ha_gos</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/Hagos.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>
@@ -305,7 +305,7 @@
 								<a href="rest/SokoA.jsp">So_Koa</a>
 							</h3>
 							<form action="wishCon.do">
-								<button type="button" class="btn btn-outline-danger">
+								<button type="button" class="btn btn-outline-danger" onclick="location.href='rest/SokoA.jsp'">
 									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box2-heart" viewBox="0 0 16 16">
   											<path d="M8 7.982C9.664 6.309 13.825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"></path>
   											<path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"></path>

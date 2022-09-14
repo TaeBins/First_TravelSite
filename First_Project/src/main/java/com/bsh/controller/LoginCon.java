@@ -36,6 +36,8 @@ public class LoginCon implements Command {
 			HttpSession session = request.getSession();
 			session.setAttribute("info", info);
 			moveURL = "./Main.jsp";
+			
+            
 		} else {
 			System.out.println("로그인 실패");
 			moveURL = "./Member.jsp";

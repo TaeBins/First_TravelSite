@@ -165,7 +165,7 @@ html {
 						<span class="inner-status">Oops! You're lost</span>
 						<span class="inner-detail" style="color: #fff;">
 							We can not find the page you're looking for.
-							<a href="./Main.jsp" class="btn btn-info mtl">
+							<a href="../Main.jsp" class="btn btn-info mtl">
 								<i class="fa fa-home"></i>&nbsp; Return home
 							</a>
 						</span>

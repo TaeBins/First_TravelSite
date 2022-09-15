@@ -31,6 +31,87 @@
 <link rel="stylesheet" href="css2/style.css">
 <link rel="stylesheet" href="css2/Member.css">
 <script src="./jquery-3.6.0.js"></script>
+<style type="text/css">
+.card span {
+  position: absolute;
+  display: block;
+}
+
+.card span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.card span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.card span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.card span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+</style>
 </head>
 <body>
 	<!--::header part start::-->
@@ -130,6 +211,10 @@
 	<div class="donta">
 		<div class="card"></div>
 		<div class="card">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
 			<h1 class="title">Login</h1>
 			<form action="LoginCon.do" method="post">
 				<div class="input-donta">
@@ -144,7 +229,7 @@
 				</div>
 				<div class="button-donta">
 					<button>
-						<span>Go</span>
+						<p>Go</p>
 					</button>
 				</div>
 				<div class="footer">
@@ -202,7 +287,7 @@
 				</div>
 				<div class="button-donta">
 					<button>
-						<span>Next</span>
+						<p>Next</p>
 					</button>
 				</div>
 			</form>

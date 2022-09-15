@@ -142,6 +142,8 @@ body {
   box-sizing: border-box;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: 0.3s ease;
+  overflow: hidden;
+  display: inline-block;
   /* Title */
   /* Inputs */
   /* Button */
@@ -244,7 +246,7 @@ body {
   overflow: hidden;
   transition: 0.3s ease;
 }
-.card .button-donta button span {
+.card .button-donta button p {
   position: relative;
   z-index: 1;
   color: #ddd;
@@ -267,10 +269,10 @@ body {
 .card .button-donta button:hover, .card .button-donta button:active, .card .button-donta button:focus {
   border-color: skyblue;
 }
-.card .button-donta button:hover span, .card .button-donta button:active span, .card .button-donta button:focus span {
+.card .button-donta button:hover p, .card .button-donta button:active p, .card .button-donta button:focus p {
   color: skyblue;
 }
-.card .button-donta button:active span, .card .button-donta button:focus span {
+.card .button-donta button:active p, .card .button-donta button:focus p {
   color: #ffffff;
 }
 .card .button-donta button:active:before, .card .button-donta button:focus:before {

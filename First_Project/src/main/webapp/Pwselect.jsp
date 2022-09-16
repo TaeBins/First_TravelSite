@@ -130,19 +130,19 @@
 	    	<br>
 	    	<div align="center">
 		    	<form action="PwselectCon.do" method="post">
-		    		<h3 align="center">비밀번호 찾기</h3>
+		    		<h3 align="center">PassWord Select</h3>
 		    		<br>
-		    		<h5>아이디</h5>
-		    		<input type = "text" title="아이디 입력." name="mb_id" class = "pwselect-field" placeholder="아이디" required>
-		    		<h5>가입시 전화번호</h5>
+		    		<h5>ID</h5>
+		    		<input type = "text" title="아이디 입력." name="mb_id" class = "pwselect-field" placeholder="ID" required>
+		    		<h5>Phone</h5>
 		    		<input type = "tel" title="전화번호 입력." placeholder="010-1234-5678" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}" maxlength="13" name="mb_phone" class = "pwselect-field" required>
-		    		<h5>생년월일</h5>
+		    		<h5>Birth</h5>
 		    		<input type = "date" title="생년월일 입력." name="mb_birthdate" class = "pwselect-field" required>
-		    		<h5>힌트</h5>
-		    		<input type = "text" title="힌트 입력." name="mb_hint" class = "pwselect-field" placeholder="보물 제1호는?" required>
+		    		<h5>Hint</h5>
+		    		<input type = "text" title="힌트 입력." name="mb_hint" class = "pwselect-field" placeholder="Your 1'st Treasure" required>
 		    		<br>
 		    		<br>
-		    		<input type = "submit" class = "pwsubmit-btn" value="제출">
+		    		<input type = "submit" class = "pwsubmit-btn" value="Submit">
 		    	</form>
 	    	</div>
     </div>

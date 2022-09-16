@@ -121,12 +121,12 @@
 				String id = (String) session.getAttribute("idselect");
 				%>
 				<h3>
-					아이디는
-					<%=id%>입니다.
+					Your ID : 
+					<%=id%>
 				</h3>
 				<br>
 				<br>
-				<button  type="button" class="botto" onclick='location.href="Member.jsp"'>로그인하기</button>
+				<button  type="button" class="botto" onclick='location.href="Member.jsp"'>Login</button>
 			</form>
 		</div>
 	</div>

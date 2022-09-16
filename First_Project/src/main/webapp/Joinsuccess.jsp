@@ -131,9 +131,9 @@
 	    	<br>
 	    	<div align="center">
 	    		<% String nick = (String)request.getAttribute("mb_nick"); %>
-	    		<h3><%= nick %>님 회원가입을 환영합니다!</h3>
+	    		<h3>"<%= nick %>" Well Come!</h3>
 	    		<br><br>
-	    		<button class="botto" onclick='location.href="Member.jsp"'>로그인하기</button>
+	    		<button class="botto" onclick='location.href="Member.jsp"'>Login</button>
 	    	</div>
     </div>
 

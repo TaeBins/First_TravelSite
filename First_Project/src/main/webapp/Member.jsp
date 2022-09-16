@@ -254,7 +254,7 @@
 						</td>
 						<p id="idCheck"></p>
 						<td>
-							<button id="btnn" title="아이디 중복확인." class="idcheckbott" type="button">중복확인</button>
+							<button id="btnn" title="아이디 중복확인." class="idcheckbott" type="button">Check</button>
 						</td>
 						<label for="#{label}">UserID</label>
 						<div class="bar"></div>

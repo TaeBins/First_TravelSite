@@ -134,7 +134,7 @@
 				<!-- hotel list css start-->
 				<div class="row justify-content-center">
 					<div class="section_tittle text-center" style="width: 700px;">
-						<h2>미드픽</h2>
+						<h2>Mid Pick</h2>
 						<!-- hotel list css end -->
 
 						<!-- Start cssSlider.com -->
@@ -183,23 +183,23 @@
 		<table class="container">
 			<tbody>
 				<tr>
-					<th class="ththth">주소</th>
-					<td class="tdtdtd">광주 서구 운천로172번길 4 2층</td>
+					<th class="ththth">Adress</th>
+					<td class="tdtdtd">gwangju seogu uncheonlo172beongil 4 2cheung</td>
 				</tr>
 				<tr>
-					<th class="ththth">영업시간</th>
+					<th class="ththth">Business hours</th>
 					<td class="tdtdtd">11:00 ~ 21:00</td>
 				</tr>
 				<tr>
-					<th class="ththth">전화번호</th>
+					<th class="ththth">Tel</th>
 					<td class="tdtdtd">010-7610-9243</td>
 				</tr>
 				<tr>
-					<th class="ththth">휴무</th>
-					<td class="tdtdtd">없음</td>
+					<th class="ththth">Holliday</th>
+					<td class="tdtdtd">none</td>
 				</tr>
 				<tr>
-					<th class="ththth">별점</th>
+					<th class="ththth">Score</th>
 					<td class="tdtdtd">
 						<div class="place_review">
 							<a href="#">

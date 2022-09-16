@@ -348,13 +348,6 @@ because it requires specific images, where more than 50% of bg is transparent or
 			<h3 class="demo-cont__credits-name">김태빈</h3>
 			<h2 class="demo-cont__credits-heading">Based on</h2>
 			<a href="https://smhrd.or.kr/" target="_blank" class="demo-cont__credits-link">스마트인재개발원</a>
-			<div class="colorful-switch">
-				<input type="checkbox" class="colorful-switch__checkbox js-activate-global-blending" id="colorful-switch-cb" />
-				<label class="colorful-switch__label" for="colorful-switch-cb"> <span class="colorful-switch__bg"></span> <span class="colorful-switch__dot"></span> <span class="colorful-switch__on">
-						<span class="colorful-switch__on__inner"></span>
-					</span> <span class="colorful-switch__off"></span>
-				</label>
-			</div>
 		</div>
 	</div>
 

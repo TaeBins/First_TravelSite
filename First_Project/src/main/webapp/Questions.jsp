@@ -197,7 +197,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12" align="center">
-					<h2 class="contact-title">문의하기</h2>
+					<h2 class="contact-title">Qusetions</h2>
 				</div>
 				<br>
 				<div class="col-lg-8">
@@ -205,18 +205,13 @@
 						<div class="row">
 							<div class="col-12">
 								<div class="form-group">
-									<input class="form-control" name="q_title" type="text" placeholder='제목'>
+									<input class="form-control" name="q_title" type="text" placeholder='title'>
 								</div>
 							</div>
 							<div class="col-12">
 								<div class="form-group">
 
-									<textarea class="form-control w-100" name="q_content" cols="30" rows="9" placeholder='내용'></textarea>
-								</div>
-							</div>
-							<div class="col-12" align="left">
-								<div class="form-group">
-									<input class="form-control" name="q_file" type="file">
+									<textarea class="form-control w-100" name="q_content" cols="30" rows="9" placeholder='contents'></textarea>
 								</div>
 							</div>
 						</div>

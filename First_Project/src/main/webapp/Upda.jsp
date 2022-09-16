@@ -116,12 +116,12 @@
 		<br>
 		<div align="center">
 			<form action="PwCheckCon.do" method="post">
-				<h3 align="center">비밀번호 확인</h3>
+				<h3 align="center">Password </h3>
 				<br>
-				<input type="password" title="비밀번호 입력." name="mb_pw" class="pwselect-field" placeholder="비밀번호" required>
+				<input type="password" title="비밀번호 입력." name="mb_pw" class="pwselect-field" placeholder="Password" required>
 				<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
 				<br> <br>
-				<input type="submit" class="pwsubmit-btn" value="확인하기">
+				<input type="submit" class="pwsubmit-btn" value="Submit">
 			</form>
 		</div>
 	</div>

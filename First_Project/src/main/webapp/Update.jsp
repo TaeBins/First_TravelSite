@@ -171,23 +171,23 @@
 		<br>
 		<div align="center">
 			<form action="UpdateCon.do" method="post">
-				<h3 align="center">정보 수정</h3>
+				<h3 align="center">Changing Information </h3>
 				<br>
-				<h5>변경할 비밀번호</h5>
-				<input type="password" title="비밀번호 입력." name="mb_pw" class="pwselect-field" placeholder="변경할 비밀번호" required>
-				<h5>닉네임</h5>
-				<input type="text" title="닉네임 입력." name="mb_nick" class="pwselect-field" placeholder="닉네임" required>
-				<h5>전화번호</h5>
+				<h5>Password to change</h5>
+				<input type="password" title="비밀번호 입력." name="mb_pw" class="pwselect-field" placeholder="Password to change" required>
+				<h5>Nickname</h5>
+				<input type="text" title="닉네임 입력." name="mb_nick" class="pwselect-field" placeholder="Nickname" required>
+				<h5>Phone</h5>
 				<input type="tel" title="전화번호 입력." placeholder="010-1234-5678" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}" maxlength="13" name="mb_phone" class="pwselect-field" required>
-				<h5>힌트</h5>
-				<input type="text" title="힌트 입력." name="mb_hint" class="pwselect-field" placeholder="보물 제1호는?" required>
+				<h5>Hint</h5>
+				<input type="text" title="힌트 입력." name="mb_hint" class="pwselect-field" placeholder="Your 1'st treasure" required>
 				<input type="hidden" name="mb_id" value="<%=log.getMb_id()%>">
 				<br> <br>
-				<input type="submit" class="pwsubmit-btn" value="제출">
+				<input type="submit" class="pwsubmit-btn" value="Submit">
 			</form>
 			<form action="DeleteMemberCon.do" method="post">
 				<input type="hidden" name = "mb_id" value="<%=log.getMb_id()%>">
-				<input type="submit" class="deletesubmit-btn" value="회원탈퇴">
+				<input type="submit" class="deletesubmit-btn" value="Withdrawal">
 			</form>
 		</div>
 	</div>

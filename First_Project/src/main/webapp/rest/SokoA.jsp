@@ -134,7 +134,7 @@
 				<!-- hotel list css start-->
 				<div class="row justify-content-center">
 					<div class="section_tittle text-center" style="width: 700px;">
-						<h2>소코아</h2>
+						<h2>So koa</h2>
 						<!-- hotel list css end -->
 
 						<!-- Start cssSlider.com -->
@@ -183,23 +183,23 @@
 		<table class="container">
 			<tbody>
 				<tr>
-					<th class="ththth">주소</th>
-					<td class="tdtdtd">전남 순천시 왕지4길 18 1층</td>
+					<th class="ththth">Adress</th>
+					<td class="tdtdtd">Jeonnam suncheonsi wangji4gil 18 1cheung</td>
 				</tr>
 				<tr>
-					<th class="ththth">영업시간</th>
+					<th class="ththth">Business hours</th>
 					<td class="tdtdtd">11:30 ~ 21:00</td>
 				</tr>
 				<tr>
-					<th class="ththth">전화번호</th>
+					<th class="ththth">Tel</th>
 					<td class="tdtdtd">0507-1320-9381</td>
 				</tr>
 				<tr>
-					<th class="ththth">휴무</th>
-					<td class="tdtdtd">없음</td>
+					<th class="ththth">Holiday</th>
+					<td class="tdtdtd">none</td>
 				</tr>
 				<tr>
-					<th class="ththth">별점</th>
+					<th class="ththth">Score</th>
 					<td class="tdtdtd">
 						<div class="place_review">
 							<a href="#">
@@ -488,7 +488,7 @@
 								// 인포윈도우로 장소에 대한 설명을 표시합니다
 								var infowindow = new kakao.maps.InfoWindow(
 										{
-											content : '<div style="width:180px;text-align:center;padding: 3px 0;">소코아</div>'
+											content : '<div style="width:180px;text-align:center;padding: 3px 0;">So Koa</div>'
 										});
 								infowindow.open(map, marker);
 

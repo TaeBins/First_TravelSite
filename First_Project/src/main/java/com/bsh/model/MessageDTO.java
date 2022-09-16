@@ -16,7 +16,6 @@ public class MessageDTO {
 	private BigDecimal q_seq;
 	@NonNull private String q_title;
 	@NonNull private String q_content;
-	@NonNull private String q_file;
 	private String q_date;
 	@NonNull private String mb_id;
 	

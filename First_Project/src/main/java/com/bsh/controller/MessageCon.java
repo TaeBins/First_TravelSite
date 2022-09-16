@@ -17,12 +17,11 @@ public class MessageCon implements Command {
 		
 		String q_title = request.getParameter("q_title");
 		String q_content = request.getParameter("q_content");
-		String q_file = request.getParameter("q_file");
 		String mb_id = request.getParameter("mb_id");
 
-		System.out.println(q_title + q_content + q_file + mb_id);
+		System.out.println(q_title + q_content + mb_id);
 
-		MessageDTO mem_dto = new MessageDTO(q_title, q_content, q_file, mb_id);
+		MessageDTO mem_dto = new MessageDTO(q_title, q_content, mb_id);
 
 		int row = new MessageDAO().message(mem_dto);
 

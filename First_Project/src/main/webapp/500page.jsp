@@ -82,7 +82,7 @@ body {
 }
 
 .page-404 .outer .middle .inner .inner-circle span {
-	font-size: 11em;
+	font-size: 25px;
 	font-weight: 700;
 	line-height: 1.2em;
 	display: block;
@@ -90,6 +90,7 @@ body {
 	transition: all .4s;
 	text-align: center;
 	color: #e0e0e0;
+	padding-top: 130px;
 }
 
 .page-404 .outer .middle .inner .inner-status {
@@ -160,13 +161,13 @@ html {
 						<!--BEGIN CONTENT-->
 						<div class="inner-circle">
 							<i class="fa fa-home"></i>
-							<span>500</span>
+							<span>로그인/회원가입이 필요한 페이지 입니다.</span>
 						</div>
-						<span class="inner-status">Oops! You're lost</span>
+						<span class="inner-status">Oops!</span>
 						<span class="inner-detail" style="color: #fff;">
-							We can not find the page you're looking for.
-							<a href="../Main.jsp" class="btn btn-info mtl">
-								<i class="fa fa-home"></i>&nbsp; Return home
+							Information required to Login
+							<a href="Member.jsp" class="btn btn-info mtl">
+								<i class="fa fa-home"></i>&nbsp; Login & Join
 							</a>
 						</span>
 					</div>

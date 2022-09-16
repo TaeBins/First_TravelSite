@@ -120,12 +120,12 @@
 				String pw = (String) session.getAttribute("pwselect");
 				%>
 				<h3>
-					비밀번호는
-					<%=pw%>입니다.
+					Your PassWord : 
+					<%=pw%>
 				</h3>
 				<br>
 				<br>
-				<button type="button" class="botto" onclick='location.href="Member.jsp"'>로그인하기</button>
+				<button type="button" class="botto" onclick='location.href="Member.jsp"'>Login</button>
 
 			</form>
 		</div>

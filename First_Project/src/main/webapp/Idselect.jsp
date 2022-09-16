@@ -130,16 +130,16 @@
 	    	<br>
 	    	<div align="center">
 		    	<form action="IdselectCon.do">
-		    		<h3 align="center">아이디 찾기</h3>
+		    		<h3 align="center">ID Select</h3>
 		    		<br>
-		    		<h5>가입시 전화번호</h5>
+		    		<h5>Phone</h5>
 		    		<input type = "tel" title="전화번호 입력." placeholder="010-1234-5678" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}" maxlength="13" name="mb_phone" class = "idselect-field" required>
-		    		<h5>생년월일</h5>
+		    		<h5>Birth</h5>
 		    		<input type = "date" title="생년월일 입력." name="mb_birthdate" class = "idselect-field"  required>
-		    		<h5>힌트</h5>
-		    		<input type = "text" title="힌트 입력." name="mb_hint" class = "idselect-field" placeholder="보물 제1호는?" required>
+		    		<h5>Hint</h5>
+		    		<input type = "text" title="힌트 입력." name="mb_hint" class = "idselect-field" placeholder="Your 1'st Treasure" required>
 		    		<br>
-		    		<input type = "submit" class = "idsubmit-btn" value="제출">
+		    		<input type = "submit" class = "idsubmit-btn" value="Submit">
 		    	</form>
 	    	</div>
     </div>

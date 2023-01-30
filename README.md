@@ -1,6 +1,6 @@
 전라도 여행지 & 맛집 추천 사이트
 
-[노션]https://www.notion.so/junior-dvp-tabs/79c97cad39db4b828153edf5f3a9940b
+[노션] https://tabs-developer.notion.site/3dfb0f5de8114b9db5ec9a9b66ca1ca6
 
 목차
 - 어떤 프로젝트 인가요?
